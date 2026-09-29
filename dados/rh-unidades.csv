@@ -1,0 +1,19 @@
+﻿unidade_negocio;descricao;cidade;uf;regiao;centro_custo;cnpj;matricula_gestor;headcount_orcado;data_inauguracao
+Matriz - Sao Paulo;Unidade de negocio Matriz - Sao Paulo;Sao Paulo;SP;Sudeste;CC-1000;32.477.321/0001-78;EMP0001;40;2005-06-11
+Grande Sao Paulo;Unidade de negocio Grande Sao Paulo;Sao Paulo;SP;Sudeste;CC-1100;38.952.917/0001-69;EMP0010;22;2005-05-10
+Interior de Sao Paulo;Unidade de negocio Interior de Sao Paulo;Campinas;SP;Sudeste;CC-1200;83.258.645/0001-56;EMP0004;16;2022-05-09
+Rio de Janeiro;Unidade de negocio Rio de Janeiro;Rio de Janeiro;RJ;Sudeste;CC-2100;19.308.949/0001-81;EMP0030;19;2021-01-09
+Minas Gerais;Unidade de negocio Minas Gerais;Belo Horizonte;MG;Sudeste;CC-2200;90.096.574/0001-06;EMP0028;11;2018-04-24
+Espirito Santo;Unidade de negocio Espirito Santo;Vitoria;ES;Sudeste;CC-2300;04.828.805/0001-89;EMP0035;8;2004-03-07
+Brasilia e Entorno;Unidade de negocio Brasilia e Entorno;Brasilia;DF;Centro-Oeste;CC-3100;54.414.392/0001-64;EMP0014;14;2020-02-03
+Goias;Unidade de negocio Goias;Goiania;GO;Centro-Oeste;CC-3200;02.476.643/0001-31;EMP0023;7;2019-08-14
+Mato Grosso;Unidade de negocio Mato Grosso;Cuiaba;MT;Centro-Oeste;CC-3300;68.386.908/0001-19;EMP0024;4;2005-06-24
+Parana;Unidade de negocio Parana;Curitiba;PR;Sul;CC-4100;78.460.031/0001-12;EMP0025;6;2011-12-09
+Rio Grande do Sul;Unidade de negocio Rio Grande do Sul;Porto Alegre;RS;Sul;CC-4200;68.595.588/0001-07;EMP0092;5;2007-03-26
+Santa Catarina;Unidade de negocio Santa Catarina;Florianopolis;SC;Sul;CC-4300;52.197.516/0001-71;EMP0055;6;2020-11-21
+Pernambuco;Unidade de negocio Pernambuco;Recife;PE;Nordeste;CC-5100;29.045.930/0001-43;EMP0011;6;2009-04-08
+Bahia;Unidade de negocio Bahia;Salvador;BA;Nordeste;CC-5200;93.808.262/0001-68;EMP0040;11;2018-07-03
+Ceara;Unidade de negocio Ceara;Fortaleza;CE;Nordeste;CC-5300;72.932.407/0001-68;EMP0016;12;2004-03-02
+Maranhao;Unidade de negocio Maranhao;Sao Luis;MA;Nordeste;CC-5400;78.547.486/0001-70;EMP0033;3;2010-01-31
+Para;Unidade de negocio Para;Belem;PA;Norte;CC-6100;82.075.978/0001-87;EMP0012;4;2005-12-29
+Amazonas;Unidade de negocio Amazonas;Manaus;AM;Norte;CC-6200;34.515.199/0001-02;EMP0102;3;2005-03-04

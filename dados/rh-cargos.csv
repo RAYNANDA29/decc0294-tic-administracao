@@ -1,0 +1,79 @@
+﻿cargo;nivel;familia_cargo;departamento_referencial;escolaridade_minima;faixa_salarial_minima;faixa_salarial_maxima;vale_refeicao;cargo_de_confianca
+Estagiario de Administracao;Estagiario;Apoio;Vendas;Ensino medio;1.760,00;2.640,00;sim;nao
+Estagiario de Marketing;Estagiario;Apoio;Marketing;Ensino medio;1.664,00;2.496,00;sim;nao
+Estagiario de Vendas;Estagiario;Apoio;Vendas;Ensino medio;1.760,00;2.640,00;sim;nao
+Estagiario de Producao;Estagiario;Apoio;Qualidade;Ensino medio;1.520,00;2.280,00;sim;nao
+Estagiario de TI;Estagiario;Apoio;Tecnologia da Informacao;Ensino medio;1.904,00;2.856,00;sim;nao
+Estagiario de Logistica;Estagiario;Apoio;Logistica;Ensino medio;1.488,00;2.232,00;sim;nao
+Assistente Administrativo;Assistente;Apoio;Vendas;Ensino medio;2.310,00;3.740,00;sim;nao
+Assistente de Vendas;Assistente;Apoio;Vendas;Ensino medio;2.310,00;3.740,00;sim;nao
+Assistente de RH;Assistente;Apoio;Recursos Humanos;Ensino medio;2.100,00;3.400,00;sim;nao
+Assistente Financeiro;Assistente;Apoio;Financeiro;Ensino medio;2.289,00;3.706,00;sim;nao
+Assistente de Logistica;Assistente;Apoio;Logistica;Ensino medio;1.953,00;3.162,00;sim;nao
+Assistente de Comunicacao;Assistente;Apoio;Comunicacao;Ensino medio;2.142,00;3.468,00;sim;nao
+Assistente de Atendimento ao Consumidor;Assistente;Apoio;Atendimento;Ensino medio;1.806,00;2.924,00;sim;nao
+Assistente de Compras;Assistente;Apoio;Compras;Ensino medio;2.163,00;3.502,00;sim;nao
+Assistente de Qualidade;Assistente;Apoio;Qualidade;Ensino medio;1.995,00;3.230,00;sim;nao
+Analista de Vendas;Analista;Analise;Vendas;Ensino superior;4.180,00;7.480,00;sim;nao
+Analista de Marketing;Analista;Analise;Marketing;Ensino superior;3.952,00;7.072,00;sim;nao
+Analista Financeiro;Analista;Analise;Financeiro;Ensino superior;4.142,00;7.412,00;sim;nao
+Analista de Dados;Analista;Analise;Tecnologia da Informacao;Ensino superior;4.522,00;8.092,00;sim;nao
+Analista de Sistemas;Analista;Analise;Tecnologia da Informacao;Ensino superior;4.522,00;8.092,00;sim;nao
+Analista de RH;Analista;Analise;Recursos Humanos;Ensino superior;3.800,00;6.800,00;sim;nao
+Analista de Qualidade;Analista;Analise;Qualidade;Ensino superior;3.610,00;6.460,00;sim;nao
+Analista de Distribuicao;Analista;Analise;Logistica;Ensino superior;3.534,00;6.324,00;sim;nao
+Analista de Comunicacao;Analista;Analise;Comunicacao;Ensino superior;3.876,00;6.936,00;sim;nao
+Analista de Compras;Analista;Analise;Compras;Ensino superior;3.914,00;7.004,00;sim;nao
+Analista Juridico;Analista;Analise;Juridico;Ensino superior;4.370,00;7.820,00;sim;nao
+Analista de Atendimento ao Consumidor;Analista;Analise;Atendimento;Ensino superior;3.268,00;5.848,00;sim;nao
+Analista de Sustentabilidade;Analista;Analise;Sustentabilidade;Ensino superior;3.724,00;6.664,00;sim;nao
+Analista de Logistica;Analista;Analise;Logistica;Ensino superior;3.534,00;6.324,00;sim;nao
+Especialista em Trade Marketing;Especialista;Tecnica;Marketing;Ensino superior;6.448,00;10.920,00;sim;nao
+Especialista em Dados e Analytics;Especialista;Tecnica;Tecnologia da Informacao;Ensino superior;7.378,00;12.495,00;sim;nao
+Especialista em Recrutamento;Especialista;Tecnica;Recursos Humanos;Ensino superior;6.200,00;10.500,00;sim;nao
+Especialista em Qualidade;Especialista;Tecnica;Qualidade;Ensino superior;5.890,00;9.975,00;sim;nao
+Especialista em Logistica;Especialista;Tecnica;Logistica;Ensino superior;5.766,00;9.765,00;sim;nao
+Especialista em Marketing Digital;Especialista;Tecnica;Marketing;Ensino superior;6.448,00;10.920,00;sim;nao
+Especialista em Customer Service;Especialista;Tecnica;Atendimento;Ensino superior;5.332,00;9.030,00;sim;nao
+Especialista em Financas;Especialista;Tecnica;Financeiro;Ensino superior;6.758,00;11.445,00;sim;nao
+Especialista em Saude e Seguranca do Trabalho;Especialista;Tecnica;Qualidade;Ensino superior;5.890,00;9.975,00;sim;nao
+Especialista em Assuntos Regulatorios;Especialista;Tecnica;Juridico;Ensino superior;7.130,00;12.075,00;sim;nao
+Especialista em Comunicacao;Especialista;Tecnica;Comunicacao;Ensino superior;6.324,00;10.710,00;sim;nao
+Especialista em Sustentabilidade;Especialista;Tecnica;Sustentabilidade;Ensino superior;6.076,00;10.290,00;sim;nao
+Especialista em Compras;Especialista;Tecnica;Compras;Ensino superior;6.386,00;10.815,00;sim;nao
+Especialista em Governanca de Dados;Especialista;Tecnica;Tecnologia da Informacao;Ensino superior;7.378,00;12.495,00;sim;nao
+Coordenador de Vendas;Coordenador;Gestao;Vendas;Ensino superior;11.550,00;19.250,00;sim;sim
+Coordenador de Distribuicao;Coordenador;Gestao;Logistica;Ensino superior;9.765,00;16.275,00;sim;sim
+Coordenador de Trade Marketing;Coordenador;Gestao;Marketing;Ensino superior;10.920,00;18.200,00;sim;sim
+Coordenador de Producao;Coordenador;Gestao;Qualidade;Ensino superior;9.975,00;16.625,00;sim;sim
+Coordenador de Qualidade;Coordenador;Gestao;Qualidade;Ensino superior;9.975,00;16.625,00;sim;sim
+Coordenador de Recrutamento e Selecao;Coordenador;Gestao;Recursos Humanos;Ensino superior;10.500,00;17.500,00;sim;sim
+Coordenador de Desenvolvimento Organizacional;Coordenador;Gestao;Recursos Humanos;Ensino superior;10.500,00;17.500,00;sim;sim
+Coordenador de Folha e Beneficios;Coordenador;Gestao;Recursos Humanos;Ensino superior;10.500,00;17.500,00;sim;sim
+Coordenador de Controle Financeiro;Coordenador;Gestao;Financeiro;Ensino superior;11.445,00;19.075,00;sim;sim
+Coordenador de Sistemas;Coordenador;Gestao;Tecnologia da Informacao;Ensino superior;12.495,00;20.825,00;sim;sim
+Coordenador de Logistica;Coordenador;Gestao;Logistica;Ensino superior;9.765,00;16.275,00;sim;sim
+Coordenador de Atendimento ao Consumidor;Coordenador;Gestao;Atendimento;Ensino superior;9.030,00;15.050,00;sim;sim
+Coordenador de Comunicacao;Coordenador;Gestao;Comunicacao;Ensino superior;10.710,00;17.850,00;sim;sim
+Coordenador de Sustentabilidade;Coordenador;Gestao;Sustentabilidade;Ensino superior;10.290,00;17.150,00;sim;sim
+Coordenador de Compras;Coordenador;Gestao;Compras;Ensino superior;10.815,00;18.025,00;sim;sim
+Gerente de Vendas Regional;Gerente;Gestao;Vendas;Ensino superior;18.700,00;31.900,00;sim;sim
+Gerente de Grandes Contas;Gerente;Gestao;Vendas;Ensino superior;18.700,00;31.900,00;sim;sim
+Gerente de Trade Marketing;Gerente;Gestao;Marketing;Ensino superior;17.680,00;30.160,00;sim;sim
+Gerente de Distribuicao;Gerente;Gestao;Logistica;Ensino superior;15.810,00;26.970,00;sim;sim
+Gerente de Producao e Qualidade;Gerente;Gestao;Qualidade;Ensino superior;16.150,00;27.550,00;sim;sim
+Gerente de Recursos Humanos;Gerente;Gestao;Recursos Humanos;Ensino superior;17.000,00;29.000,00;sim;sim
+Gerente Financeiro;Gerente;Gestao;Financeiro;Ensino superior;18.530,00;31.610,00;sim;sim
+Gerente de Tecnologia da Informacao;Gerente;Gestao;Tecnologia da Informacao;Ensino superior;20.230,00;34.510,00;sim;sim
+Gerente de Comunicacao Corporativa;Gerente;Gestao;Comunicacao;Ensino superior;17.340,00;29.580,00;sim;sim
+Gerente de Sustentabilidade;Gerente;Gestao;Sustentabilidade;Ensino superior;16.660,00;28.420,00;sim;sim
+Gerente de Customer Service;Gerente;Gestao;Atendimento;Ensino superior;14.620,00;24.940,00;sim;sim
+Gerente de Assuntos Corporativos e Juridico;Gerente;Gestao;Juridico;Ensino superior;19.550,00;33.350,00;sim;sim
+Gerente de Compra e Suprimentos;Gerente;Gestao;Compras;Ensino superior;17.510,00;29.870,00;sim;sim
+Diretor de Vendas;Diretor;Diretoria;Vendas;Pos-graduacao;35.200,00;52.800,00;sim;sim
+Diretor de Marketing;Diretor;Diretoria;Marketing;Pos-graduacao;33.280,00;49.920,00;sim;sim
+Diretor de Distribuicao e Logistica;Diretor;Diretoria;Logistica;Pos-graduacao;29.760,00;44.640,00;sim;sim
+Diretor de Recursos Humanos;Diretor;Diretoria;Recursos Humanos;Pos-graduacao;32.000,00;48.000,00;sim;sim
+Diretor Financeiro;Diretor;Diretoria;Financeiro;Pos-graduacao;34.880,00;52.320,00;sim;sim
+Diretor de Tecnologia da Informacao;Diretor;Diretoria;Tecnologia da Informacao;Pos-graduacao;38.080,00;57.120,00;sim;sim
+Presidente;Presidente;Diretoria;Presidencia;Pos-graduacao;85.000,00;120.000,00;sim;sim

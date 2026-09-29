@@ -1,0 +1,482 @@
+﻿id_ausencia;matricula;data_inicio;data_fim;tipo_ausencia;dias_utilis;motivo;comprovacao;abono
+AUS00001;EMP0001;2025-07-07;2025-08-06;Ferias;15;Programacao anual de ferias;sim;0
+AUS00002;EMP0001;2026-09-09;2026-09-11;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00003;EMP0002;2026-08-12;2026-08-14;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00004;EMP0003;2025-07-07;2025-07-31;Ferias;12;Programacao anual de ferias;sim;0
+AUS00005;EMP0003;2025-11-16;2025-11-30;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00006;EMP0004;2025-12-22;2026-01-21;Ferias;15;Programacao anual de ferias;sim;0
+AUS00007;EMP0004;2026-04-30;2026-05-04;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00008;EMP0005;2025-01-06;2025-02-03;Ferias;14;Programacao anual de ferias;sim;0
+AUS00009;EMP0005;2026-01-30;2026-03-11;Licenca paternal;20;Licenca prevista em lei;sim;0
+AUS00010;EMP0006;2025-01-06;2025-02-23;Ferias;24;Programacao anual de ferias;sim;0
+AUS00011;EMP0006;2025-10-15;2025-11-02;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00012;EMP0006;2025-12-09;2025-12-15;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00013;EMP0006;2025-12-17;2025-12-23;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00014;EMP0007;2025-12-22;2026-01-19;Ferias;14;Programacao anual de ferias;sim;0
+AUS00015;EMP0008;2025-07-07;2025-08-06;Ferias;15;Programacao anual de ferias;sim;0
+AUS00016;EMP0008;2026-03-29;2026-04-12;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00017;EMP0008;2026-09-03;2026-09-05;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00018;EMP0008;2026-07-10;2026-07-12;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00019;EMP0009;2025-07-07;2025-08-16;Ferias;20;Programacao anual de ferias;sim;0
+AUS00020;EMP0009;2026-06-23;2026-06-27;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00021;EMP0009;2025-11-02;2025-11-04;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00022;EMP0010;2025-07-07;2025-08-18;Ferias;21;Programacao anual de ferias;sim;0
+AUS00023;EMP0011;2025-01-06;2025-02-13;Ferias;19;Programacao anual de ferias;sim;0
+AUS00024;EMP0012;2025-07-07;2025-08-10;Ferias;17;Programacao anual de ferias;sim;0
+AUS00025;EMP0012;2026-07-10;2026-07-14;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00026;EMP0012;2026-09-19;2026-09-21;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00027;EMP0012;2026-03-17;2026-03-19;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00028;EMP0013;2025-12-22;2026-01-17;Ferias;13;Programacao anual de ferias;sim;0
+AUS00029;EMP0013;2026-04-22;2026-05-08;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00030;EMP0013;2026-08-21;2026-08-23;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00031;EMP0013;2026-08-02;2026-08-04;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00032;EMP0014;2025-01-06;2025-01-30;Ferias;12;Programacao anual de ferias;sim;0
+AUS00033;EMP0015;2025-01-06;2025-02-21;Ferias;23;Programacao anual de ferias;sim;0
+AUS00034;EMP0015;2026-05-23;2026-06-06;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00035;EMP0016;2025-01-06;2025-02-13;Ferias;19;Programacao anual de ferias;sim;0
+AUS00036;EMP0016;2025-10-13;2025-10-27;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00037;EMP0016;2026-08-12;2026-08-22;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00038;EMP0018;2025-01-06;2025-02-25;Ferias;25;Programacao anual de ferias;sim;0
+AUS00039;EMP0018;2026-02-25;2026-03-15;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00040;EMP0018;2026-09-02;2026-09-04;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00041;EMP0019;2025-01-06;2025-02-09;Ferias;17;Programacao anual de ferias;sim;0
+AUS00042;EMP0019;2026-03-29;2026-04-04;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00043;EMP0019;2025-11-18;2025-11-22;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00044;EMP0020;2025-07-07;2025-08-24;Ferias;24;Programacao anual de ferias;sim;0
+AUS00045;EMP0020;2026-02-22;2026-02-24;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00046;EMP0020;2025-10-15;2025-10-29;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00047;EMP0021;2025-10-09;2025-10-21;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00048;EMP0021;2025-10-27;2025-11-12;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00049;EMP0021;2026-04-26;2026-04-28;Falta nao justificada;1;Sem comunicacao previa;nao;1
+AUS00050;EMP0022;2025-01-06;2025-02-13;Ferias;19;Programacao anual de ferias;sim;0
+AUS00051;EMP0022;2026-07-21;2026-07-27;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00052;EMP0022;2026-03-03;2026-03-09;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00053;EMP0023;2025-01-06;2025-02-25;Ferias;25;Programacao anual de ferias;sim;0
+AUS00054;EMP0023;2025-10-11;2025-10-25;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00055;EMP0024;2025-01-06;2025-02-01;Ferias;13;Programacao anual de ferias;sim;0
+AUS00056;EMP0024;2026-07-04;2026-07-06;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00057;EMP0025;2025-12-22;2026-01-17;Ferias;13;Programacao anual de ferias;sim;0
+AUS00058;EMP0027;2025-07-07;2025-08-22;Ferias;23;Programacao anual de ferias;sim;0
+AUS00059;EMP0028;2025-07-07;2025-08-16;Ferias;20;Programacao anual de ferias;sim;0
+AUS00060;EMP0029;2025-12-22;2026-01-29;Ferias;19;Programacao anual de ferias;sim;0
+AUS00061;EMP0030;2025-12-22;2026-01-25;Ferias;17;Programacao anual de ferias;sim;0
+AUS00062;EMP0030;2026-09-12;2026-09-26;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00063;EMP0033;2025-01-06;2025-02-05;Ferias;15;Programacao anual de ferias;sim;0
+AUS00064;EMP0033;2026-02-08;2026-02-12;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00065;EMP0033;2026-01-02;2026-01-20;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00066;EMP0034;2025-12-22;2026-02-06;Ferias;23;Programacao anual de ferias;sim;0
+AUS00067;EMP0034;2026-02-09;2026-02-25;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00068;EMP0035;2025-11-05;2025-11-11;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00069;EMP0035;2026-07-12;2026-07-14;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00070;EMP0035;2026-08-28;2026-08-30;Falta nao justificada;1;Sem comunicacao previa;nao;1
+AUS00071;EMP0036;2025-01-06;2025-02-15;Ferias;20;Programacao anual de ferias;sim;0
+AUS00072;EMP0036;2026-03-27;2026-04-10;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00073;EMP0036;2026-01-25;2026-02-04;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00074;EMP0036;2026-05-29;2026-08-09;Afastamento por doenca;36;Afastamento de longo prazo;sim;0
+AUS00075;EMP0037;2025-01-06;2025-02-19;Ferias;22;Programacao anual de ferias;sim;0
+AUS00076;EMP0037;2026-03-09;2026-03-25;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00077;EMP0037;2026-07-13;2026-07-15;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00078;EMP0039;2025-01-06;2025-02-05;Ferias;15;Programacao anual de ferias;sim;0
+AUS00079;EMP0039;2025-10-20;2025-11-07;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00080;EMP0040;2025-01-06;2025-02-05;Ferias;15;Programacao anual de ferias;sim;0
+AUS00081;EMP0040;2026-01-08;2026-01-14;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00082;EMP0041;2025-01-06;2025-02-11;Ferias;18;Programacao anual de ferias;sim;0
+AUS00083;EMP0041;2025-10-26;2025-11-09;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00084;EMP0042;2025-12-22;2026-01-29;Ferias;19;Programacao anual de ferias;sim;0
+AUS00085;EMP0043;2025-01-06;2025-02-19;Ferias;22;Programacao anual de ferias;sim;0
+AUS00086;EMP0043;2026-06-22;2026-06-26;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00087;EMP0043;2026-05-07;2026-05-15;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00088;EMP0043;2026-01-06;2026-01-24;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00089;EMP0043;2026-04-21;2026-04-25;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00090;EMP0043;2025-10-14;2025-10-16;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00091;EMP0043;2026-09-02;2026-09-04;Falta nao justificada;1;Sem comunicacao previa;nao;1
+AUS00092;EMP0044;2026-09-09;2026-09-15;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00093;EMP0044;2026-03-31;2026-04-08;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00094;EMP0044;2026-01-02;2026-01-10;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00095;EMP0044;2026-07-22;2026-07-24;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00096;EMP0044;2025-12-08;2025-12-12;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00097;EMP0045;2026-04-30;2026-05-06;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00098;EMP0045;2026-01-21;2026-01-27;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00099;EMP0046;2025-01-06;2025-02-13;Ferias;19;Programacao anual de ferias;sim;0
+AUS00100;EMP0046;2025-12-10;2025-12-16;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00101;EMP0046;2026-09-02;2026-09-20;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00102;EMP0046;2026-04-26;2026-04-30;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00103;EMP0047;2025-07-07;2025-07-31;Ferias;12;Programacao anual de ferias;sim;0
+AUS00104;EMP0047;2026-07-02;2026-07-18;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00105;EMP0047;2025-11-17;2025-12-03;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00106;EMP0048;2025-01-06;2025-02-01;Ferias;13;Programacao anual de ferias;sim;0
+AUS00107;EMP0049;2025-12-22;2026-01-15;Ferias;12;Programacao anual de ferias;sim;0
+AUS00108;EMP0049;2025-11-23;2025-12-11;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00109;EMP0049;2025-12-13;2025-12-19;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00110;EMP0050;2026-06-30;2026-07-10;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00111;EMP0050;2026-08-14;2026-08-16;Falta nao justificada;1;Sem comunicacao previa;nao;1
+AUS00112;EMP0051;2025-01-06;2025-02-05;Ferias;15;Programacao anual de ferias;sim;0
+AUS00113;EMP0051;2026-05-24;2026-05-28;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00114;EMP0051;2026-03-07;2026-03-23;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00115;EMP0052;2025-01-06;2025-02-05;Ferias;15;Programacao anual de ferias;sim;0
+AUS00116;EMP0052;2026-05-26;2026-05-30;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00117;EMP0053;2025-07-07;2025-07-31;Ferias;12;Programacao anual de ferias;sim;0
+AUS00118;EMP0053;2026-04-04;2026-04-06;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00119;EMP0053;2026-09-07;2026-09-19;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00120;EMP0053;2025-12-09;2025-12-21;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00121;EMP0054;2025-01-06;2025-02-25;Ferias;25;Programacao anual de ferias;sim;0
+AUS00122;EMP0054;2026-09-01;2026-09-09;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00123;EMP0054;2026-01-20;2026-02-03;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00124;EMP0054;2025-12-14;2025-12-16;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00125;EMP0054;2026-02-15;2026-02-17;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00126;EMP0055;2026-05-30;2026-06-03;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00127;EMP0055;2026-04-10;2026-04-12;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00128;EMP0055;2026-05-29;2026-05-31;Falta nao justificada;1;Sem comunicacao previa;nao;1
+AUS00129;EMP0056;2025-01-06;2025-02-21;Ferias;23;Programacao anual de ferias;sim;0
+AUS00130;EMP0056;2026-05-04;2026-05-08;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00131;EMP0056;2025-12-11;2025-12-17;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00132;EMP0057;2026-02-04;2026-02-14;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00133;EMP0058;2025-01-06;2025-02-25;Ferias;25;Programacao anual de ferias;sim;0
+AUS00134;EMP0058;2026-05-13;2026-05-25;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00135;EMP0058;2026-07-13;2026-07-15;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00136;EMP0058;2026-01-02;2026-01-04;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00137;EMP0059;2025-01-06;2025-02-13;Ferias;19;Programacao anual de ferias;sim;0
+AUS00138;EMP0059;2026-07-05;2026-07-09;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00139;EMP0059;2026-08-01;2026-08-13;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00140;EMP0059;2026-05-28;2026-06-01;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00141;EMP0060;2026-01-15;2026-01-19;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00142;EMP0061;2025-12-22;2026-01-29;Ferias;19;Programacao anual de ferias;sim;0
+AUS00143;EMP0062;2025-07-07;2025-08-24;Ferias;24;Programacao anual de ferias;sim;0
+AUS00144;EMP0062;2026-09-17;2026-09-27;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00145;EMP0063;2025-01-06;2025-02-25;Ferias;25;Programacao anual de ferias;sim;0
+AUS00146;EMP0063;2026-06-13;2026-06-21;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00147;EMP0064;2025-01-06;2025-01-30;Ferias;12;Programacao anual de ferias;sim;0
+AUS00148;EMP0064;2025-12-27;2026-01-04;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00149;EMP0065;2025-01-06;2025-02-07;Ferias;16;Programacao anual de ferias;sim;0
+AUS00150;EMP0065;2026-03-19;2026-04-06;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00151;EMP0065;2025-12-28;2025-12-30;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00152;EMP0065;2026-07-01;2026-07-15;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00153;EMP0066;2025-12-22;2026-02-04;Ferias;22;Programacao anual de ferias;sim;0
+AUS00154;EMP0066;2026-03-17;2026-03-19;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00155;EMP0067;2025-07-07;2025-08-16;Ferias;20;Programacao anual de ferias;sim;0
+AUS00156;EMP0067;2025-11-13;2025-12-01;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00157;EMP0067;2026-08-05;2026-08-13;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00158;EMP0067;2026-07-11;2026-07-15;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00159;EMP0067;2026-08-05;2026-08-07;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00160;EMP0069;2025-07-07;2025-08-14;Ferias;19;Programacao anual de ferias;sim;0
+AUS00161;EMP0069;2026-03-11;2026-03-25;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00162;EMP0069;2026-05-05;2026-05-17;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00163;EMP0070;2025-07-07;2025-07-31;Ferias;12;Programacao anual de ferias;sim;0
+AUS00164;EMP0070;2026-02-18;2026-02-20;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00165;EMP0071;2025-01-06;2025-02-13;Ferias;19;Programacao anual de ferias;sim;0
+AUS00166;EMP0071;2026-06-30;2026-07-08;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00167;EMP0071;2026-02-20;2026-03-08;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00168;EMP0071;2026-05-06;2026-05-08;Falta nao justificada;1;Sem comunicacao previa;nao;1
+AUS00169;EMP0072;2025-01-06;2025-02-17;Ferias;21;Programacao anual de ferias;sim;0
+AUS00170;EMP0072;2026-05-16;2026-06-01;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00171;EMP0072;2025-11-12;2025-11-16;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00172;EMP0072;2026-02-17;2026-07-09;Afastamento por doenca;71;Afastamento de longo prazo;sim;0
+AUS00173;EMP0073;2025-07-07;2025-08-08;Ferias;16;Programacao anual de ferias;sim;0
+AUS00174;EMP0073;2026-06-03;2026-06-07;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00175;EMP0073;2026-04-25;2026-04-27;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00176;EMP0074;2026-04-06;2026-04-24;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00177;EMP0075;2025-01-06;2025-02-15;Ferias;20;Programacao anual de ferias;sim;0
+AUS00178;EMP0076;2025-01-06;2025-02-07;Ferias;16;Programacao anual de ferias;sim;0
+AUS00179;EMP0076;2026-09-14;2026-09-18;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00180;EMP0076;2026-09-11;2026-09-13;Falta nao justificada;1;Sem comunicacao previa;nao;1
+AUS00181;EMP0077;2025-01-06;2025-02-05;Ferias;15;Programacao anual de ferias;sim;0
+AUS00182;EMP0077;2026-07-31;2026-08-14;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00183;EMP0077;2026-07-11;2026-07-21;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00184;EMP0077;2025-11-14;2025-11-18;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00185;EMP0077;2026-04-01;2026-04-05;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00186;EMP0077;2026-05-08;2026-05-12;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00187;EMP0078;2025-01-06;2025-02-13;Ferias;19;Programacao anual de ferias;sim;0
+AUS00188;EMP0078;2026-03-12;2026-03-14;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00189;EMP0079;2025-12-22;2026-01-27;Ferias;18;Programacao anual de ferias;sim;0
+AUS00190;EMP0079;2026-01-25;2026-02-06;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00191;EMP0079;2026-05-30;2026-06-09;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00192;EMP0080;2025-07-07;2025-08-20;Ferias;22;Programacao anual de ferias;sim;0
+AUS00193;EMP0080;2026-02-10;2026-02-28;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00194;EMP0081;2025-01-06;2025-02-09;Ferias;17;Programacao anual de ferias;sim;0
+AUS00195;EMP0081;2026-04-03;2026-04-05;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00196;EMP0082;2025-07-07;2025-08-24;Ferias;24;Programacao anual de ferias;sim;0
+AUS00197;EMP0082;2026-08-22;2026-08-28;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00198;EMP0082;2026-07-11;2026-07-21;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00199;EMP0082;2026-08-10;2026-08-14;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00200;EMP0083;2025-12-22;2026-01-29;Ferias;19;Programacao anual de ferias;sim;0
+AUS00201;EMP0083;2026-09-19;2026-09-27;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00202;EMP0083;2025-12-30;2026-01-07;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00203;EMP0083;2026-06-10;2026-06-12;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00204;EMP0085;2025-10-12;2025-10-20;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00205;EMP0086;2025-12-22;2026-02-02;Ferias;21;Programacao anual de ferias;sim;0
+AUS00206;EMP0086;2025-10-17;2025-11-02;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00207;EMP0088;2025-07-07;2025-08-20;Ferias;22;Programacao anual de ferias;sim;0
+AUS00208;EMP0088;2026-05-04;2026-05-16;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00209;EMP0088;2026-09-09;2026-09-23;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00210;EMP0088;2026-04-08;2026-04-26;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00211;EMP0089;2025-12-22;2026-02-08;Ferias;24;Programacao anual de ferias;sim;0
+AUS00212;EMP0089;2026-09-03;2026-09-05;Falta nao justificada;1;Sem comunicacao previa;nao;1
+AUS00213;EMP0090;2025-12-22;2026-02-06;Ferias;23;Programacao anual de ferias;sim;0
+AUS00214;EMP0090;2025-12-02;2025-12-20;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00215;EMP0090;2026-01-28;2026-02-13;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00216;EMP0091;2025-12-22;2026-01-25;Ferias;17;Programacao anual de ferias;sim;0
+AUS00217;EMP0092;2025-12-22;2026-01-15;Ferias;12;Programacao anual de ferias;sim;0
+AUS00218;EMP0092;2026-03-18;2026-03-22;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00219;EMP0093;2025-01-06;2025-02-01;Ferias;13;Programacao anual de ferias;sim;0
+AUS00220;EMP0093;2025-11-16;2025-11-20;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00221;EMP0093;2026-07-09;2026-07-21;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00222;EMP0094;2025-07-07;2025-08-26;Ferias;25;Programacao anual de ferias;sim;0
+AUS00223;EMP0094;2026-08-18;2026-09-03;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00224;EMP0096;2025-12-22;2026-01-29;Ferias;19;Programacao anual de ferias;sim;0
+AUS00225;EMP0096;2025-11-15;2025-11-19;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00226;EMP0096;2026-05-10;2026-05-26;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00227;EMP0096;2026-05-24;2026-05-26;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00228;EMP0096;2026-01-02;2026-01-04;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00229;EMP0097;2025-12-22;2026-01-21;Ferias;15;Programacao anual de ferias;sim;0
+AUS00230;EMP0097;2026-08-12;2026-08-24;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00231;EMP0097;2026-05-20;2026-05-24;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00232;EMP0097;2026-04-24;2026-04-28;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00233;EMP0098;2025-07-07;2025-08-22;Ferias;23;Programacao anual de ferias;sim;0
+AUS00234;EMP0098;2026-08-18;2026-08-28;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00235;EMP0098;2026-01-29;2026-02-04;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00236;EMP0098;2025-11-12;2025-11-22;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00237;EMP0099;2025-07-07;2025-08-16;Ferias;20;Programacao anual de ferias;sim;0
+AUS00238;EMP0099;2026-05-30;2026-06-09;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00239;EMP0100;2025-01-06;2025-01-30;Ferias;12;Programacao anual de ferias;sim;0
+AUS00240;EMP0100;2025-11-29;2025-12-15;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00241;EMP0101;2025-01-06;2025-02-17;Ferias;21;Programacao anual de ferias;sim;0
+AUS00242;EMP0101;2026-05-24;2026-05-26;Falta nao justificada;1;Sem comunicacao previa;nao;1
+AUS00243;EMP0102;2025-01-06;2025-01-30;Ferias;12;Programacao anual de ferias;sim;0
+AUS00244;EMP0102;2026-05-28;2026-06-03;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00245;EMP0102;2025-12-06;2025-12-12;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00246;EMP0102;2026-06-14;2026-06-18;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00247;EMP0103;2025-01-06;2025-02-01;Ferias;13;Programacao anual de ferias;sim;0
+AUS00248;EMP0103;2025-11-25;2025-12-07;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00249;EMP0104;2025-01-06;2025-02-17;Ferias;21;Programacao anual de ferias;sim;0
+AUS00250;EMP0104;2026-03-13;2026-03-27;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00251;EMP0104;2026-02-02;2026-02-06;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00252;EMP0105;2025-01-06;2025-02-17;Ferias;21;Programacao anual de ferias;sim;0
+AUS00253;EMP0105;2025-10-16;2025-11-03;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00254;EMP0106;2026-04-16;2026-04-22;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00255;EMP0106;2026-05-03;2026-05-13;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00256;EMP0106;2025-11-08;2025-11-14;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00257;EMP0107;2025-01-06;2025-02-25;Ferias;25;Programacao anual de ferias;sim;0
+AUS00258;EMP0108;2025-12-22;2026-02-10;Ferias;25;Programacao anual de ferias;sim;0
+AUS00259;EMP0108;2026-08-03;2026-08-11;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00260;EMP0109;2025-07-07;2025-08-24;Ferias;24;Programacao anual de ferias;sim;0
+AUS00261;EMP0109;2026-06-26;2026-07-14;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00262;EMP0109;2026-02-18;2026-02-22;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00263;EMP0109;2025-12-26;2026-01-07;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00264;EMP0110;2025-01-06;2025-02-03;Ferias;14;Programacao anual de ferias;sim;0
+AUS00265;EMP0110;2026-03-30;2026-04-17;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00266;EMP0111;2025-01-06;2025-02-17;Ferias;21;Programacao anual de ferias;sim;0
+AUS00267;EMP0111;2026-07-29;2026-07-31;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00268;EMP0112;2025-01-06;2025-02-25;Ferias;25;Programacao anual de ferias;sim;0
+AUS00269;EMP0112;2025-10-17;2025-11-02;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00270;EMP0114;2025-07-07;2025-08-10;Ferias;17;Programacao anual de ferias;sim;0
+AUS00271;EMP0114;2026-03-16;2026-04-03;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00272;EMP0115;2026-04-18;2026-05-04;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00273;EMP0115;2026-05-05;2026-09-29;Licenca maternidade;120;Licenca prevista em lei;sim;0
+AUS00274;EMP0115;2026-07-19;2026-07-21;Falta nao justificada;1;Sem comunicacao previa;nao;1
+AUS00275;EMP0116;2025-07-07;2025-07-31;Ferias;12;Programacao anual de ferias;sim;0
+AUS00276;EMP0116;2026-01-17;2026-01-23;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00277;EMP0116;2026-07-13;2026-07-15;Falta nao justificada;1;Sem comunicacao previa;nao;1
+AUS00278;EMP0117;2025-12-22;2026-01-17;Ferias;13;Programacao anual de ferias;sim;0
+AUS00279;EMP0117;2026-06-02;2026-06-20;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00280;EMP0117;2026-05-15;2026-05-25;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00281;EMP0118;2025-07-07;2025-08-22;Ferias;23;Programacao anual de ferias;sim;0
+AUS00282;EMP0118;2025-11-23;2025-12-05;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00283;EMP0119;2025-07-07;2025-08-04;Ferias;14;Programacao anual de ferias;sim;0
+AUS00284;EMP0119;2025-10-23;2025-11-02;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00285;EMP0119;2026-07-18;2026-07-20;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00286;EMP0119;2026-03-08;2026-03-12;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00287;EMP0120;2025-01-06;2025-02-19;Ferias;22;Programacao anual de ferias;sim;0
+AUS00288;EMP0120;2026-06-22;2026-07-04;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00289;EMP0121;2025-01-06;2025-02-15;Ferias;20;Programacao anual de ferias;sim;0
+AUS00290;EMP0122;2025-01-06;2025-02-09;Ferias;17;Programacao anual de ferias;sim;0
+AUS00291;EMP0123;2025-01-06;2025-02-07;Ferias;16;Programacao anual de ferias;sim;0
+AUS00292;EMP0123;2026-05-29;2026-06-04;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00293;EMP0124;2025-01-06;2025-02-01;Ferias;13;Programacao anual de ferias;sim;0
+AUS00294;EMP0124;2026-03-19;2026-03-29;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00295;EMP0124;2026-07-21;2026-07-29;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00296;EMP0124;2026-08-26;2026-09-07;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00297;EMP0124;2025-12-17;2025-12-21;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00298;EMP0125;2026-01-26;2026-01-30;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00299;EMP0125;2026-08-20;2026-08-22;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00300;EMP0125;2026-08-17;2026-08-21;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00301;EMP0125;2026-04-24;2026-04-26;Falta nao justificada;1;Sem comunicacao previa;nao;1
+AUS00302;EMP0126;2025-01-06;2025-02-07;Ferias;16;Programacao anual de ferias;sim;0
+AUS00303;EMP0126;2026-08-13;2026-08-25;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00304;EMP0126;2026-06-05;2026-06-07;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00305;EMP0126;2026-08-22;2026-08-24;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00306;EMP0127;2025-12-22;2026-01-29;Ferias;19;Programacao anual de ferias;sim;0
+AUS00307;EMP0127;2026-07-31;2026-08-08;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00308;EMP0127;2025-12-12;2025-12-18;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00309;EMP0127;2026-09-05;2026-09-11;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00310;EMP0128;2025-01-06;2025-02-21;Ferias;23;Programacao anual de ferias;sim;0
+AUS00311;EMP0128;2026-05-28;2026-06-13;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00312;EMP0128;2026-09-17;2026-09-29;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00313;EMP0130;2025-01-06;2025-02-25;Ferias;25;Programacao anual de ferias;sim;0
+AUS00314;EMP0130;2026-02-13;2026-02-23;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00315;EMP0131;2025-01-06;2025-02-11;Ferias;18;Programacao anual de ferias;sim;0
+AUS00316;EMP0131;2026-08-01;2026-08-19;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00317;EMP0131;2026-01-03;2026-01-19;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00318;EMP0131;2026-02-27;2026-03-03;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00319;EMP0132;2025-01-06;2025-02-21;Ferias;23;Programacao anual de ferias;sim;0
+AUS00320;EMP0132;2025-12-03;2025-12-13;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00321;EMP0133;2025-12-22;2026-01-27;Ferias;18;Programacao anual de ferias;sim;0
+AUS00322;EMP0133;2026-06-23;2026-06-29;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00323;EMP0134;2025-07-07;2025-08-22;Ferias;23;Programacao anual de ferias;sim;0
+AUS00324;EMP0134;2026-08-30;2026-09-05;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00325;EMP0135;2026-02-25;2026-03-01;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00326;EMP0135;2026-07-02;2026-07-06;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00327;EMP0135;2026-03-30;2026-08-27;Afastamento por doenca;75;Afastamento de longo prazo;sim;0
+AUS00328;EMP0136;2025-01-06;2025-02-19;Ferias;22;Programacao anual de ferias;sim;0
+AUS00329;EMP0136;2025-10-18;2025-10-26;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00330;EMP0136;2026-09-04;2026-09-16;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00331;EMP0136;2026-08-09;2026-08-13;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00332;EMP0137;2025-12-22;2026-02-02;Ferias;21;Programacao anual de ferias;sim;0
+AUS00333;EMP0137;2026-04-05;2026-04-07;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00334;EMP0137;2026-05-06;2026-05-18;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00335;EMP0137;2026-04-03;2026-04-09;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00336;EMP0138;2025-12-22;2026-01-27;Ferias;18;Programacao anual de ferias;sim;0
+AUS00337;EMP0138;2026-05-07;2026-05-21;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00338;EMP0139;2025-07-07;2025-08-06;Ferias;15;Programacao anual de ferias;sim;0
+AUS00339;EMP0139;2025-10-22;2025-11-07;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00340;EMP0140;2025-07-07;2025-08-10;Ferias;17;Programacao anual de ferias;sim;0
+AUS00341;EMP0140;2026-05-15;2026-05-31;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00342;EMP0141;2025-01-06;2025-02-21;Ferias;23;Programacao anual de ferias;sim;0
+AUS00343;EMP0141;2025-10-10;2025-10-14;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00344;EMP0141;2026-05-20;2026-05-22;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00345;EMP0142;2026-08-10;2026-08-12;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00346;EMP0142;2026-08-23;2026-09-06;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00347;EMP0143;2025-01-06;2025-02-01;Ferias;13;Programacao anual de ferias;sim;0
+AUS00348;EMP0143;2026-05-15;2026-05-27;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00349;EMP0143;2025-10-16;2025-10-26;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00350;EMP0143;2026-03-17;2026-04-04;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00351;EMP0143;2026-03-13;2026-03-17;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00352;EMP0143;2026-07-07;2026-07-09;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00353;EMP0144;2025-12-22;2026-01-25;Ferias;17;Programacao anual de ferias;sim;0
+AUS00354;EMP0144;2026-05-23;2026-05-31;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00355;EMP0146;2025-12-22;2026-02-02;Ferias;21;Programacao anual de ferias;sim;0
+AUS00356;EMP0146;2026-08-26;2026-09-09;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00357;EMP0146;2025-12-03;2025-12-05;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00358;EMP0147;2025-01-06;2025-02-07;Ferias;16;Programacao anual de ferias;sim;0
+AUS00359;EMP0147;2026-05-02;2026-05-12;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00360;EMP0147;2026-09-06;2026-09-20;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00361;EMP0147;2026-04-14;2026-04-22;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00362;EMP0148;2026-08-22;2026-09-03;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00363;EMP0149;2025-01-06;2025-02-21;Ferias;23;Programacao anual de ferias;sim;0
+AUS00364;EMP0149;2026-07-21;2026-08-04;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00365;EMP0149;2026-07-30;2026-08-09;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00366;EMP0150;2025-12-22;2026-01-25;Ferias;17;Programacao anual de ferias;sim;0
+AUS00367;EMP0150;2026-05-16;2026-05-28;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00368;EMP0150;2026-08-10;2026-08-26;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00369;EMP0151;2025-12-22;2026-01-31;Ferias;20;Programacao anual de ferias;sim;0
+AUS00370;EMP0152;2026-05-05;2026-05-07;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00371;EMP0153;2025-01-06;2025-02-19;Ferias;22;Programacao anual de ferias;sim;0
+AUS00372;EMP0153;2026-08-24;2026-09-07;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00373;EMP0154;2025-12-22;2026-01-15;Ferias;12;Programacao anual de ferias;sim;0
+AUS00374;EMP0154;2025-11-06;2025-11-08;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00375;EMP0155;2025-07-07;2025-08-14;Ferias;19;Programacao anual de ferias;sim;0
+AUS00376;EMP0155;2025-11-02;2025-11-10;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00377;EMP0155;2026-04-19;2026-05-03;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00378;EMP0155;2026-07-15;2026-07-17;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00379;EMP0156;2025-12-22;2026-01-25;Ferias;17;Programacao anual de ferias;sim;0
+AUS00380;EMP0156;2026-03-21;2026-03-31;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00381;EMP0156;2026-01-09;2026-01-15;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00382;EMP0156;2026-05-15;2026-05-23;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00383;EMP0157;2025-12-22;2026-02-06;Ferias;23;Programacao anual de ferias;sim;0
+AUS00384;EMP0157;2026-03-15;2026-03-21;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00385;EMP0157;2026-03-25;2026-04-02;Atestado medico;4;Atestado apresentado ao gestor;sim;1
+AUS00386;EMP0158;2025-01-06;2025-02-19;Ferias;22;Programacao anual de ferias;sim;0
+AUS00387;EMP0158;2026-02-03;2026-02-09;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00388;EMP0158;2026-05-06;2026-05-16;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00389;EMP0158;2025-12-14;2025-12-16;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00390;EMP0159;2025-07-07;2025-08-24;Ferias;24;Programacao anual de ferias;sim;0
+AUS00391;EMP0159;2025-10-20;2025-10-30;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00392;EMP0159;2026-05-22;2026-06-09;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00393;EMP0159;2026-08-30;2026-09-03;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00394;EMP0159;2026-05-19;2026-05-21;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00395;EMP0160;2025-12-22;2026-02-08;Ferias;24;Programacao anual de ferias;sim;0
+AUS00396;EMP0160;2025-12-13;2025-12-27;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00397;EMP0162;2025-12-22;2026-01-31;Ferias;20;Programacao anual de ferias;sim;0
+AUS00398;EMP0162;2026-02-21;2026-02-27;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00399;EMP0163;2025-01-06;2025-02-25;Ferias;25;Programacao anual de ferias;sim;0
+AUS00400;EMP0163;2025-11-15;2025-11-25;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00401;EMP0163;2026-03-12;2026-03-22;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00402;EMP0164;2026-07-05;2026-09-29;Afastamento por doenca;45;Afastamento de longo prazo;sim;0
+AUS00403;EMP0165;2025-01-06;2025-02-19;Ferias;22;Programacao anual de ferias;sim;0
+AUS00404;EMP0165;2026-07-03;2026-07-17;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00405;EMP0166;2025-01-06;2025-02-05;Ferias;15;Programacao anual de ferias;sim;0
+AUS00406;EMP0166;2026-02-21;2026-03-03;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00407;EMP0166;2026-07-05;2026-07-19;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00408;EMP0167;2025-07-07;2025-08-24;Ferias;24;Programacao anual de ferias;sim;0
+AUS00409;EMP0168;2026-04-25;2026-05-07;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00410;EMP0168;2026-04-24;2026-04-30;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00411;EMP0170;2025-11-09;2025-11-19;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00412;EMP0171;2025-12-22;2026-01-29;Ferias;19;Programacao anual de ferias;sim;0
+AUS00413;EMP0171;2026-07-08;2026-07-22;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00414;EMP0171;2026-09-15;2026-09-17;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00415;EMP0171;2026-07-23;2026-07-27;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00416;EMP0172;2026-03-11;2026-03-13;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00417;EMP0172;2025-12-03;2025-12-05;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00418;EMP0172;2026-08-15;2026-08-17;Falta nao justificada;1;Sem comunicacao previa;nao;1
+AUS00419;EMP0173;2025-12-22;2026-02-10;Ferias;25;Programacao anual de ferias;sim;0
+AUS00420;EMP0173;2026-05-20;2026-09-29;Licenca maternidade;120;Licenca prevista em lei;sim;0
+AUS00421;EMP0174;2025-12-22;2026-01-27;Ferias;18;Programacao anual de ferias;sim;0
+AUS00422;EMP0174;2025-11-29;2025-12-03;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00423;EMP0175;2025-07-07;2025-08-12;Ferias;18;Programacao anual de ferias;sim;0
+AUS00424;EMP0175;2026-07-09;2026-07-19;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00425;EMP0176;2025-12-22;2026-02-06;Ferias;23;Programacao anual de ferias;sim;0
+AUS00426;EMP0179;2025-07-07;2025-07-31;Ferias;12;Programacao anual de ferias;sim;0
+AUS00427;EMP0179;2026-02-04;2026-02-18;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00428;EMP0179;2026-04-25;2026-05-01;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00429;EMP0179;2026-09-07;2026-09-11;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00430;EMP0180;2025-07-07;2025-08-12;Ferias;18;Programacao anual de ferias;sim;0
+AUS00431;EMP0180;2026-08-14;2026-08-24;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00432;EMP0180;2026-03-16;2026-04-03;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00433;EMP0181;2025-07-07;2025-08-14;Ferias;19;Programacao anual de ferias;sim;0
+AUS00434;EMP0181;2026-03-05;2026-03-15;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00435;EMP0181;2026-02-12;2026-02-22;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00436;EMP0182;2025-12-22;2026-02-10;Ferias;25;Programacao anual de ferias;sim;0
+AUS00437;EMP0182;2025-11-19;2025-11-23;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00438;EMP0182;2026-05-02;2026-05-06;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00439;EMP0182;2026-01-17;2026-01-21;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00440;EMP0183;2025-12-22;2026-01-17;Ferias;13;Programacao anual de ferias;sim;0
+AUS00441;EMP0183;2025-11-13;2025-11-27;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00442;EMP0183;2026-02-25;2026-03-11;Atestado medico;7;Atestado apresentado ao gestor;sim;1
+AUS00443;EMP0184;2025-12-22;2026-01-27;Ferias;18;Programacao anual de ferias;sim;0
+AUS00444;EMP0184;2026-06-15;2026-06-19;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00445;EMP0185;2025-12-22;2026-02-02;Ferias;21;Programacao anual de ferias;sim;0
+AUS00446;EMP0185;2026-02-02;2026-02-14;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00447;EMP0186;2025-01-06;2025-02-23;Ferias;24;Programacao anual de ferias;sim;0
+AUS00448;EMP0186;2025-11-01;2025-11-19;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00449;EMP0186;2025-10-10;2025-10-28;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00450;EMP0187;2025-01-06;2025-02-05;Ferias;15;Programacao anual de ferias;sim;0
+AUS00451;EMP0187;2025-11-22;2025-11-24;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00452;EMP0188;2025-12-22;2026-01-19;Ferias;14;Programacao anual de ferias;sim;0
+AUS00453;EMP0188;2026-05-01;2026-05-05;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00454;EMP0188;2025-11-20;2025-12-08;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00455;EMP0188;2026-06-23;2026-06-25;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00456;EMP0190;2025-07-07;2025-08-10;Ferias;17;Programacao anual de ferias;sim;0
+AUS00457;EMP0190;2026-09-06;2026-09-10;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00458;EMP0190;2026-05-17;2026-05-19;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00459;EMP0191;2025-12-22;2026-02-02;Ferias;21;Programacao anual de ferias;sim;0
+AUS00460;EMP0191;2026-04-22;2026-05-02;Atestado medico;5;Atestado apresentado ao gestor;sim;1
+AUS00461;EMP0191;2025-11-02;2025-11-18;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00462;EMP0191;2026-09-11;2026-09-15;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00463;EMP0191;2026-05-28;2026-06-01;Banco de horas compensada;2;Compensacao de horas extras;sim;0
+AUS00464;EMP0192;2025-07-07;2025-08-22;Ferias;23;Programacao anual de ferias;sim;0
+AUS00465;EMP0192;2026-02-21;2026-03-05;Atestado medico;6;Atestado apresentado ao gestor;sim;1
+AUS00466;EMP0192;2026-07-19;2026-09-29;Afastamento por doenca;87;Afastamento de longo prazo;sim;0
+AUS00467;EMP0193;2026-04-18;2026-04-24;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00468;EMP0193;2026-04-12;2026-04-16;Atestado medico;2;Atestado apresentado ao gestor;sim;1
+AUS00469;EMP0193;2025-10-12;2025-10-14;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00470;EMP0193;2026-06-30;2026-07-02;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00471;EMP0194;2026-09-06;2026-09-08;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00472;EMP0194;2025-12-15;2025-12-17;Banco de horas compensada;1;Compensacao de horas extras;sim;0
+AUS00473;EMP0195;2025-11-28;2025-11-30;Atestado medico;1;Atestado apresentado ao gestor;sim;1
+AUS00474;EMP0196;2025-01-06;2025-02-21;Ferias;23;Programacao anual de ferias;sim;0
+AUS00475;EMP0196;2026-07-09;2026-07-15;Atestado medico;3;Atestado apresentado ao gestor;sim;1
+AUS00476;EMP0196;2025-12-31;2026-03-03;Afastamento por doenca;31;Afastamento de longo prazo;sim;0
+AUS00477;EMP0197;2025-12-22;2026-02-04;Ferias;22;Programacao anual de ferias;sim;0
+AUS00478;EMP0197;2025-11-07;2025-11-23;Atestado medico;8;Atestado apresentado ao gestor;sim;1
+AUS00479;EMP0198;2025-07-07;2025-08-06;Ferias;15;Programacao anual de ferias;sim;0
+AUS00480;EMP0198;2026-09-13;2026-09-29;Atestado medico;9;Atestado apresentado ao gestor;sim;1
+AUS00481;EMP0199;2025-07-07;2025-08-14;Ferias;19;Programacao anual de ferias;sim;0

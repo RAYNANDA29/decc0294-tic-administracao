@@ -1,0 +1,14 @@
+﻿departamento;descricao;responsavel;orcamento_anual;headcount_efetivo;headcount_orcado;criado_em;centro_custo
+Atendimento;Area de Atendimento do Sistema Coca-Cola;Vinicius Moura;243.200,00;13;13;2013-05-22;CC-AT00
+Compras;Area de Compras do Sistema Coca-Cola;Bianca Machado Silva;156.680,00;8;11;2022-06-08;CC-CO00
+Comunicacao;Area de Comunicacao do Sistema Coca-Cola;Rafaela Marques;72.640,00;8;10;2023-10-13;CC-CO00
+Financeiro;Area de Financeiro do Sistema Coca-Cola;Fatima Duarte;66.600,00;14;12;2009-08-30;CC-FI00
+Juridico;Area de Juridico do Sistema Coca-Cola;Leticia Duarte;49.010,00;6;7;2011-04-09;CC-JU00
+Logistica;Area de Logistica do Sistema Coca-Cola;Fabio Oliveira Rocha;348.440,00;20;18;2019-04-05;CC-LO00
+Marketing;Area de Marketing do Sistema Coca-Cola;Paulo Melo Almeida;221.640,00;18;20;2015-11-22;CC-MA00
+Presidencia;Area de Presidencia do Sistema Coca-Cola;Otavio Rocha Guimaraes;23.180,00;1;4;2019-12-28;CC-PR00
+Qualidade;Area de Qualidade do Sistema Coca-Cola;Leandro Alves;75.280,00;14;17;2015-12-26;CC-QU00
+Recursos Humanos;Area de Recursos Humanos do Sistema Coca-Cola;Alice Medeiros;27.230,00;13;14;2013-02-27;CC-RE00
+Sustentabilidade;Area de Sustentabilidade do Sistema Coca-Cola;Sara Andrade Lima;36.050,00;4;6;2017-11-21;CC-SU00
+Tecnologia da Informacao;Area de Tecnologia da Informacao do Sistema Coca-Cola;Michele Rodrigues Cunha;298.910,00;20;21;2017-11-11;CC-TE00
+Vendas;Area de Vendas do Sistema Coca-Cola;Ana Rodrigues Santos;614.580,00;46;48;2023-08-11;CC-VE00

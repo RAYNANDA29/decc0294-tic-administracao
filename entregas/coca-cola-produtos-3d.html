@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coca-Cola Brasil — Produtos em 3D</title>
+<style>
+  :root{
+    --copiar-vermelho:#E4002B;
+    --dourado:#FDBB30;
+    --fundo:#0d1117;
+    --painel:#161b22;
+    --linha:#30363d;
+    --texto:#e6edf3;
+    --texto2:#9aa5b1;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:"Segoe UI",Arial,Helvetica,sans-serif;
+    background:radial-gradient(ellipse at 50% -20%, #1c2430 0%, var(--fundo) 60%);
+    color:var(--texto);overflow:hidden;
+  }
+  #cena{position:fixed;inset:0;cursor:grab}
+  #cena:active{cursor:grabbing}
+
+  /* barra superior */
+  header{
+    position:fixed;top:0;left:0;right:0;z-index:30;
+    display:flex;align-items:center;gap:14px;padding:10px 18px;
+    background:linear-gradient(180deg, rgba(0,0,0,.85), rgba(0,0,0,0));
+  }
+  .logo{width:44px;height:44px;flex:0 0 auto}
+  .logo svg{width:100%;height:100%}
+  header h1{
+    font-size:20px;letter-spacing:1px;font-weight:800;
+    text-transform:uppercase;
+  }
+  header h1 b{color:var(--copiar-vermelho)}
+  header h1 .{
+    color:var(--dourado)
+  }
+  .filtros{
+    margin-left:auto;display:flex;flex-wrap:wrap;gap:6px;
+  }
+  .filtros button{
+    border:1px solid var(--linha);background:rgba(30,36,46,.7);color:var(--texto);
+    padding:6px 12px;border-radius:999px;font-size:12px;cursor:pointer;
+    transition:all .15s ease;
+  }
+  .filtros button:hover{border-color:var(--copiar-vermelho);color:#fff}
+  .filtros button.ativo{background:var(--copiar-vermelho);border-color:var(--copiar-vermelho);color:#fff}
+
+  /* cartao de produto */
+  #cartao{
+    position:fixed;right:18px;top:82px;z-index:25;width:330px;max-width:88vw;
+    background:rgba(22,27,34,.92);border:1px solid var(--linha);border-radius:14px;
+    padding:18px;box-shadow:0 12px 40px rgba(0,0,0,.5);
+    transform:translateX(110%);transition:transform .28s ease;
+    backdrop-filter:blur(6px);
+  }
+  #cartao.aberto{transform:translateX(0)}
+  .faixa{height:8px;border-radius:4px;margin-bottom:12px}
+  #cartao h2{font-size:22px;line-height:1.15;margin-bottom:4px}
+  #cartao .marca{color:var(--texto2);font-size:13px;text-transform:uppercase;letter-spacing:1px}
+  .chip{
+    display:inline-block;margin:8px 4px 0 0;padding:3px 10px;border-radius:999px;
+    font-size:11px;background:rgba(255,255,255,.08);
+  }
+  .tabela{
+    margin-top:14px;border-collapse:collapse;width:100%;font-size:13px;
+  }
+  .tabela td{padding:7px 2px;border-top:1px solid rgba(255,255,255,.06)}
+  .tabela td:last-child{text-align:right;font-weight:700;color:var(--dourado)}
+  #cartao p.desc{color:var(--texto2);font-size:12.5px;line-height:1.5;margin-top:12px}
+  #cartao .fechar{
+    position:absolute;top:8px;right:10px;background:none;border:none;color:var(--texto2);
+    font-size:20px;cursor:pointer;
+  }
+
+  /* dica / rodape */
+  #dica{
+    position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:20;
+    background:rgba(0,0,0,.55);border:1px solid var(--linha);border-radius:999px;
+    padding:8px 16px;font-size:12.5px;color:var(--texto2);white-space:nowrap;
+    pointer-events:none;
+  }
+  #aviso{
+    position:fixed;inset:0;display:none;align-items:center;justify-content:center;
+    z-index:50;background:var(--fundo);color:var(--texto);font-size:15px;text-align:center;padding:20px;
+  }
+  @media (max-width:720px){
+    header{flex-wrap:wrap;gap:8px}
+    .filtros{margin-left:0;order:3;width:100%}
+    #cartao{right:10px;left:10px;width:auto}
+    #dica{white-space:normal;text-align:center;width:calc(100% - 24px)}
+  }
+</style>
+<link rel="icon" href="data:,">
+</head>
+<body>
+<div id="cena"></div>
+<header>
+  <div class="logo" aria-hidden="true">
+    <svg viewBox="0 0 64 64">
+      <path fill="#E4002B" d="M8 12h48v40h-48z"/>
+      <path fill="#FDBB30" d="M8 4h48l-6 5-6-4-6 5-6-5-6 4-6-5-6 4-6-5z"/>
+      <text x="32" y="42" font-size="26" font-weight="bold" font-family="Arial" fill="#fff" text-anchor="middle">CC</text>
+    </svg>
+  </div>
+  <h1>Sistema <b>Coca-Cola</b> &middot; Produtos em 3D</h1>
+  <nav class="filtros" id="filtros">
+    <button class="ativo" data-cat="todos">Todos</button>
+  </nav>
+</header>
+
+<aside id="cartao">
+  <button class="fechar" id="fechar" aria-label="Fechar">&times;</button>
+  <div class="faixa" id="faixa"></div>
+  <h2 id="c-nome"></h2>
+  <div class="marca" id="c-marca"></div>
+  <div id="c-chips"></div>
+  <table class="tabela">
+    <tr><td>Embalagem</td><td id="c-formato"></td></tr>
+    <tr><td>Volume</td><td id="c-volume"></td></tr>
+    <tr><td>Preco sugerido</td><td id="c-preco"></td></tr>
+    <tr><td>Calorias</td><td id="c-kcal"></td></tr>
+    <tr><td>Acucar</td><td id="c-acucar"></td></tr>
+  </table>
+  <p class="desc" id="c-desc"></p>
+</aside>
+
+<div id="dica">Arraste para girar &middot; role para aproximar &middot; clique em um produto para ver a ficha</div>
+<div id="aviso"></div>
+
+<script id="three-local" src="three.min.js" onerror="window.__semThree=false"></script>
+<script id="orbit-local" src="three-OrbitControls.js" onerror="window.__semOrbit=false"></script>
+<script>
+  (function(){
+    /* Fallback para CDN, caso os arquivos locais nao existam. */
+    function quando(inici){
+      var cd = function(src, cb){
+        var s = document.createElement('script');
+        s.src = src; s.onload = cb; s.onerror = function(){cb(new Error(src));};
+        document.head.appendChild(s);
+      };
+      if (window.THREE){ inici(inici); return; }
+      var passos = [];
+      function andar(){
+        if (!window.THREE){ return; }
+        if (!window.THREE.OrbitControls){
+          cd('https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js', function(){
+            inici(inici); });
+        } else { inici(inici); }
+      }
+      andar();
+    }
+    window.carregar3D = function(cb){ quando(cb); };
+  })();
+
+  var PRODUTOS = [
+    {id:"coca", nome:"Coca-Cola", marca:"Coca-Cola", categoria:"Refrigerantes", modelo:"lata",
+     cor:"#E4002B", corRotulo:"#E4002B", corTampa:"#B30022", volume:"350 ml", preco:"R$ 3,50",
+     kcal:"136 kcal / 350 ml", acucar:"35 g", destaque:"Classico",
+     desc:"A bebida que inventou a categoria. Um dos refrigerantes mais vendidos do mundo desde 1886, e o produto mais conhecido do portifolio."},
+    {id:"coca-zero", nome:"Coca-Cola Zero", marca:"Coca-Cola Zero Acucar", categoria:"Refrigerantes", modelo:"lata",
+     cor:"#111111", corRotulo:"#0B0B0D", corTampa:"#1F1F22", volume:"350 ml", preco:"R$ 3,50",
+     kcal:"0 kcal / 350 ml", acucar:"0 g", destaque:"Zero acucar",
+     desc:"Mesmo sabor, sem acucar. Pensada para quem quer reduzir calorias sem abrir mao do gosto classico."},
+    {id:"coca-cherry", nome:"Coca-Cola Cherry", marca:"Coca-Cola", categoria:"Refrigerantes", modelo:"lata",
+     cor:"#7B0F1E", corRotulo:"#8A1A2C", corTampa:"#5C0A16", volume:"350 ml", preco:"R$ 3,90",
+     kcal:"136 kcal / 350 ml", acucar:"35 g", destaque:"Sabor cereja",
+     desc:"Coca-Cola com toque de cereja. Sabor que divide opinioes e que completa o gosto classico com um aroma doce."},
+    {id:"coca-energy", nome:"Coca-Cola Energy", marca:"Coca-Cola Energy", categoria:"Refrigerantes", modelo:"lata",
+     cor:"#1A1A1A", corRotulo:"#232323", corTampa:"#FA7E1E", volume:"350 ml", preco:"R$ 4,50",
+     kcal:"135 kcal / 350 ml", acucar:"34 g", destaque:"Com cafeina",
+     desc:"O sabor intenso da Coca-Cola com cafeina e gengibre e guarana. Foco em energia para o dia a dia."},
+    {id:"coca-coffee", nome:"Coca-Cola + Coffee", marca:"Coca-Cola", categoria:"Refrigerantes", modelo:"lata",
+     cor:"#3A2318", corRotulo:"#462B1C", corTampa:"#7A5230", volume:"350 ml", preco:"R$ 4,90",
+     kcal:"130 kcal / 350 ml", acucar:"32 g", destaque:"Cafe",
+     desc:"A uniao do sabor de Coca-Cola com cafe real. Notas de torra e um toque doce em lata."},
+    {id:"sprite", nome:"Sprite", marca:"Sprite", categoria:"Refrigerantes", modelo:"lata",
+     cor:"#00A651", corRotulo:"#00994D", corTampa:"#00793D", volume:"350 ml", preco:"R$ 3,50",
+     kcal:"91 kcal / 350 ml", acucar:"21 g", destaque:"Sabor limao",
+     desc:"Refrigerante de limao e lima, claro e cristalino. Pensado para refrescar sem a cor dos refrigerantes tradicionais."},
+    {id:"fanta-laranja", nome:"Fanta Laranja", marca:"Fanta", categoria:"Refrigerantes", modelo:"lata",
+     cor:"#FF7A00", corRotulo:"#F26C00", corTampa:"#D95F00", volume:"350 ml", preco:"R$ 3,50",
+     kcal:"100 kcal / 350 ml", acucar:"24 g", destaque:"Sabor laranja",
+     desc:"O doce da fruta em forma de refrigerante. Sabor laranja marcante, com a cor viva que da nome a marca."},
+    {id:"fanta-uva", nome:"Fanta Uva", marca:"Fanta", categoria:"Refrigerantes", modelo:"lata",
+     cor:"#6A2C91", corRotulo:"#5E2482", corTampa:"#4A1D66", volume:"350 ml", preco:"R$ 3,50",
+     kcal:"110 kcal / 350 ml", acucar:"27 g", destaque:"Sabor uva",
+     desc:"Fanta de uva, de roxo intenso e sabor que lembra bala de uva. Um dos sabores mais queridos do publico."},
+    {id:"fanta-guarana", nome:"Fanta Guarana", marca:"Fanta", categoria:"Refrigerantes", modelo:"lata",
+     cor:"#B87A00", corRotulo:"#F2A900", corTampa:"#8F5E00", volume:"350 ml", preco:"R$ 3,50",
+     kcal:"91 kcal / 350 ml", acucar:"22 g", destaque:"Sabor guarana",
+     desc:"Refrigerante de guarana em lata, doce e vibrante. Tradicao brasileira dentro do portifolio Fanta."},
+    {id:"kuat", nome:"Kuat Guarana", marca:"Kuat", categoria:"Refrigerantes", modelo:"lata",
+     cor:"#008A4C", corRotulo:"#007A42", corTampa:"#006233", volume:"350 ml", preco:"R$ 3,50",
+     kcal:"91 kcal / 350 ml", acucar:"22 g", destaque:"Guarana",
+     desc:"Guarana feito com a fruta de terreiro, leve e refrescante. A cara de Kuat no Sistema Coca-Cola."},
+    {id:"schweppes", nome:"Schweppes Tonica", marca:"Schweppes", categoria:"Refrigerantes", modelo:"lata",
+     cor:"#BAC3CC", corRotulo:"#A9B4BE", corTampa:"#8A959F", volume:"350 ml", preco:"R$ 4,90",
+     kcal:"110 kcal / 350 ml", acucar:"27 g", destaque:"Tonica",
+     desc:"A tonica de sabor classico, com quinino e citricos. A base perfeita de combinacoes e drinks."},
+    {id:"powerade", nome:"Powerade", marca:"Powerade", categoria:"Isotonico", modelo:"garrafa",
+     cor:"#1E5AA8", corRotulo:"#174A8C", corTampa:"#E7002B", volume:"500 ml", preco:"R$ 5,90",
+     kcal:"92 kcal / 473 ml", acucar:"22 g", destaque:"Para o esporte",
+     desc:"Isotonico com eletrolitos e carboidratos para reposicao durante a pratica esportiva. A marca esportiva do Sistema Coca-Cola."},
+    {id:"aquarius", nome:"Aquarius Fresh", marca:"Aquarius", categoria:"Isotonico", modelo:"garrafa",
+     cor:"#7CC6EA", corRotulo:"#0093D0", corTampa:"#FDBB30", volume:"500 ml", preco:"R$ 5,50",
+     kcal:"32 kcal / 500 ml", acucar:"7 g", destaque:"Leve",
+     desc:"Refresco isotonico com poucas calorias. Hidratacao leve para o dia a dia, com sabor de frutas."},
+    {id:"delvalle-laranja", nome:"Del Valle Nectar Laranja", marca:"Del Valle", categoria:"Sucos e Nectares", modelo:"caixa",
+     cor:"#F58220", corRotulo:"#E57310", corTampa:"#C95F08", volume:"1 L", preco:"R$ 8,90",
+     kcal:"95 kcal / 200 ml", acucar:"14 g", destaque:"Nectar",
+     desc:"Nectar de laranja em embalagem de 1 litro. Fruta selecionada para o dia a dia da familia."},
+    {id:"delvalle-uva", nome:"Del Valle Nectar Uva", marca:"Del Valle", categoria:"Sucos e Nectares", modelo:"caixa",
+     cor:"#5B2C6F", corRotulo:"#4E2460", corTampa:"#3F1D4E", volume:"1 L", preco:"R$ 8,90",
+     kcal:"100 kcal / 200 ml", acucar:"15 g", destaque:"Nectar",
+     desc:"Nectar de uva integral da fruta. Rico em sabor e pensado para as refeicoes do dia a dia."},
+    {id:"dasani", nome:"Dasani", marca:"Dasani", categoria:"Agua", modelo:"garrafa",
+     cor:"#EAF6FA", corRotulo:"#2A7FA8", corTampa:"#2A7FA8", volume:"500 ml", preco:"R$ 4,50",
+     kcal:"0 kcal", acucar:"0 g", destaque:"Agua mineral",
+     desc:"Agua mineral com um toque de minerais. A marca de aguas do Sistema Coca-Cola em todo o mundo."},
+    {id:"leao", nome:"Leao Cha Mate", marca:"Leao", categoria:"Cha", modelo:"garrafa",
+     cor:"#F2B300", corRotulo:"#E5A800", corTampa:"#B87A00", volume:"400 ml", preco:"R$ 4,90",
+     kcal:"30 kcal / 200 ml", acucar:"7 g", destaque:"Cha",
+     desc:"Cha mate natural, o preferido do brasileiro desde 1901. Aqui em garrafa, pronto para beber."}
+  ];
+</script>
+<script>
+/* =====================================================================
+   3D do portifolio de produtos - Three.js (r128, local ou CDN)
+   ===================================================================== */
+window.addEventListener('error', function(ev){
+  var av = document.getElementById('aviso');
+  if (av && av.style.display === 'none'){
+    av.style.display='flex';
+    av.innerHTML =
+      '<p style="font-weight:bold;color:#ff8484">Erro de script:</p>' +
+      '<p style="font-size:13px;max-width:560px;margin:auto">' + (ev.message || '') + '</p>';
+  }
+});
+function iniciar(){
+  if (!window.THREE){
+    var a=document.getElementById('aviso');
+    a.style.display='flex'; a.textContent='Nao foi possivel carregar o Three.js. Verifique a conexao.';
+    return;
+  }
+  if (!window.THREE.OrbitControls){
+    var b=document.getElementById('aviso');
+    b.style.display='flex'; b.textContent='Nao foi possivel carregar o OrbitControls. Verifique a conexao.';
+    return;
+  }
+
+  var probe = document.createElement('canvas');
+  var glprobe = probe.getContext('webgl') || probe.getContext('experimental-webgl');
+  if (!glprobe){
+    var avisoGl = document.getElementById('aviso');
+    avisoGl.style.display='flex';
+    avisoGl.style.flexDirection='column';
+    avisoGl.innerHTML =
+      '<p style="font-weight:bold;color:#ff8484;margin-bottom:10px">WebGL nao esta disponivel neste navegador.</p>' +
+      '<p style="font-size:13px;max-width:600px;margin:auto;line-height:1.6">' +
+      'Este computador provavelmente nao ativa o 3D por padrao. ' +
+      'Feche o Chrome e abra-o com o parametro de software 3D:</p>' +
+      '<pre style="background:#0b0f14;padding:10px;border-radius:8px;margin:12px auto;font-size:12px">' +
+      'chrome.exe --enable-unsafe-swiftshader --disable-gpu' +
+      '</pre>' +
+      '<p style="font-size:12px">ou abra pelo atalho: <b>abrir-cocacola-3d.bat</b></p>';
+    return;
+  }
+
+  try {
+
+  var VERMELHO=0xE4002B, DOURADO=0xFDBB30;
+  var cena = new THREE.Scene();
+  cena.background = new THREE.Color(0x0d1117);
+  cena.fog = new THREE.Fog(0x0d1117, 38, 62);
+
+  var camera = new THREE.PerspectiveCamera(45, innerWidth/innerHeight, 0.1, 200);
+  camera.position.set(2, 9, 17);
+
+  var renderer = new THREE.WebGLRenderer({antialias:true});
+  renderer.setSize(innerWidth, innerHeight);
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  document.getElementById('cena').appendChild(renderer.domElement);
+
+  var controles = new THREE.OrbitControls(camera, renderer.domElement);
+  controles.target.set(0, 1.6, 0);
+  controles.enableDamping = true;
+  controles.dampingFactor = 0.06;
+  controles.addEventListener('start', function(){
+    controles.targetT = 1;
+    controles.targetUntil = null;
+  });
+  controles.maxPolarAngle = Math.PI*0.48;
+  controles.minDistance = 6;
+  controles.maxDistance = 32;
+  controles.autoRotate = true;
+  controles.autoRotateSpeed = 0.9;
+
+  /* ---- luzes ---- */
+  cena.add(new THREE.HemisphereLight(0xffffff, 0x22303c, 0.85));
+  var sol = new THREE.DirectionalLight(0xffffff, 0.9);
+  sol.position.set(8, 14, 6); sol.castShadow = true;
+  sol.shadow.mapSize.set(1024,1024);
+  cena.add(sol);
+  var quente = new THREE.PointLight(0xff7a3c, 0.6, 40);
+  quente.position.set(-9, 7, -7); cena.add(quente);
+  var gelo = new THREE.PointLight(0x6ec3ff, 0.5, 40);
+  gelo.position.set(9, 5, 7); cena.add(gelo);
+
+  /* ---- piso ---- */
+  var piso = new THREE.Mesh(
+    new THREE.CircleGeometry(30, 64),
+    new THREE.MeshStandardMaterial({color:0x11161d, roughness:0.9, metalness:0.1}));
+  piso.rotation.x = -Math.PI/2; piso.receiveShadow = true;
+  cena.add(piso);
+  var grade = new THREE.GridHelper(60, 40, 0x2a3441, 0x1c242e);
+  grade.position.y = 0.01;
+  cena.add(grade);
+
+  /* ---- utilidades de rotulo (canvas) ---- */
+  function rotuloCanvas(linha1, linha2, corFundo, corTexto, larg, alt){
+    var c = document.createElement('canvas');
+    c.width = larg; c.height = alt;
+    var g = c.getContext('2d');
+    g.fillStyle = corFundo; g.fillRect(0,0,larg,alt);
+    g.fillStyle = 'rgba(255,255,255,0.16)';
+    g.fillRect(0,0,larg,6); g.fillRect(0,alt-6,larg,6);
+    g.fillStyle = corTexto;
+    g.textAlign = 'center'; g.textBaseline = 'middle';
+    g.font = '900 ' + Math.round(alt*0.42) + 'px Arial, sans-serif';
+    g.fillText(linha1, larg/2, alt*0.38, larg*0.92);
+    if (linha2){
+      g.fillStyle = 'rgba(255,255,255,0.85)';
+      g.font = '700 ' + Math.round(alt*0.16) + 'px Arial, sans-serif';
+      g.fillText(linha2, larg/2, alt*0.78, larg*0.92);
+    }
+    var t = new THREE.CanvasTexture(c);
+    t.anisotropy = 4;
+    return t;
+  }
+
+  var grupos = [];                     /* um grupo por produto */
+  var grupoSelecionado = null;
+  var raio = 9.2, agentes = PRODUTOS.length;
+
+  function marcar(mesh, i){
+    mesh.userData.produto = i;
+  }
+  function pedestal(p){
+    var g = new THREE.Group();
+    var coluna = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.68, 0.82, 0.62, 32),
+      new THREE.MeshStandardMaterial({color:0x1b212b, roughness:0.6, metalness:0.5}));
+    coluna.position.y = 0.31; coluna.castShadow = true; coluna.receiveShadow = true;
+    g.add(coluna);
+    var disco = new THREE.Mesh(
+      new THREE.CylinderGeometry(1.02, 1.02, 0.07, 48),
+      new THREE.MeshStandardMaterial({color:p.cor, roughness:0.4, metalness:0.25}));
+    disco.position.y = 0.66; disco.receiveShadow = true;
+    g.add(disco);
+    return g;
+  }
+
+  function criarLata(p){
+    var g = new THREE.Group();
+    var corpo = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.47, 0.50, 1.50, 40),
+      new THREE.MeshStandardMaterial({color:0xcdd3da, metalness:0.75, roughness:0.25}));
+    corpo.position.y = 0.78; corpo.castShadow = true; marcar(corpo, p.arq);
+    var aro = new THREE.Mesh(
+      new THREE.TorusGeometry(0.45, 0.03, 10, 36),
+      new THREE.MeshStandardMaterial({color:0x9aa4ae, metalness:0.8, roughness:0.3}));
+    aro.position.y = 1.54; aro.rotation.x = Math.PI/2;
+    g.add(corpo, aro);
+    var tex = rotuloCanvas(p.nome.toUpperCase(), p.destaque.toUpperCase(), p.corRotulo, '#ffffff', 720, 200);
+    var rot = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.525, 0.525, 1.12, 40, 1, true),
+      new THREE.MeshPhongMaterial({map:tex, side:THREE.DoubleSide, specular:0x888888, shininess:40}));
+    rot.position.y = 0.78; rot.rotation.y = Math.PI*1.25;
+    marcar(rot, p.arq);
+    var tampa = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.435, 0.435, 0.07, 36),
+      new THREE.MeshStandardMaterial({color:p.corTampa, metalness:0.5, roughness:0.5}));
+    tampa.position.y = 1.60;
+    marcar(tampa, p.arq);
+    g.add(rot, tampa);
+    return g;
+  }
+
+  function criarGarrafa(p){
+    var g = new THREE.Group();
+    var H = p.modelo === 'garrafa' ? 2.15 : 2.15;
+    var R = 0.52;
+    var perfil = [
+      new THREE.Vector2(0, 0),
+      new THREE.Vector2(0.62*R, 0.05),
+      new THREE.Vector2(0.82*R, 0.16),
+      new THREE.Vector2(0.94*R, 0.42),
+      new THREE.Vector2(1.00*R, 0.60),
+      new THREE.Vector2(1.00*R, 0.86),
+      new THREE.Vector2(0.94*R, 0.99),
+      new THREE.Vector2(0.84*R, 1.12),
+      new THREE.Vector2(0.68*R, 1.24),
+      new THREE.Vector2(0.52*R, 1.38),
+      new THREE.Vector2(0.40*R, 1.56),
+      new THREE.Vector2(0.33*R, 1.74),
+      new THREE.Vector2(0.31*R, 2.02),
+      new THREE.Vector2(0.34*R, 2.10),
+      new THREE.Vector2(0, 2.10)
+    ].map(function(v){ return new THREE.Vector2(v.x, v.y*H/2.1); });
+    var vidro = new THREE.Mesh(
+      new THREE.LatheGeometry(perfil, 48),
+      new THREE.MeshPhongMaterial({color:p.cor, specular:0x555555, shininess:60, transparent:true, opacity:0.96}));
+    vidro.position.y = 0.15; vidro.castShadow = true; marcar(vidro, p.arq);
+    g.add(vidro);
+    var tex = rotuloCanvas(p.nome.toUpperCase(), p.destaque.toUpperCase(), p.corRotulo, '#ffffff', 760, 240);
+    var rot = new THREE.Mesh(
+      new THREE.CylinderGeometry(R*1.02, R*1.02, H*0.20, 48, 1, true),
+      new THREE.MeshPhongMaterial({map:tex, side:THREE.DoubleSide, specular:0xffffff, shininess:20}));
+    rot.position.y = 0.15 + H*0.285; rot.rotation.y = Math.PI*0.35;
+    g.add(rot);
+    var pescoco = new THREE.Mesh(
+      new THREE.CylinderGeometry(R*0.36, R*0.36, H*0.10, 32),
+      new THREE.MeshStandardMaterial({color:p.corTampa, roughness:0.5}));
+    pescoco.position.y = 0.15 + H*1.05; marcar(pescoco, p.arq);
+    g.add(pescoco);
+    return g;
+  }
+
+  function criarCaixa(p){
+    var g = new THREE.Group();
+    var larg = 1.05, alt = 1.20, prof = 0.38;
+    var tex = rotuloCanvas(p.nome.toUpperCase(), p.destaque.toUpperCase(), p.corRotulo, '#ffffff', 420, 480);
+    var materialFrente = new THREE.MeshPhongMaterial({map:tex, specular:0xffffff, shininess:30});
+    var materialCor = new THREE.MeshStandardMaterial({color:p.cor, roughness:0.55});
+    var lateral = new THREE.Mesh(
+      new THREE.BoxGeometry(larg, alt, prof),
+      [materialCor, materialCor, materialCor, materialCor, materialFrente, materialFrente]);
+    lateral.position.y = 0.6; lateral.castShadow = true; marcar(lateral, p.arq);
+    g.add(lateral);
+    return g;
+  }
+
+  /* monta os produtos em circulo */
+  PRODUTOS.forEach(function(p, i){
+    p.arq = i;
+    var g = pedestal(p);
+    var peca = null;
+    if (p.modelo === 'lata') peca = criarLata(p);
+    else if (p.modelo === 'garrafa') {
+      if (p.id === 'powerade'){
+        /* garrafa mais atletica: corpo reto, bojo baixo */
+        var gg = new THREE.Group();
+        var corpo = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.45, 0.50, 1.5, 32),
+          new THREE.MeshStandardMaterial({color:p.cor, roughness:0.4, metalness:0.2}));
+        corpo.position.y = 0.8; marcar(corpo, i);
+        var pes = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.18, 0.22, 0.5, 24),
+          new THREE.MeshStandardMaterial({color:p.cor, roughness:0.4}));
+        pes.position.y = 0.35; gg.add(corpo);
+        var tex = rotuloCanvas(p.nome.toUpperCase(), p.destaque.toUpperCase(), p.corRotulo, '#ffffff', 520, 180);
+        var rot = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.49, 0.49, 0.9, 32, 1, true),
+          new THREE.MeshPhongMaterial({map:tex, side:THREE.DoubleSide, specular:0xffffff, shininess:20}));
+        rot.position.y = 0.85; rot.rotation.y = Math.PI;
+        var tampa = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.22, 0.22, 0.25, 24),
+          new THREE.MeshStandardMaterial({color:p.corTampa, roughness:0.5}));
+        tampa.position.y = 1.73;
+        gg.add(pes, rot, tampa);
+        peca = gg;
+      } else {
+        peca = criarGarrafa(p);
+      }
+    } else peca = criarCaixa(p);
+    var ang = (i / agentes) * Math.PI * 2;
+    g.position.set(Math.cos(ang)*raio, 0, Math.sin(ang)*raio);
+    g.rotation.y = -ang - Math.PI/2;
+    peca.position.y = 0.66;
+    g.add(peca);
+    cena.add(g);
+    grupos.push({grupo:g, produto:p, base:peca.position.clone()});
+  });
+
+  /* ---- interacao ---- */
+  var ray = new THREE.Raycaster();
+  var dedo = new THREE.Vector2();
+  var ponteiro = {x:0, y:0};
+  var destacado = null;
+
+  function alvoFrente(){
+    var alvo = null;
+    return function(i){
+      if (alvo !== null){
+        var gr = grupos[alvo].grupo;
+        gr.scale.setScalar(1);
+      }
+      alvo = i;
+      if (i !== null) grupos[i].grupo.scale.setScalar(1.08);
+    };
+  }
+  var destacar = alvoFrente();
+
+  window.addEventListener('pointermove', function(e){
+    dedo.x = (e.clientX/innerWidth)*2 - 1;
+    dedo.y = -(e.clientY/innerHeight)*2 + 1;
+  });
+
+  window.addEventListener('click', function(e){
+    var alvoDom = e.target;
+    if (alvoDom && alvoDom.closest &&
+        (alvoDom.closest('#cartao') || alvoDom.closest('header'))) return;
+    ray.setFromCamera(dedo, camera);
+    var hits = ray.intersectObjects(cena.children, true);
+    var i = -1;
+    for (var k=0;k<hits.length;k++){
+      var u = hits[k].object.userData;
+      if (u && u.produto !== undefined){ i = u.produto; break; }
+    }
+    if (i < 0) return;
+    selecionar(i);
+  });
+
+  function selecionar(i){
+    var gr = grupos[i];
+    if (grupoSelecionado === i) return;
+    grupoSelecionado = i;
+    destacar(i);
+    controles.target.y = 1.5;
+    var card = document.getElementById('cartao');
+    carregarCartao(gr.produto);
+    card.classList.add('aberto');
+    var pos = gr.grupo.position;
+    controles.targetFrom = controles.target.clone();
+    controles.targetUntil = new THREE.Vector3(pos.x, 1.4, pos.z);
+    controles.targetT = 0;
+  }
+
+  function carregarCartao(p){
+    document.getElementById('faixa').style.background =
+      'linear-gradient(90deg, ' + p.cor + ', ' + p.corRotulo + ')';
+    document.getElementById('c-nome').textContent = p.nome;
+    document.getElementById('c-marca').textContent = p.marca;
+    document.getElementById('c-chips').innerHTML =
+      '<span class="chip">' + p.categoria + '</span>' +
+      '<span class="chip" style="background:' + p.cor + ';color:#fff">' + p.destaque + '</span>';
+    document.getElementById('c-formato').textContent = p.modelo === 'lata' ? 'Lata de aluminio' :
+      (p.modelo === 'garrafa' ? 'Garrafa PET' : 'Embalagem cartonada');
+    document.getElementById('c-volume').textContent = p.volume;
+    document.getElementById('c-preco').textContent = p.preco;
+    document.getElementById('c-kcal').textContent = p.kcal;
+    document.getElementById('c-acucar').textContent = p.acucar;
+    document.getElementById('c-desc').textContent = p.desc;
+  }
+
+  document.getElementById('fechar').addEventListener('click', function(){
+    document.getElementById('cartao').classList.remove('aberto');
+    grupoSelecionado = null;
+    destacar(null);
+  });
+
+  /* ---- filtros ---- */
+  var cats = ['Refrigerantes','Isotonico','Sucos e Nectares','Agua','Cha'];
+  ['todos'].concat(cats).forEach(function(c){
+    var b = document.createElement('button');
+    b.textContent = c === 'todos' ? 'Todos' : c;
+    b.dataset.cat = c;
+    if (c === 'todos') b.classList.add('ativo');
+    document.getElementById('filtros').appendChild(b);
+    b.addEventListener('click', function(){
+      var totos = document.getElementById('filtros').querySelectorAll('button');
+      for (var t=0;t<totos.length;t++) totos[t].classList.remove('ativo');
+      b.classList.add('ativo');
+      aplicarFiltro(c);
+    });
+  });
+  function aplicarFiltro(c){
+    PRODUTOS.forEach(function(p, i){
+      var visivel = c === 'todos' || p.categoria === c;
+      grupos[i].grupo.visible = visivel;
+    });
+    if (grupoSelecionado !== null && PRODUTOS[grupoSelecionado].categoria !== c &&
+        c !== 'todos'){
+      document.getElementById('cartao').classList.remove('aberto');
+      grupoSelecionado = null;
+    }
+  }
+
+  /* ---- rodar / girar ---- */
+  window.addEventListener('resize', function(){
+    camera.aspect = innerWidth/innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(innerWidth, innerHeight);
+  });
+
+  function animar(){
+    requestAnimationFrame(animar);
+    controles.update();
+    if (controles.targetUntil && controles.targetT !== undefined){
+      controles.targetT = Math.min(1, (controles.targetT||0) + 0.03);
+      controles.target.lerpVectors(controles.targetFrom, controles.targetUntil,
+                                   controles.targetT);
+      if (controles.targetT >= 1){ controles.targetUntil = null; }
+    }
+    renderer.render(cena, camera);
+  }
+  animar();
+  } catch (erro) {
+    var av = document.getElementById('aviso');
+    av.style.display='flex';
+    av.style.flexDirection='column';
+    av.innerHTML =
+      '<p style="font-weight:bold;color:#ff8484;margin-bottom:8px">Falha ao iniciar a cena 3D:</p>' +
+      '<p style="font-size:13px;max-width:600px;margin:auto">' +
+      (erro && erro.message ? erro.message : 'erro desconhecido') +
+      '</p>';
+  }
+};
+carregar3D(iniciar);
+</script>
+</body>
+</html>

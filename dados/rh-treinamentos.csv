@@ -1,0 +1,603 @@
+﻿id_treinamento;matricula;codigo_curso;titulo_curso;categoria;data_inscricao;data_conclusao;carga_horaria;status_curso;nota_avaliacao;investimento
+TRN00001;EMP0001;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2024-12-14;2025-01-03;24;Concluido;10;5.900,00
+TRN00002;EMP0001;TRN-118;LGPD e Protecao de Dados;Juridico;2025-12-29;2026-03-20;8;Concluido;7;6.750,00
+TRN00003;EMP0001;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2026-01-10;2026-03-30;12;Nao iniciado;;2.900,00
+TRN00004;EMP0001;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-10-31;2026-01-03;20;Cancelado;;350,00
+TRN00005;EMP0001;TRN-109;Lideranca para Coordenadores;Lideranca;2024-12-29;2025-03-22;24;Concluido;9;2.800,00
+TRN00006;EMP0002;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-08-25;2025-11-18;16;Concluido;9;2.250,00
+TRN00007;EMP0002;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-03-08;2025-05-16;20;Cancelado;;2.450,00
+TRN00008;EMP0003;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-05-25;2025-06-24;20;Concluido;10;3.900,00
+TRN00009;EMP0003;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-08-03;2025-10-07;12;Nao iniciado;;3.950,00
+TRN00010;EMP0003;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-12-15;2025-12-30;8;Nao iniciado;;200,00
+TRN00011;EMP0003;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2025-07-19;2025-08-11;12;Concluido;8;4.100,00
+TRN00012;EMP0004;TRN-112;Logistica de Distribuicao e Rota;Operacao;2026-01-04;2026-02-02;20;Concluido;5;2.350,00
+TRN00013;EMP0004;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-11-24;2025-12-01;12;Concluido;9;6.450,00
+TRN00014;EMP0004;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-05-01;2025-06-10;8;Concluido;7;4.300,00
+TRN00015;EMP0004;TRN-115;Orcamento e Controle de Custos;Administracao;2025-07-09;2025-08-19;16;Cancelado;;7.750,00
+TRN00016;EMP0004;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-05-21;2025-06-22;8;Concluido;7;7.950,00
+TRN00017;EMP0005;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2024-11-19;2024-12-20;8;Cancelado;;2.400,00
+TRN00018;EMP0005;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-12-08;2026-03-05;12;Concluido;9;5.550,00
+TRN00019;EMP0005;TRN-114;Gestao de Contratos e Compras;Administracao;2025-03-14;2025-04-03;12;Concluido;5;5.000,00
+TRN00020;EMP0006;TRN-109;Lideranca para Coordenadores;Lideranca;2025-09-06;2025-12-05;24;Concluido;8;1.050,00
+TRN00021;EMP0006;TRN-118;LGPD e Protecao de Dados;Juridico;2025-08-06;2025-09-14;8;Concluido;5;7.500,00
+TRN00022;EMP0006;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-06-20;2025-08-03;20;Concluido;7;5.600,00
+TRN00023;EMP0006;TRN-114;Gestao de Contratos e Compras;Administracao;2025-01-26;2025-03-16;12;Nao iniciado;;1.200,00
+TRN00024;EMP0007;TRN-114;Gestao de Contratos e Compras;Administracao;2025-11-01;2026-01-17;12;Concluido;7;6.050,00
+TRN00025;EMP0008;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2025-10-10;2025-12-02;12;Concluido;9;2.500,00
+TRN00026;EMP0008;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-06-09;2025-07-04;8;Concluido;7;1.600,00
+TRN00027;EMP0008;TRN-122;Gestao de Mudanca;Lideranca;2024-12-11;2025-01-03;12;Concluido;8;7.750,00
+TRN00028;EMP0008;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2026-01-01;;12;Em andamento;;5.200,00
+TRN00029;EMP0009;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2024-12-12;2025-02-23;16;Concluido;8;1.600,00
+TRN00030;EMP0010;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2025-01-24;2025-02-12;24;Cancelado;;2.350,00
+TRN00031;EMP0010;TRN-115;Orcamento e Controle de Custos;Administracao;2025-03-30;2025-04-12;16;Concluido;7;500,00
+TRN00032;EMP0010;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-10-29;2025-12-18;12;Nao iniciado;;1.450,00
+TRN00033;EMP0010;TRN-112;Logistica de Distribuicao e Rota;Operacao;2026-02-26;2026-05-27;20;Concluido;5;6.450,00
+TRN00034;EMP0011;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2025-11-27;2026-02-03;24;Nao iniciado;;5.700,00
+TRN00035;EMP0011;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2024-11-13;2024-12-30;16;Concluido;9;900,00
+TRN00036;EMP0011;TRN-106;Negocio de Bebidas e Canais;Comercial;2024-11-12;2024-12-14;12;Concluido;10;5.950,00
+TRN00037;EMP0012;TRN-114;Gestao de Contratos e Compras;Administracao;2025-05-25;2025-08-07;12;Concluido;8;5.700,00
+TRN00038;EMP0012;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-06-29;;8;Em andamento;;1.550,00
+TRN00039;EMP0012;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-06-28;2025-09-01;12;Concluido;9;6.300,00
+TRN00040;EMP0013;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2025-06-04;2025-06-16;12;Concluido;9;4.300,00
+TRN00041;EMP0013;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-03-04;2025-03-27;16;Nao iniciado;;5.800,00
+TRN00042;EMP0013;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2024-12-12;2025-01-10;24;Concluido;8;4.050,00
+TRN00043;EMP0013;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2026-03-09;2026-03-31;12;Concluido;9;3.500,00
+TRN00044;EMP0013;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-07-19;2025-09-26;16;Concluido;8;6.200,00
+TRN00045;EMP0014;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-01-08;2025-01-23;8;Concluido;7;4.600,00
+TRN00046;EMP0014;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2024-11-02;2024-12-13;12;Concluido;6;6.100,00
+TRN00047;EMP0014;TRN-120;Integridade e Compliance;Juridico;2025-10-18;2025-11-18;8;Cancelado;;6.300,00
+TRN00048;EMP0014;TRN-122;Gestao de Mudanca;Lideranca;2025-05-14;2025-07-06;12;Concluido;8;1.350,00
+TRN00049;EMP0015;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2024-12-31;2025-03-14;16;Concluido;9;3.250,00
+TRN00050;EMP0016;TRN-118;LGPD e Protecao de Dados;Juridico;2025-03-25;2025-04-26;8;Concluido;10;100,00
+TRN00051;EMP0016;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-07-17;2025-09-12;8;Nao iniciado;;7.250,00
+TRN00052;EMP0017;TRN-121;Negociacao para Grandes Contas;Comercial;2025-07-19;2025-08-02;20;Concluido;7;4.850,00
+TRN00053;EMP0017;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-02-24;2025-04-19;8;Concluido;8;450,00
+TRN00054;EMP0017;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-09-05;2025-09-27;12;Concluido;8;5.400,00
+TRN00055;EMP0018;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-08-03;2025-09-12;12;Nao iniciado;;900,00
+TRN00056;EMP0018;TRN-108;Gestao de Equipe e Feedback;Lideranca;2024-11-17;2024-11-24;20;Concluido;6;1.800,00
+TRN00057;EMP0018;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-12-20;2026-01-24;16;Concluido;8;3.550,00
+TRN00058;EMP0019;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-03-09;2025-04-30;20;Concluido;9;6.800,00
+TRN00059;EMP0019;TRN-114;Gestao de Contratos e Compras;Administracao;2025-02-12;2025-02-24;12;Concluido;8;3.750,00
+TRN00060;EMP0019;TRN-114;Gestao de Contratos e Compras;Administracao;2026-01-11;2026-01-28;12;Concluido;9;1.250,00
+TRN00061;EMP0019;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-03-03;2025-04-19;16;Concluido;9;3.250,00
+TRN00062;EMP0019;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-04-22;;12;Em andamento;;7.300,00
+TRN00063;EMP0020;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-09-20;;12;Em andamento;;3.350,00
+TRN00064;EMP0020;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-11-07;;20;Em andamento;;2.000,00
+TRN00065;EMP0021;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2025-11-28;2026-02-04;24;Cancelado;;5.650,00
+TRN00066;EMP0022;TRN-106;Negocio de Bebidas e Canais;Comercial;2026-02-19;2026-05-20;12;Concluido;8;5.550,00
+TRN00067;EMP0023;TRN-114;Gestao de Contratos e Compras;Administracao;2025-03-29;2025-05-22;12;Concluido;8;4.000,00
+TRN00068;EMP0024;TRN-121;Negociacao para Grandes Contas;Comercial;2025-03-04;2025-03-31;20;Cancelado;;300,00
+TRN00069;EMP0024;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2024-11-29;2025-01-31;16;Concluido;8;5.250,00
+TRN00070;EMP0025;TRN-114;Gestao de Contratos e Compras;Administracao;2025-01-22;2025-03-26;12;Concluido;8;7.950,00
+TRN00071;EMP0025;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2024-12-24;2025-01-06;16;Concluido;8;1.300,00
+TRN00072;EMP0026;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-06-25;2025-07-25;16;Cancelado;;5.250,00
+TRN00073;EMP0026;TRN-121;Negociacao para Grandes Contas;Comercial;2025-01-23;;20;Em andamento;;4.200,00
+TRN00074;EMP0026;TRN-114;Gestao de Contratos e Compras;Administracao;2025-12-19;2026-02-18;12;Nao iniciado;;3.500,00
+TRN00075;EMP0026;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-01-21;;12;Em andamento;;1.300,00
+TRN00076;EMP0027;TRN-121;Negociacao para Grandes Contas;Comercial;2025-10-21;2025-12-13;20;Concluido;7;3.550,00
+TRN00077;EMP0027;TRN-118;LGPD e Protecao de Dados;Juridico;2025-02-21;2025-04-20;8;Nao iniciado;;1.150,00
+TRN00078;EMP0028;TRN-118;LGPD e Protecao de Dados;Juridico;2025-12-24;2026-02-08;8;Concluido;8;3.700,00
+TRN00079;EMP0028;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-05-09;;12;Em andamento;;5.700,00
+TRN00080;EMP0028;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2025-06-13;2025-07-05;12;Concluido;9;5.500,00
+TRN00081;EMP0029;TRN-115;Orcamento e Controle de Custos;Administracao;2025-01-13;2025-02-22;16;Cancelado;;7.900,00
+TRN00082;EMP0029;TRN-109;Lideranca para Coordenadores;Lideranca;2025-01-02;2025-03-07;24;Cancelado;;5.100,00
+TRN00083;EMP0029;TRN-109;Lideranca para Coordenadores;Lideranca;2025-10-02;2025-11-11;24;Concluido;7;2.250,00
+TRN00084;EMP0029;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-01-26;2025-02-14;16;Cancelado;;2.200,00
+TRN00085;EMP0029;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-08-31;2025-09-26;12;Cancelado;;700,00
+TRN00086;EMP0030;TRN-120;Integridade e Compliance;Juridico;2025-02-06;2025-04-12;8;Concluido;9;2.850,00
+TRN00087;EMP0030;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-07-12;2025-09-05;12;Concluido;6;1.700,00
+TRN00088;EMP0030;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2026-03-06;2026-05-27;16;Nao iniciado;;6.950,00
+TRN00089;EMP0031;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2024-11-16;2025-01-25;16;Cancelado;;3.700,00
+TRN00090;EMP0031;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-11-21;;16;Em andamento;;5.950,00
+TRN00091;EMP0032;TRN-115;Orcamento e Controle de Custos;Administracao;2025-05-12;2025-08-07;16;Concluido;8;1.500,00
+TRN00092;EMP0033;TRN-115;Orcamento e Controle de Custos;Administracao;2025-01-13;2025-01-26;16;Concluido;8;7.300,00
+TRN00093;EMP0033;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-02-24;2025-03-11;20;Concluido;9;2.350,00
+TRN00094;EMP0034;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2026-03-05;2026-03-19;8;Concluido;7;1.750,00
+TRN00095;EMP0034;TRN-121;Negociacao para Grandes Contas;Comercial;2025-10-01;2025-10-31;20;Concluido;10;2.950,00
+TRN00096;EMP0034;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2025-02-18;2025-03-24;12;Concluido;7;1.350,00
+TRN00097;EMP0035;TRN-118;LGPD e Protecao de Dados;Juridico;2025-11-25;2026-01-17;8;Concluido;8;1.350,00
+TRN00098;EMP0035;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-10-19;2025-12-02;16;Concluido;5;3.450,00
+TRN00099;EMP0035;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-04-19;2025-07-10;20;Concluido;10;5.550,00
+TRN00100;EMP0035;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2026-02-18;;16;Em andamento;;1.950,00
+TRN00101;EMP0036;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2024-12-26;2025-01-06;8;Nao iniciado;;6.800,00
+TRN00102;EMP0036;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-11-27;2026-01-21;12;Concluido;9;4.900,00
+TRN00103;EMP0036;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-12-30;2026-03-03;20;Cancelado;;6.750,00
+TRN00104;EMP0037;TRN-114;Gestao de Contratos e Compras;Administracao;2025-12-02;2026-02-05;12;Concluido;7;2.950,00
+TRN00105;EMP0037;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2025-08-29;2025-11-13;24;Concluido;8;1.150,00
+TRN00106;EMP0037;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-04-03;2025-05-14;20;Concluido;7;6.450,00
+TRN00107;EMP0037;TRN-112;Logistica de Distribuicao e Rota;Operacao;2024-11-06;2025-02-04;20;Concluido;8;7.950,00
+TRN00108;EMP0038;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-05-22;2025-06-24;16;Concluido;10;200,00
+TRN00109;EMP0038;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2025-02-01;2025-03-07;16;Cancelado;;5.550,00
+TRN00110;EMP0038;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-02-20;2025-03-23;20;Concluido;8;2.550,00
+TRN00111;EMP0038;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2024-11-29;2024-12-17;12;Concluido;7;3.550,00
+TRN00112;EMP0039;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-06-04;;16;Em andamento;;6.050,00
+TRN00113;EMP0039;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-09-22;2025-10-30;16;Concluido;8;7.500,00
+TRN00114;EMP0039;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-01-10;;16;Em andamento;;3.550,00
+TRN00115;EMP0040;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2025-04-03;2025-05-15;12;Concluido;9;4.600,00
+TRN00116;EMP0040;TRN-112;Logistica de Distribuicao e Rota;Operacao;2024-11-19;2025-01-18;20;Concluido;6;3.000,00
+TRN00117;EMP0041;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2024-12-13;2024-12-29;16;Concluido;8;2.900,00
+TRN00118;EMP0041;TRN-109;Lideranca para Coordenadores;Lideranca;2025-04-04;2025-06-15;24;Concluido;7;500,00
+TRN00119;EMP0041;TRN-109;Lideranca para Coordenadores;Lideranca;2025-07-06;;24;Em andamento;;4.150,00
+TRN00120;EMP0041;TRN-114;Gestao de Contratos e Compras;Administracao;2026-01-14;;12;Em andamento;;7.500,00
+TRN00121;EMP0042;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2024-11-24;2025-02-14;12;Concluido;7;2.700,00
+TRN00122;EMP0042;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2025-08-19;2025-10-09;12;Concluido;8;2.000,00
+TRN00123;EMP0042;TRN-118;LGPD e Protecao de Dados;Juridico;2025-05-12;;8;Em andamento;;3.550,00
+TRN00124;EMP0042;TRN-122;Gestao de Mudanca;Lideranca;2024-11-12;2024-12-09;12;Concluido;7;7.200,00
+TRN00125;EMP0042;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2024-12-06;2025-02-15;8;Concluido;6;400,00
+TRN00126;EMP0043;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-05-04;2025-06-29;16;Concluido;7;4.750,00
+TRN00127;EMP0043;TRN-120;Integridade e Compliance;Juridico;2025-06-27;2025-08-13;8;Nao iniciado;;5.000,00
+TRN00128;EMP0044;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-10-04;2025-12-06;12;Concluido;5;2.400,00
+TRN00129;EMP0044;TRN-115;Orcamento e Controle de Custos;Administracao;2026-02-05;;16;Em andamento;;800,00
+TRN00130;EMP0044;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-08-09;2025-10-28;16;Nao iniciado;;1.500,00
+TRN00131;EMP0045;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2024-11-28;2024-12-17;16;Concluido;9;2.400,00
+TRN00132;EMP0045;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2025-01-10;2025-03-10;16;Concluido;7;5.200,00
+TRN00133;EMP0045;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2026-01-01;2026-02-16;16;Concluido;7;7.400,00
+TRN00134;EMP0046;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-07-03;2025-08-29;8;Concluido;10;3.150,00
+TRN00135;EMP0046;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2024-11-12;2025-01-07;16;Concluido;7;2.600,00
+TRN00136;EMP0046;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-10-22;2026-01-13;16;Concluido;10;2.300,00
+TRN00137;EMP0047;TRN-120;Integridade e Compliance;Juridico;2025-12-11;;8;Em andamento;;5.000,00
+TRN00138;EMP0047;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-06-18;2025-07-28;8;Concluido;8;7.900,00
+TRN00139;EMP0047;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2025-09-17;2025-11-15;16;Concluido;10;5.750,00
+TRN00140;EMP0047;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-09-21;2025-11-12;16;Concluido;9;7.150,00
+TRN00141;EMP0048;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-07-16;2025-10-03;8;Concluido;10;2.450,00
+TRN00142;EMP0048;TRN-118;LGPD e Protecao de Dados;Juridico;2026-01-12;2026-01-31;8;Nao iniciado;;2.000,00
+TRN00143;EMP0048;TRN-114;Gestao de Contratos e Compras;Administracao;2026-03-08;2026-03-27;12;Concluido;8;7.500,00
+TRN00144;EMP0049;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-12-21;2026-03-10;16;Concluido;10;7.500,00
+TRN00145;EMP0049;TRN-120;Integridade e Compliance;Juridico;2025-06-15;2025-08-06;8;Concluido;9;5.350,00
+TRN00146;EMP0049;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-10-07;2025-11-25;12;Concluido;7;750,00
+TRN00147;EMP0050;TRN-115;Orcamento e Controle de Custos;Administracao;2026-02-22;2026-05-22;16;Concluido;8;7.000,00
+TRN00148;EMP0050;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-06-13;2025-06-26;12;Concluido;7;6.050,00
+TRN00149;EMP0051;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2026-01-04;2026-01-20;16;Concluido;7;7.600,00
+TRN00150;EMP0051;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-09-30;2025-11-24;20;Concluido;6;7.050,00
+TRN00151;EMP0052;TRN-114;Gestao de Contratos e Compras;Administracao;2024-11-21;2024-12-25;12;Concluido;10;5.250,00
+TRN00152;EMP0052;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-08-10;2025-10-31;16;Concluido;7;2.100,00
+TRN00153;EMP0052;TRN-118;LGPD e Protecao de Dados;Juridico;2025-04-05;2025-05-23;8;Nao iniciado;;2.550,00
+TRN00154;EMP0053;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2024-12-15;2024-12-28;16;Concluido;7;1.500,00
+TRN00155;EMP0054;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2024-10-29;2024-11-19;12;Concluido;6;350,00
+TRN00156;EMP0054;TRN-122;Gestao de Mudanca;Lideranca;2025-10-29;2025-12-08;12;Concluido;7;6.350,00
+TRN00157;EMP0054;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2026-01-18;2026-03-15;8;Concluido;9;1.400,00
+TRN00158;EMP0054;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-01-28;2025-03-30;8;Concluido;5;2.550,00
+TRN00159;EMP0054;TRN-122;Gestao de Mudanca;Lideranca;2025-01-18;2025-02-22;12;Concluido;10;6.550,00
+TRN00160;EMP0055;TRN-122;Gestao de Mudanca;Lideranca;2024-11-17;;12;Em andamento;;650,00
+TRN00161;EMP0055;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-11-10;2025-12-15;12;Concluido;7;4.400,00
+TRN00162;EMP0055;TRN-112;Logistica de Distribuicao e Rota;Operacao;2024-11-14;2025-01-14;20;Cancelado;;3.700,00
+TRN00163;EMP0056;TRN-109;Lideranca para Coordenadores;Lideranca;2024-12-18;2025-02-09;24;Concluido;10;2.300,00
+TRN00164;EMP0056;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-04-29;2025-05-18;8;Nao iniciado;;7.100,00
+TRN00165;EMP0057;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-10-31;2025-12-26;16;Concluido;8;6.950,00
+TRN00166;EMP0057;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-06-30;;12;Em andamento;;4.600,00
+TRN00167;EMP0057;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-07-12;2025-08-12;12;Concluido;8;6.750,00
+TRN00168;EMP0058;TRN-122;Gestao de Mudanca;Lideranca;2025-08-08;;12;Em andamento;;7.800,00
+TRN00169;EMP0058;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2024-12-19;2025-01-04;8;Concluido;10;3.000,00
+TRN00170;EMP0058;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-05-29;;8;Em andamento;;2.100,00
+TRN00171;EMP0058;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-01-16;2025-03-16;16;Cancelado;;650,00
+TRN00172;EMP0059;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-06-26;2025-09-09;8;Nao iniciado;;3.450,00
+TRN00173;EMP0059;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2025-05-05;2025-08-02;24;Concluido;8;5.600,00
+TRN00174;EMP0060;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-08-23;2025-09-30;16;Concluido;7;1.000,00
+TRN00175;EMP0060;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2025-05-05;2025-08-03;24;Concluido;9;1.250,00
+TRN00176;EMP0061;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-05-07;2025-06-03;12;Nao iniciado;;5.850,00
+TRN00177;EMP0062;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2024-11-11;2024-11-30;8;Concluido;8;5.900,00
+TRN00178;EMP0062;TRN-115;Orcamento e Controle de Custos;Administracao;2024-12-01;;16;Em andamento;;2.500,00
+TRN00179;EMP0063;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-12-24;2026-02-20;8;Concluido;7;7.950,00
+TRN00180;EMP0063;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2025-05-11;2025-07-20;16;Concluido;8;5.850,00
+TRN00181;EMP0063;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-11-16;2025-12-08;16;Concluido;6;5.100,00
+TRN00182;EMP0063;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-11-11;2025-11-18;20;Concluido;8;5.100,00
+TRN00183;EMP0063;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2024-11-20;2025-02-18;8;Concluido;8;2.000,00
+TRN00184;EMP0064;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-10-30;2026-01-24;12;Nao iniciado;;6.450,00
+TRN00185;EMP0064;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2026-02-11;2026-04-09;12;Concluido;5;1.300,00
+TRN00186;EMP0064;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2025-10-08;2025-12-18;16;Concluido;10;5.500,00
+TRN00187;EMP0064;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2024-11-19;2024-12-01;12;Concluido;9;750,00
+TRN00188;EMP0064;TRN-121;Negociacao para Grandes Contas;Comercial;2025-11-21;2025-12-04;20;Concluido;5;4.600,00
+TRN00189;EMP0065;TRN-118;LGPD e Protecao de Dados;Juridico;2024-11-26;2024-12-08;8;Concluido;7;3.650,00
+TRN00190;EMP0065;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-11-02;2026-01-18;16;Concluido;9;6.950,00
+TRN00191;EMP0065;TRN-114;Gestao de Contratos e Compras;Administracao;2025-07-27;2025-10-06;12;Concluido;8;5.500,00
+TRN00192;EMP0066;TRN-118;LGPD e Protecao de Dados;Juridico;2025-02-14;2025-04-30;8;Cancelado;;4.700,00
+TRN00193;EMP0066;TRN-120;Integridade e Compliance;Juridico;2025-02-09;2025-03-26;8;Concluido;10;5.550,00
+TRN00194;EMP0066;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-10-02;2025-10-28;16;Concluido;7;6.200,00
+TRN00195;EMP0067;TRN-120;Integridade e Compliance;Juridico;2025-05-07;;8;Em andamento;;6.750,00
+TRN00196;EMP0067;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-04-23;2025-05-14;16;Concluido;9;1.950,00
+TRN00197;EMP0067;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-07-15;2025-10-07;16;Concluido;9;6.100,00
+TRN00198;EMP0068;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-09-07;2025-10-04;12;Cancelado;;4.150,00
+TRN00199;EMP0068;TRN-118;LGPD e Protecao de Dados;Juridico;2025-01-15;2025-03-16;8;Concluido;9;600,00
+TRN00200;EMP0068;TRN-121;Negociacao para Grandes Contas;Comercial;2025-02-12;2025-04-13;20;Concluido;6;4.050,00
+TRN00201;EMP0069;TRN-108;Gestao de Equipe e Feedback;Lideranca;2024-12-11;2025-01-31;20;Concluido;8;6.450,00
+TRN00202;EMP0069;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2025-10-05;2025-10-28;16;Concluido;8;4.750,00
+TRN00203;EMP0069;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-02-07;2025-03-28;16;Concluido;7;5.000,00
+TRN00204;EMP0069;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-09-30;2025-12-20;8;Concluido;10;1.100,00
+TRN00205;EMP0070;TRN-122;Gestao de Mudanca;Lideranca;2025-01-17;2025-02-09;12;Nao iniciado;;4.550,00
+TRN00206;EMP0070;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2024-12-10;2025-02-27;8;Cancelado;;3.850,00
+TRN00207;EMP0070;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-01-02;2025-03-13;12;Concluido;7;3.750,00
+TRN00208;EMP0070;TRN-122;Gestao de Mudanca;Lideranca;2025-12-21;2026-01-08;12;Cancelado;;700,00
+TRN00209;EMP0071;TRN-109;Lideranca para Coordenadores;Lideranca;2025-12-31;;24;Em andamento;;5.850,00
+TRN00210;EMP0071;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2024-11-25;;16;Em andamento;;5.250,00
+TRN00211;EMP0072;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-06-23;2025-07-31;12;Nao iniciado;;7.850,00
+TRN00212;EMP0072;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2026-01-28;2026-03-23;16;Concluido;7;550,00
+TRN00213;EMP0073;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-10-06;2026-01-02;8;Nao iniciado;;1.000,00
+TRN00214;EMP0073;TRN-115;Orcamento e Controle de Custos;Administracao;2025-10-14;2025-11-09;16;Cancelado;;1.750,00
+TRN00215;EMP0073;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-12-15;2026-02-17;12;Concluido;7;5.650,00
+TRN00216;EMP0073;TRN-114;Gestao de Contratos e Compras;Administracao;2025-06-20;;12;Em andamento;;250,00
+TRN00217;EMP0074;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-06-11;;20;Em andamento;;5.400,00
+TRN00218;EMP0075;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-04-09;2025-07-02;12;Concluido;10;6.850,00
+TRN00219;EMP0075;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-12-30;2026-03-28;8;Concluido;7;3.800,00
+TRN00220;EMP0075;TRN-109;Lideranca para Coordenadores;Lideranca;2025-05-14;2025-07-31;24;Concluido;8;6.050,00
+TRN00221;EMP0075;TRN-114;Gestao de Contratos e Compras;Administracao;2026-02-27;2026-03-29;12;Concluido;8;3.300,00
+TRN00222;EMP0076;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-07-26;2025-09-14;16;Concluido;8;3.800,00
+TRN00223;EMP0076;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2025-04-12;2025-06-17;24;Concluido;9;2.800,00
+TRN00224;EMP0076;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-03-20;2025-05-25;12;Concluido;7;4.450,00
+TRN00225;EMP0076;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-09-13;2025-11-26;16;Concluido;10;4.900,00
+TRN00226;EMP0077;TRN-118;LGPD e Protecao de Dados;Juridico;2025-09-19;2025-12-13;8;Concluido;5;7.850,00
+TRN00227;EMP0077;TRN-109;Lideranca para Coordenadores;Lideranca;2025-02-02;2025-03-15;24;Concluido;5;4.800,00
+TRN00228;EMP0077;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-06-10;;8;Em andamento;;6.150,00
+TRN00229;EMP0077;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-05-07;2025-08-02;12;Cancelado;;4.350,00
+TRN00230;EMP0078;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-01-05;2025-01-26;8;Concluido;8;7.700,00
+TRN00231;EMP0078;TRN-118;LGPD e Protecao de Dados;Juridico;2025-10-29;;8;Em andamento;;6.550,00
+TRN00232;EMP0078;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-09-05;2025-09-21;8;Concluido;10;6.000,00
+TRN00233;EMP0079;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-11-09;2025-12-28;12;Concluido;8;4.400,00
+TRN00234;EMP0079;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-07-08;2025-08-04;16;Concluido;8;7.000,00
+TRN00235;EMP0079;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2025-01-14;2025-04-08;12;Concluido;6;5.650,00
+TRN00236;EMP0079;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-08-16;;8;Em andamento;;2.600,00
+TRN00237;EMP0080;TRN-118;LGPD e Protecao de Dados;Juridico;2025-11-08;2025-11-23;8;Concluido;9;800,00
+TRN00238;EMP0080;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-10-26;2025-11-13;16;Cancelado;;1.600,00
+TRN00239;EMP0081;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-12-31;2026-03-12;16;Nao iniciado;;2.900,00
+TRN00240;EMP0081;TRN-122;Gestao de Mudanca;Lideranca;2025-11-09;2025-11-30;12;Cancelado;;50,00
+TRN00241;EMP0082;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-04-08;2025-06-07;8;Cancelado;;2.200,00
+TRN00242;EMP0083;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2026-02-03;2026-05-01;8;Nao iniciado;;1.000,00
+TRN00243;EMP0083;TRN-121;Negociacao para Grandes Contas;Comercial;2025-05-24;2025-08-19;20;Nao iniciado;;3.550,00
+TRN00244;EMP0083;TRN-114;Gestao de Contratos e Compras;Administracao;2025-12-06;2026-02-04;12;Concluido;9;6.200,00
+TRN00245;EMP0083;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-03-12;2025-03-20;20;Concluido;8;4.100,00
+TRN00246;EMP0083;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-08-14;;16;Em andamento;;500,00
+TRN00247;EMP0084;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-08-05;2025-10-16;12;Concluido;7;4.300,00
+TRN00248;EMP0084;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-03-06;2025-05-18;12;Concluido;7;4.950,00
+TRN00249;EMP0085;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-07-01;2025-08-14;12;Nao iniciado;;1.550,00
+TRN00250;EMP0085;TRN-121;Negociacao para Grandes Contas;Comercial;2025-12-19;2026-01-08;20;Nao iniciado;;5.600,00
+TRN00251;EMP0086;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-04-08;2025-05-06;20;Concluido;7;7.300,00
+TRN00252;EMP0086;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2026-03-13;2026-05-11;24;Concluido;9;6.750,00
+TRN00253;EMP0087;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2024-12-20;2025-02-11;24;Concluido;5;5.650,00
+TRN00254;EMP0087;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2024-11-06;2024-12-18;12;Concluido;10;350,00
+TRN00255;EMP0088;TRN-110;Sucessao e Plano de Carreira;Lideranca;2024-12-06;;12;Em andamento;;5.050,00
+TRN00256;EMP0088;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-04-21;2025-05-18;16;Nao iniciado;;2.550,00
+TRN00257;EMP0088;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-06-14;2025-08-26;12;Concluido;9;2.650,00
+TRN00258;EMP0088;TRN-106;Negocio de Bebidas e Canais;Comercial;2026-01-21;2026-03-17;12;Concluido;9;4.850,00
+TRN00259;EMP0089;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-03-16;2025-04-26;16;Nao iniciado;;5.300,00
+TRN00260;EMP0089;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2026-02-22;2026-05-05;16;Concluido;9;1.500,00
+TRN00261;EMP0089;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-02-25;2025-04-25;8;Concluido;7;5.350,00
+TRN00262;EMP0089;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2025-05-05;;16;Em andamento;;5.100,00
+TRN00263;EMP0090;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-01-28;2025-04-02;16;Concluido;10;3.800,00
+TRN00264;EMP0090;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-12-15;;16;Em andamento;;5.800,00
+TRN00265;EMP0090;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-01-11;2025-03-23;12;Concluido;9;7.500,00
+TRN00266;EMP0091;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2025-05-14;2025-06-22;12;Concluido;10;4.450,00
+TRN00267;EMP0092;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2025-05-17;2025-06-14;24;Concluido;8;2.400,00
+TRN00268;EMP0092;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2026-02-14;2026-05-10;12;Concluido;8;750,00
+TRN00269;EMP0092;TRN-114;Gestao de Contratos e Compras;Administracao;2025-12-02;2025-12-20;12;Concluido;9;2.800,00
+TRN00270;EMP0093;TRN-109;Lideranca para Coordenadores;Lideranca;2025-01-24;2025-03-01;24;Nao iniciado;;100,00
+TRN00271;EMP0094;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2026-01-14;2026-04-05;12;Nao iniciado;;5.650,00
+TRN00272;EMP0094;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-10-21;2026-01-08;12;Concluido;10;3.600,00
+TRN00273;EMP0094;TRN-110;Sucessao e Plano de Carreira;Lideranca;2026-02-09;2026-05-07;12;Cancelado;;6.700,00
+TRN00274;EMP0094;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2026-01-31;2026-03-31;12;Concluido;7;3.500,00
+TRN00275;EMP0095;TRN-114;Gestao de Contratos e Compras;Administracao;2025-06-26;2025-09-04;12;Concluido;9;4.300,00
+TRN00276;EMP0095;TRN-118;LGPD e Protecao de Dados;Juridico;2025-03-16;2025-04-18;8;Concluido;8;7.350,00
+TRN00277;EMP0096;TRN-118;LGPD e Protecao de Dados;Juridico;2024-11-15;2025-01-16;8;Concluido;8;6.350,00
+TRN00278;EMP0096;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-06-10;2025-06-28;16;Concluido;6;4.200,00
+TRN00279;EMP0097;TRN-114;Gestao de Contratos e Compras;Administracao;2025-04-27;2025-06-09;12;Concluido;5;550,00
+TRN00280;EMP0097;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2025-05-26;2025-07-10;24;Concluido;7;4.500,00
+TRN00281;EMP0097;TRN-120;Integridade e Compliance;Juridico;2025-07-20;2025-08-04;8;Concluido;9;1.650,00
+TRN00282;EMP0097;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-08-04;;8;Em andamento;;6.350,00
+TRN00283;EMP0098;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-01-15;2025-04-11;20;Concluido;9;700,00
+TRN00284;EMP0098;TRN-120;Integridade e Compliance;Juridico;2024-12-15;2025-01-27;8;Concluido;8;6.900,00
+TRN00285;EMP0098;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-08-20;2025-11-06;20;Concluido;9;5.450,00
+TRN00286;EMP0098;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-02-02;2025-04-06;8;Concluido;6;3.400,00
+TRN00287;EMP0099;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2026-02-17;2026-03-08;16;Concluido;8;3.050,00
+TRN00288;EMP0099;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2025-06-28;2025-08-29;12;Concluido;7;6.300,00
+TRN00289;EMP0099;TRN-118;LGPD e Protecao de Dados;Juridico;2025-12-21;2026-02-01;8;Concluido;8;7.200,00
+TRN00290;EMP0099;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-02-09;;12;Em andamento;;5.950,00
+TRN00291;EMP0100;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-12-09;;8;Em andamento;;4.700,00
+TRN00292;EMP0100;TRN-108;Gestao de Equipe e Feedback;Lideranca;2026-02-06;2026-04-01;20;Concluido;10;2.500,00
+TRN00293;EMP0100;TRN-115;Orcamento e Controle de Custos;Administracao;2025-07-12;2025-08-22;16;Concluido;7;2.100,00
+TRN00294;EMP0100;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-04-10;2025-06-07;8;Concluido;9;6.700,00
+TRN00295;EMP0101;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2026-02-06;2026-03-15;12;Concluido;10;6.300,00
+TRN00296;EMP0101;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-02-18;2025-03-26;12;Concluido;7;5.950,00
+TRN00297;EMP0102;TRN-106;Negocio de Bebidas e Canais;Comercial;2024-11-07;2025-01-31;12;Concluido;10;4.800,00
+TRN00298;EMP0102;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-07-11;2025-09-12;12;Concluido;8;5.150,00
+TRN00299;EMP0103;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-10-02;2025-11-15;16;Concluido;8;700,00
+TRN00300;EMP0103;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-07-05;2025-07-12;12;Concluido;5;3.450,00
+TRN00301;EMP0103;TRN-114;Gestao de Contratos e Compras;Administracao;2025-07-08;;12;Em andamento;;200,00
+TRN00302;EMP0104;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-10-21;2025-12-30;12;Concluido;8;7.950,00
+TRN00303;EMP0104;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-02-23;2025-04-13;12;Concluido;5;5.200,00
+TRN00304;EMP0104;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2024-11-26;2025-02-23;16;Concluido;9;4.700,00
+TRN00305;EMP0105;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-09-16;2025-09-26;12;Concluido;7;5.700,00
+TRN00306;EMP0105;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-02-18;;12;Em andamento;;3.800,00
+TRN00307;EMP0105;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-04-20;2025-05-09;16;Cancelado;;5.200,00
+TRN00308;EMP0105;TRN-120;Integridade e Compliance;Juridico;2025-12-30;2026-02-05;8;Concluido;10;4.950,00
+TRN00309;EMP0106;TRN-121;Negociacao para Grandes Contas;Comercial;2026-03-11;2026-05-23;20;Concluido;7;5.450,00
+TRN00310;EMP0106;TRN-115;Orcamento e Controle de Custos;Administracao;2024-11-20;2025-02-04;16;Concluido;9;7.100,00
+TRN00311;EMP0106;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-01-10;2025-03-12;12;Cancelado;;150,00
+TRN00312;EMP0106;TRN-114;Gestao de Contratos e Compras;Administracao;2026-02-19;2026-03-08;12;Concluido;7;150,00
+TRN00313;EMP0107;TRN-109;Lideranca para Coordenadores;Lideranca;2025-11-12;2025-12-07;24;Concluido;8;1.400,00
+TRN00314;EMP0107;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2026-02-05;2026-03-25;12;Nao iniciado;;2.350,00
+TRN00315;EMP0107;TRN-109;Lideranca para Coordenadores;Lideranca;2025-08-16;2025-10-18;24;Nao iniciado;;5.450,00
+TRN00316;EMP0108;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-01-25;2025-03-18;16;Nao iniciado;;2.350,00
+TRN00317;EMP0108;TRN-114;Gestao de Contratos e Compras;Administracao;2025-12-03;2025-12-22;12;Concluido;9;2.550,00
+TRN00318;EMP0109;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-06-04;2025-07-16;12;Nao iniciado;;7.750,00
+TRN00319;EMP0109;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2026-01-11;2026-01-24;24;Concluido;9;4.600,00
+TRN00320;EMP0110;TRN-114;Gestao de Contratos e Compras;Administracao;2024-11-20;;12;Em andamento;;1.100,00
+TRN00321;EMP0110;TRN-122;Gestao de Mudanca;Lideranca;2025-03-05;2025-05-08;12;Concluido;7;450,00
+TRN00322;EMP0111;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2025-07-04;2025-07-24;12;Concluido;7;4.000,00
+TRN00323;EMP0111;TRN-109;Lideranca para Coordenadores;Lideranca;2026-02-24;2026-05-08;24;Cancelado;;3.850,00
+TRN00324;EMP0111;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-11-05;2025-11-25;12;Concluido;9;3.700,00
+TRN00325;EMP0112;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2025-06-16;2025-09-14;12;Concluido;10;750,00
+TRN00326;EMP0112;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-09-19;2025-11-14;16;Concluido;10;4.150,00
+TRN00327;EMP0112;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2025-03-11;2025-04-24;16;Concluido;8;5.950,00
+TRN00328;EMP0112;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2024-11-10;2025-01-14;24;Nao iniciado;;100,00
+TRN00329;EMP0113;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-08-05;2025-10-09;8;Nao iniciado;;5.750,00
+TRN00330;EMP0113;TRN-120;Integridade e Compliance;Juridico;2025-11-11;2025-12-06;8;Cancelado;;1.800,00
+TRN00331;EMP0113;TRN-109;Lideranca para Coordenadores;Lideranca;2025-10-21;2025-12-23;24;Concluido;7;4.400,00
+TRN00332;EMP0114;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-11-21;2026-02-06;12;Concluido;9;7.300,00
+TRN00333;EMP0114;TRN-108;Gestao de Equipe e Feedback;Lideranca;2024-12-06;2025-02-16;20;Concluido;6;3.400,00
+TRN00334;EMP0114;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-08-27;2025-11-19;12;Concluido;10;5.000,00
+TRN00335;EMP0115;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-05-15;2025-06-20;16;Concluido;9;7.000,00
+TRN00336;EMP0115;TRN-114;Gestao de Contratos e Compras;Administracao;2025-03-28;2025-06-17;12;Nao iniciado;;4.450,00
+TRN00337;EMP0115;TRN-115;Orcamento e Controle de Custos;Administracao;2025-08-02;2025-09-05;16;Concluido;8;2.800,00
+TRN00338;EMP0115;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-01-07;2025-04-06;12;Cancelado;;7.850,00
+TRN00339;EMP0115;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2025-07-01;2025-09-12;12;Concluido;8;2.450,00
+TRN00340;EMP0116;TRN-109;Lideranca para Coordenadores;Lideranca;2024-12-08;;24;Em andamento;;7.700,00
+TRN00341;EMP0116;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2024-11-15;2025-01-24;8;Concluido;7;2.650,00
+TRN00342;EMP0117;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2025-06-27;;16;Em andamento;;3.800,00
+TRN00343;EMP0117;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2025-09-10;2025-11-17;16;Concluido;4;7.550,00
+TRN00344;EMP0118;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-11-16;;16;Em andamento;;3.250,00
+TRN00345;EMP0118;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-11-06;2025-11-20;8;Concluido;9;4.550,00
+TRN00346;EMP0118;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2026-02-04;2026-03-12;16;Concluido;5;600,00
+TRN00347;EMP0119;TRN-106;Negocio de Bebidas e Canais;Comercial;2024-11-24;2025-02-04;12;Nao iniciado;;7.950,00
+TRN00348;EMP0119;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2024-11-19;2024-12-09;8;Nao iniciado;;4.950,00
+TRN00349;EMP0119;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-02-23;2025-04-22;12;Concluido;9;6.900,00
+TRN00350;EMP0119;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-04-06;2025-05-01;16;Concluido;8;1.350,00
+TRN00351;EMP0120;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2025-03-26;2025-04-10;24;Concluido;9;1.350,00
+TRN00352;EMP0120;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2024-12-24;2025-01-10;8;Nao iniciado;;1.500,00
+TRN00353;EMP0120;TRN-114;Gestao de Contratos e Compras;Administracao;2025-08-21;;12;Em andamento;;4.000,00
+TRN00354;EMP0120;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-02-13;2025-05-03;16;Concluido;7;6.600,00
+TRN00355;EMP0121;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-12-09;2026-02-02;20;Concluido;6;2.750,00
+TRN00356;EMP0121;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2024-12-30;2025-01-07;16;Concluido;9;6.150,00
+TRN00357;EMP0122;TRN-121;Negociacao para Grandes Contas;Comercial;2024-11-18;2024-12-20;20;Concluido;8;5.100,00
+TRN00358;EMP0122;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-06-16;2025-08-05;8;Concluido;8;1.350,00
+TRN00359;EMP0122;TRN-122;Gestao de Mudanca;Lideranca;2025-04-11;2025-06-29;12;Concluido;8;3.900,00
+TRN00360;EMP0123;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-05-14;2025-07-18;12;Concluido;10;6.300,00
+TRN00361;EMP0123;TRN-118;LGPD e Protecao de Dados;Juridico;2025-07-20;2025-08-22;8;Concluido;7;3.050,00
+TRN00362;EMP0123;TRN-122;Gestao de Mudanca;Lideranca;2024-12-31;2025-02-11;12;Concluido;8;3.350,00
+TRN00363;EMP0124;TRN-118;LGPD e Protecao de Dados;Juridico;2025-11-23;2025-12-11;8;Concluido;7;1.400,00
+TRN00364;EMP0124;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2025-03-15;;16;Em andamento;;100,00
+TRN00365;EMP0124;TRN-109;Lideranca para Coordenadores;Lideranca;2025-09-02;2025-10-25;24;Concluido;8;4.400,00
+TRN00366;EMP0125;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-09-06;2025-09-25;8;Nao iniciado;;6.550,00
+TRN00367;EMP0125;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-12-25;2026-01-07;16;Concluido;7;4.150,00
+TRN00368;EMP0126;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-04-13;2025-07-02;12;Concluido;8;6.550,00
+TRN00369;EMP0126;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-01-10;2025-01-27;12;Concluido;9;5.900,00
+TRN00370;EMP0126;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2026-02-19;2026-04-21;8;Cancelado;;1.850,00
+TRN00371;EMP0127;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-08-05;;12;Em andamento;;6.950,00
+TRN00372;EMP0127;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-02-02;2025-04-18;16;Concluido;5;1.650,00
+TRN00373;EMP0128;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2024-11-15;2024-12-30;8;Concluido;9;3.950,00
+TRN00374;EMP0128;TRN-114;Gestao de Contratos e Compras;Administracao;2026-01-22;2026-03-21;12;Concluido;9;1.550,00
+TRN00375;EMP0128;TRN-109;Lideranca para Coordenadores;Lideranca;2025-04-19;2025-07-07;24;Concluido;9;3.550,00
+TRN00376;EMP0128;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-09-15;2025-10-26;12;Concluido;5;7.100,00
+TRN00377;EMP0128;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2025-02-28;2025-05-20;12;Concluido;6;6.000,00
+TRN00378;EMP0129;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-02-07;2025-02-18;8;Concluido;10;6.350,00
+TRN00379;EMP0129;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-09-24;;8;Em andamento;;1.300,00
+TRN00380;EMP0129;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-05-13;2025-06-05;8;Nao iniciado;;5.600,00
+TRN00381;EMP0129;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-04-25;2025-06-29;20;Concluido;7;1.700,00
+TRN00382;EMP0129;TRN-120;Integridade e Compliance;Juridico;2025-06-13;2025-08-29;8;Concluido;8;6.500,00
+TRN00383;EMP0130;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-04-16;2025-06-17;8;Concluido;8;2.300,00
+TRN00384;EMP0130;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2024-11-06;2024-11-26;8;Concluido;9;7.550,00
+TRN00385;EMP0130;TRN-109;Lideranca para Coordenadores;Lideranca;2026-01-16;2026-03-15;24;Concluido;10;2.000,00
+TRN00386;EMP0130;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-12-24;2026-02-07;16;Concluido;8;1.550,00
+TRN00387;EMP0130;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2025-10-01;;12;Em andamento;;5.550,00
+TRN00388;EMP0131;TRN-122;Gestao de Mudanca;Lideranca;2024-11-05;2025-01-05;12;Concluido;8;7.400,00
+TRN00389;EMP0131;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-10-16;2025-12-24;20;Cancelado;;7.000,00
+TRN00390;EMP0131;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-12-31;2026-03-21;20;Cancelado;;4.400,00
+TRN00391;EMP0131;TRN-106;Negocio de Bebidas e Canais;Comercial;2026-02-26;2026-05-17;12;Concluido;5;5.300,00
+TRN00392;EMP0132;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-12-31;2026-01-27;12;Concluido;10;2.100,00
+TRN00393;EMP0132;TRN-118;LGPD e Protecao de Dados;Juridico;2025-08-01;2025-08-27;8;Concluido;6;4.950,00
+TRN00394;EMP0132;TRN-120;Integridade e Compliance;Juridico;2025-02-24;2025-03-14;8;Concluido;6;6.500,00
+TRN00395;EMP0132;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-01-30;2025-04-23;20;Concluido;9;6.000,00
+TRN00396;EMP0132;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2026-02-01;2026-02-09;24;Cancelado;;4.950,00
+TRN00397;EMP0133;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-10-20;2025-12-16;16;Concluido;10;550,00
+TRN00398;EMP0134;TRN-118;LGPD e Protecao de Dados;Juridico;2025-02-17;2025-04-22;8;Concluido;8;1.650,00
+TRN00399;EMP0134;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-07-11;2025-09-03;16;Concluido;9;5.350,00
+TRN00400;EMP0134;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-02-27;2025-04-08;20;Concluido;10;3.050,00
+TRN00401;EMP0134;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-07-21;2025-09-13;20;Concluido;9;4.950,00
+TRN00402;EMP0135;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2025-07-08;2025-09-29;12;Concluido;7;7.750,00
+TRN00403;EMP0135;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-03-25;2025-05-13;16;Cancelado;;2.300,00
+TRN00404;EMP0135;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2025-12-31;2026-03-28;12;Concluido;10;1.700,00
+TRN00405;EMP0135;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2026-01-02;2026-02-10;8;Concluido;7;1.200,00
+TRN00406;EMP0136;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-11-08;2026-02-06;20;Nao iniciado;;7.250,00
+TRN00407;EMP0136;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-07-18;2025-08-12;12;Nao iniciado;;7.900,00
+TRN00408;EMP0137;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-08-20;2025-10-02;16;Concluido;10;1.750,00
+TRN00409;EMP0137;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-06-02;2025-07-13;16;Concluido;7;4.450,00
+TRN00410;EMP0138;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2025-09-10;2025-11-15;12;Concluido;10;3.550,00
+TRN00411;EMP0138;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-08-07;2025-10-12;20;Concluido;9;7.850,00
+TRN00412;EMP0138;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-01-24;2025-04-17;12;Concluido;9;5.300,00
+TRN00413;EMP0138;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2025-12-14;2026-01-05;16;Concluido;8;6.500,00
+TRN00414;EMP0139;TRN-122;Gestao de Mudanca;Lideranca;2025-01-20;;12;Em andamento;;2.300,00
+TRN00415;EMP0139;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2025-09-15;2025-09-29;12;Nao iniciado;;2.050,00
+TRN00416;EMP0139;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-12-14;;12;Em andamento;;1.650,00
+TRN00417;EMP0140;TRN-114;Gestao de Contratos e Compras;Administracao;2025-11-27;2025-12-18;12;Concluido;9;4.650,00
+TRN00418;EMP0141;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-05-09;2025-06-21;16;Cancelado;;4.500,00
+TRN00419;EMP0141;TRN-118;LGPD e Protecao de Dados;Juridico;2025-02-07;;8;Em andamento;;4.000,00
+TRN00420;EMP0141;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-07-30;2025-10-19;12;Nao iniciado;;850,00
+TRN00421;EMP0141;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-11-25;2026-01-31;20;Concluido;8;3.050,00
+TRN00422;EMP0141;TRN-115;Orcamento e Controle de Custos;Administracao;2025-07-20;2025-09-22;16;Concluido;7;2.950,00
+TRN00423;EMP0142;TRN-120;Integridade e Compliance;Juridico;2025-06-11;2025-09-04;8;Concluido;10;1.600,00
+TRN00424;EMP0142;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-07-03;2025-08-13;16;Concluido;8;2.250,00
+TRN00425;EMP0143;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2026-01-26;2026-03-01;16;Concluido;5;5.550,00
+TRN00426;EMP0143;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-08-29;2025-11-26;8;Concluido;6;5.650,00
+TRN00427;EMP0143;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2026-02-27;2026-04-23;12;Concluido;6;4.100,00
+TRN00428;EMP0144;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-03-09;;8;Em andamento;;3.800,00
+TRN00429;EMP0144;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-02-18;2025-03-14;16;Cancelado;;6.350,00
+TRN00430;EMP0144;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-09-18;;12;Em andamento;;2.800,00
+TRN00431;EMP0144;TRN-120;Integridade e Compliance;Juridico;2026-03-11;2026-05-27;8;Concluido;8;3.250,00
+TRN00432;EMP0145;TRN-110;Sucessao e Plano de Carreira;Lideranca;2024-12-04;2025-01-10;12;Cancelado;;3.800,00
+TRN00433;EMP0145;TRN-118;LGPD e Protecao de Dados;Juridico;2025-04-11;2025-05-10;8;Concluido;7;5.350,00
+TRN00434;EMP0145;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2026-02-28;;8;Em andamento;;2.950,00
+TRN00435;EMP0145;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-09-17;2025-10-13;8;Nao iniciado;;7.900,00
+TRN00436;EMP0145;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2025-05-13;2025-07-24;12;Concluido;10;4.150,00
+TRN00437;EMP0146;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2025-03-10;2025-04-27;24;Concluido;9;7.150,00
+TRN00438;EMP0146;TRN-112;Logistica de Distribuicao e Rota;Operacao;2026-02-06;2026-04-20;20;Concluido;9;2.200,00
+TRN00439;EMP0146;TRN-120;Integridade e Compliance;Juridico;2024-11-03;2024-12-01;8;Concluido;7;7.450,00
+TRN00440;EMP0146;TRN-120;Integridade e Compliance;Juridico;2025-06-14;2025-08-16;8;Concluido;9;4.650,00
+TRN00441;EMP0147;TRN-114;Gestao de Contratos e Compras;Administracao;2025-05-12;2025-06-10;12;Concluido;8;400,00
+TRN00442;EMP0147;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2025-07-09;2025-09-03;12;Concluido;10;1.550,00
+TRN00443;EMP0147;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-06-15;2025-08-10;16;Concluido;9;2.300,00
+TRN00444;EMP0147;TRN-118;LGPD e Protecao de Dados;Juridico;2026-02-26;;8;Em andamento;;1.500,00
+TRN00445;EMP0148;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-12-16;2026-01-26;8;Concluido;9;2.950,00
+TRN00446;EMP0148;TRN-106;Negocio de Bebidas e Canais;Comercial;2024-11-10;2025-02-05;12;Concluido;10;3.200,00
+TRN00447;EMP0148;TRN-112;Logistica de Distribuicao e Rota;Operacao;2026-02-09;2026-04-27;20;Concluido;8;5.500,00
+TRN00448;EMP0148;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2025-04-20;2025-06-28;16;Cancelado;;3.750,00
+TRN00449;EMP0149;TRN-121;Negociacao para Grandes Contas;Comercial;2025-06-28;2025-08-26;20;Concluido;6;5.050,00
+TRN00450;EMP0149;TRN-121;Negociacao para Grandes Contas;Comercial;2026-02-19;2026-03-29;20;Concluido;8;650,00
+TRN00451;EMP0149;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-01-19;2025-02-17;16;Concluido;6;1.550,00
+TRN00452;EMP0150;TRN-114;Gestao de Contratos e Compras;Administracao;2025-08-02;2025-10-27;12;Concluido;7;6.100,00
+TRN00453;EMP0150;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-03-23;2025-05-05;12;Concluido;4;7.700,00
+TRN00454;EMP0150;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-10-21;2025-12-05;12;Concluido;7;4.350,00
+TRN00455;EMP0150;TRN-120;Integridade e Compliance;Juridico;2025-06-19;;8;Em andamento;;4.650,00
+TRN00456;EMP0150;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-02-27;2025-05-23;16;Concluido;9;4.250,00
+TRN00457;EMP0151;TRN-108;Gestao de Equipe e Feedback;Lideranca;2024-12-31;2025-02-02;20;Concluido;9;5.850,00
+TRN00458;EMP0151;TRN-115;Orcamento e Controle de Custos;Administracao;2025-09-03;2025-10-05;16;Concluido;7;1.600,00
+TRN00459;EMP0151;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2025-04-05;2025-05-25;12;Concluido;9;6.100,00
+TRN00460;EMP0152;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-10-06;2025-11-18;16;Concluido;7;750,00
+TRN00461;EMP0153;TRN-106;Negocio de Bebidas e Canais;Comercial;2026-01-25;2026-03-03;12;Cancelado;;4.500,00
+TRN00462;EMP0153;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-05-21;2025-07-27;16;Concluido;9;6.950,00
+TRN00463;EMP0153;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2024-11-15;2025-01-19;8;Concluido;7;6.500,00
+TRN00464;EMP0153;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-04-17;2025-04-29;20;Concluido;7;1.100,00
+TRN00465;EMP0154;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-10-16;2025-12-21;20;Cancelado;;350,00
+TRN00466;EMP0154;TRN-118;LGPD e Protecao de Dados;Juridico;2025-09-25;2025-11-05;8;Concluido;8;3.400,00
+TRN00467;EMP0155;TRN-118;LGPD e Protecao de Dados;Juridico;2024-11-01;2024-12-13;8;Concluido;7;1.550,00
+TRN00468;EMP0155;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2026-01-14;2026-02-11;16;Cancelado;;1.600,00
+TRN00469;EMP0155;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2026-01-21;2026-03-13;16;Concluido;9;3.700,00
+TRN00470;EMP0155;TRN-112;Logistica de Distribuicao e Rota;Operacao;2024-11-18;2025-01-12;20;Cancelado;;3.500,00
+TRN00471;EMP0155;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-08-24;2025-10-28;16;Concluido;10;1.850,00
+TRN00472;EMP0156;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-08-27;;16;Em andamento;;2.800,00
+TRN00473;EMP0156;TRN-115;Orcamento e Controle de Custos;Administracao;2024-12-11;2024-12-31;16;Concluido;7;5.850,00
+TRN00474;EMP0156;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-07-27;2025-08-15;16;Concluido;8;6.350,00
+TRN00475;EMP0156;TRN-112;Logistica de Distribuicao e Rota;Operacao;2026-02-21;;20;Em andamento;;1.350,00
+TRN00476;EMP0157;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-03-23;2025-05-18;8;Concluido;10;6.050,00
+TRN00477;EMP0157;TRN-109;Lideranca para Coordenadores;Lideranca;2026-01-09;2026-03-30;24;Concluido;9;600,00
+TRN00478;EMP0157;TRN-122;Gestao de Mudanca;Lideranca;2024-12-02;2025-02-11;12;Nao iniciado;;3.450,00
+TRN00479;EMP0158;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-01-18;2025-04-09;12;Concluido;8;5.750,00
+TRN00480;EMP0158;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-03-03;2025-05-19;8;Concluido;7;5.600,00
+TRN00481;EMP0159;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2026-02-07;2026-05-06;16;Concluido;8;6.400,00
+TRN00482;EMP0159;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-07-09;2025-08-20;16;Cancelado;;1.400,00
+TRN00483;EMP0159;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2024-12-11;;16;Em andamento;;7.850,00
+TRN00484;EMP0159;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2026-01-24;2026-04-15;12;Concluido;6;5.300,00
+TRN00485;EMP0159;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2026-02-16;;16;Em andamento;;3.500,00
+TRN00486;EMP0160;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2024-12-28;2025-02-14;16;Concluido;5;100,00
+TRN00487;EMP0160;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-04-26;2025-07-08;16;Concluido;9;2.950,00
+TRN00488;EMP0160;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-11-29;2026-01-20;20;Concluido;7;5.250,00
+TRN00489;EMP0161;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2026-02-18;2026-02-26;16;Cancelado;;2.200,00
+TRN00490;EMP0161;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2025-11-21;2026-02-19;12;Concluido;6;800,00
+TRN00491;EMP0162;TRN-114;Gestao de Contratos e Compras;Administracao;2025-04-17;2025-06-02;12;Concluido;8;5.150,00
+TRN00492;EMP0162;TRN-122;Gestao de Mudanca;Lideranca;2025-06-12;2025-08-16;12;Concluido;9;2.400,00
+TRN00493;EMP0163;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-07-27;2025-09-02;12;Concluido;8;3.200,00
+TRN00494;EMP0163;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-04-29;2025-07-20;8;Nao iniciado;;4.350,00
+TRN00495;EMP0164;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-07-28;2025-10-11;16;Concluido;8;3.650,00
+TRN00496;EMP0164;TRN-115;Orcamento e Controle de Custos;Administracao;2025-11-20;2025-11-30;16;Concluido;7;1.300,00
+TRN00497;EMP0164;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-11-21;2025-12-13;16;Concluido;7;6.950,00
+TRN00498;EMP0164;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-08-19;2025-08-26;16;Cancelado;;1.800,00
+TRN00499;EMP0165;TRN-120;Integridade e Compliance;Juridico;2025-12-21;2026-03-05;8;Concluido;9;400,00
+TRN00500;EMP0165;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-12-21;2026-03-21;8;Concluido;8;150,00
+TRN00501;EMP0165;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-04-25;;20;Em andamento;;100,00
+TRN00502;EMP0166;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2024-11-25;2024-12-27;16;Concluido;5;3.900,00
+TRN00503;EMP0166;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2026-01-17;2026-02-02;8;Concluido;10;3.400,00
+TRN00504;EMP0166;TRN-120;Integridade e Compliance;Juridico;2025-05-17;2025-06-15;8;Concluido;8;4.450,00
+TRN00505;EMP0166;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2024-11-22;2025-02-05;16;Cancelado;;6.250,00
+TRN00506;EMP0167;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-04-14;2025-06-21;8;Cancelado;;4.600,00
+TRN00507;EMP0167;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-07-04;2025-07-17;16;Concluido;7;1.800,00
+TRN00508;EMP0167;TRN-118;LGPD e Protecao de Dados;Juridico;2024-11-01;2024-12-28;8;Concluido;9;7.050,00
+TRN00509;EMP0168;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-03-09;;8;Em andamento;;150,00
+TRN00510;EMP0168;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-08-01;2025-09-19;12;Nao iniciado;;4.800,00
+TRN00511;EMP0169;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-02-13;2025-04-07;16;Concluido;7;5.600,00
+TRN00512;EMP0170;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2026-02-10;2026-05-11;16;Concluido;9;6.450,00
+TRN00513;EMP0171;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2025-02-19;2025-03-09;12;Concluido;9;1.300,00
+TRN00514;EMP0171;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2025-05-12;2025-05-25;24;Concluido;8;5.050,00
+TRN00515;EMP0172;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2026-01-14;2026-01-25;12;Concluido;9;6.300,00
+TRN00516;EMP0172;TRN-115;Orcamento e Controle de Custos;Administracao;2025-06-03;2025-06-20;16;Concluido;8;4.000,00
+TRN00517;EMP0172;TRN-121;Negociacao para Grandes Contas;Comercial;2025-03-26;2025-04-11;20;Concluido;10;4.450,00
+TRN00518;EMP0173;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2025-03-24;2025-05-21;24;Concluido;8;7.000,00
+TRN00519;EMP0173;TRN-106;Negocio de Bebidas e Canais;Comercial;2024-11-23;2025-01-06;12;Concluido;9;6.100,00
+TRN00520;EMP0174;TRN-114;Gestao de Contratos e Compras;Administracao;2026-02-11;2026-03-15;12;Concluido;7;3.500,00
+TRN00521;EMP0174;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-05-11;2025-07-29;12;Cancelado;;500,00
+TRN00522;EMP0174;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-03-20;2025-05-12;20;Concluido;8;1.600,00
+TRN00523;EMP0174;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2026-01-23;2026-04-14;8;Concluido;6;5.450,00
+TRN00524;EMP0175;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-07-01;2025-08-10;16;Concluido;8;100,00
+TRN00525;EMP0176;TRN-108;Gestao de Equipe e Feedback;Lideranca;2024-12-28;;20;Em andamento;;1.050,00
+TRN00526;EMP0176;TRN-115;Orcamento e Controle de Custos;Administracao;2025-02-24;2025-04-24;16;Concluido;9;6.950,00
+TRN00527;EMP0176;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-03-26;2025-05-20;8;Cancelado;;5.600,00
+TRN00528;EMP0176;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2024-11-06;2024-11-27;8;Cancelado;;2.150,00
+TRN00529;EMP0177;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2026-02-17;2026-03-26;16;Concluido;9;5.500,00
+TRN00530;EMP0177;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-04-18;2025-05-23;16;Concluido;10;3.800,00
+TRN00531;EMP0177;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-10-24;2026-01-11;12;Concluido;6;2.350,00
+TRN00532;EMP0178;TRN-118;LGPD e Protecao de Dados;Juridico;2025-11-08;2026-01-19;8;Cancelado;;4.750,00
+TRN00533;EMP0178;TRN-109;Lideranca para Coordenadores;Lideranca;2026-01-06;;24;Em andamento;;5.200,00
+TRN00534;EMP0179;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2026-03-06;2026-05-25;16;Concluido;9;6.950,00
+TRN00535;EMP0179;TRN-105;Power BI para Decisao Gerencial;Dados e Tecnologia;2025-11-14;2025-12-22;16;Concluido;8;4.700,00
+TRN00536;EMP0179;TRN-115;Orcamento e Controle de Custos;Administracao;2026-02-09;2026-05-01;16;Concluido;8;1.900,00
+TRN00537;EMP0179;TRN-115;Orcamento e Controle de Custos;Administracao;2025-07-01;2025-07-10;16;Concluido;9;6.200,00
+TRN00538;EMP0179;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2024-12-20;2025-01-24;8;Concluido;7;2.400,00
+TRN00539;EMP0180;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-04-22;2025-05-21;8;Cancelado;;6.150,00
+TRN00540;EMP0180;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2025-10-31;2025-12-13;12;Concluido;8;3.900,00
+TRN00541;EMP0181;TRN-103;Excel Aplicado a Gestao;Dados e Tecnologia;2025-10-26;;16;Em andamento;;500,00
+TRN00542;EMP0181;TRN-120;Integridade e Compliance;Juridico;2024-11-15;2024-11-22;8;Concluido;8;350,00
+TRN00543;EMP0181;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-11-10;;12;Em andamento;;2.300,00
+TRN00544;EMP0181;TRN-118;LGPD e Protecao de Dados;Juridico;2025-12-03;2026-02-25;8;Concluido;6;1.850,00
+TRN00545;EMP0181;TRN-118;LGPD e Protecao de Dados;Juridico;2025-05-05;;8;Em andamento;;5.700,00
+TRN00546;EMP0182;TRN-118;LGPD e Protecao de Dados;Juridico;2025-03-17;;8;Em andamento;;5.150,00
+TRN00547;EMP0182;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-09-25;2025-12-22;16;Concluido;7;6.950,00
+TRN00548;EMP0182;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2026-02-22;2026-04-27;12;Concluido;7;7.850,00
+TRN00549;EMP0182;TRN-122;Gestao de Mudanca;Lideranca;2024-11-19;2025-02-02;12;Concluido;9;6.900,00
+TRN00550;EMP0183;TRN-104;Analise de Dados com Python;Dados e Tecnologia;2025-03-06;2025-04-22;24;Concluido;9;200,00
+TRN00551;EMP0183;TRN-110;Sucessao e Plano de Carreira;Lideranca;2026-01-11;2026-02-24;12;Concluido;8;6.000,00
+TRN00552;EMP0183;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2025-12-27;2026-03-02;12;Concluido;8;6.400,00
+TRN00553;EMP0184;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-12-22;;12;Em andamento;;4.400,00
+TRN00554;EMP0184;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-11-23;2025-12-01;8;Concluido;7;3.100,00
+TRN00555;EMP0185;TRN-102;Direitos Trabalhistas na Pratica;Juridico;2025-07-23;;12;Em andamento;;2.450,00
+TRN00556;EMP0185;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-06-05;2025-09-02;20;Concluido;8;5.100,00
+TRN00557;EMP0185;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-06-02;2025-07-18;12;Concluido;10;2.200,00
+TRN00558;EMP0186;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-05-11;2025-07-28;16;Concluido;6;7.000,00
+TRN00559;EMP0186;TRN-122;Gestao de Mudanca;Lideranca;2026-02-11;2026-03-03;12;Cancelado;;4.850,00
+TRN00560;EMP0186;TRN-115;Orcamento e Controle de Custos;Administracao;2025-10-27;2025-12-28;16;Concluido;10;6.650,00
+TRN00561;EMP0186;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-07-04;2025-10-02;8;Nao iniciado;;7.150,00
+TRN00562;EMP0187;TRN-109;Lideranca para Coordenadores;Lideranca;2025-08-06;2025-08-29;24;Concluido;10;6.300,00
+TRN00563;EMP0187;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-03-19;2025-05-14;8;Concluido;9;2.350,00
+TRN00564;EMP0187;TRN-112;Logistica de Distribuicao e Rota;Operacao;2026-01-22;2026-03-04;20;Concluido;8;3.050,00
+TRN00565;EMP0188;TRN-120;Integridade e Compliance;Juridico;2025-08-15;;8;Em andamento;;500,00
+TRN00566;EMP0188;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2024-11-21;2024-12-08;8;Concluido;9;5.700,00
+TRN00567;EMP0188;TRN-106;Negocio de Bebidas e Canais;Comercial;2025-01-08;2025-01-31;12;Concluido;8;2.200,00
+TRN00568;EMP0189;TRN-111;Atendimento ao Cliente com Qualidade;Atendimento;2025-01-04;2025-02-28;12;Concluido;9;1.550,00
+TRN00569;EMP0189;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-11-11;2026-01-24;20;Concluido;8;6.800,00
+TRN00570;EMP0190;TRN-118;LGPD e Protecao de Dados;Juridico;2025-08-02;2025-09-28;8;Nao iniciado;;6.750,00
+TRN00571;EMP0190;TRN-108;Gestao de Equipe e Feedback;Lideranca;2024-11-18;2025-01-30;20;Concluido;8;6.050,00
+TRN00572;EMP0190;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-02-18;2025-05-16;16;Concluido;8;4.350,00
+TRN00573;EMP0191;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-01-21;2025-03-17;8;Concluido;2;7.050,00
+TRN00574;EMP0191;TRN-121;Negociacao para Grandes Contas;Comercial;2026-01-20;;20;Em andamento;;250,00
+TRN00575;EMP0191;TRN-121;Negociacao para Grandes Contas;Comercial;2025-02-12;2025-05-13;20;Concluido;10;4.850,00
+TRN00576;EMP0192;TRN-109;Lideranca para Coordenadores;Lideranca;2025-09-06;2025-10-19;24;Concluido;9;6.550,00
+TRN00577;EMP0192;TRN-121;Negociacao para Grandes Contas;Comercial;2024-10-29;2024-11-27;20;Concluido;8;5.700,00
+TRN00578;EMP0192;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-07-10;2025-07-22;12;Concluido;8;6.650,00
+TRN00579;EMP0192;TRN-121;Negociacao para Grandes Contas;Comercial;2025-01-30;2025-03-26;20;Cancelado;;5.200,00
+TRN00580;EMP0193;TRN-116;Comunicacao Corporativa e Midia;Comunicacao;2025-04-16;;12;Em andamento;;5.750,00
+TRN00581;EMP0193;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-11-16;2025-11-29;16;Concluido;7;1.650,00
+TRN00582;EMP0193;TRN-110;Sucessao e Plano de Carreira;Lideranca;2025-09-23;;12;Em andamento;;950,00
+TRN00583;EMP0193;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2025-02-27;2025-04-30;8;Concluido;7;1.250,00
+TRN00584;EMP0194;TRN-118;LGPD e Protecao de Dados;Juridico;2025-07-30;2025-09-30;8;Concluido;7;7.150,00
+TRN00585;EMP0195;TRN-113;Manutencao Autonoma de Equipamentos;Operacao;2025-08-30;2025-09-25;16;Cancelado;;1.000,00
+TRN00586;EMP0195;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2025-11-18;2026-01-20;16;Concluido;7;100,00
+TRN00587;EMP0196;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2024-12-13;2025-02-19;8;Concluido;10;2.500,00
+TRN00588;EMP0196;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2024-12-10;2025-02-06;8;Concluido;10;1.300,00
+TRN00589;EMP0196;TRN-118;LGPD e Protecao de Dados;Juridico;2025-05-03;;8;Em andamento;;5.350,00
+TRN00590;EMP0197;TRN-107;Trade Marketing e Execucao no PDV;Comercial;2026-01-16;2026-01-31;16;Concluido;7;5.150,00
+TRN00591;EMP0197;TRN-114;Gestao de Contratos e Compras;Administracao;2025-04-14;2025-04-29;12;Nao iniciado;;4.100,00
+TRN00592;EMP0197;TRN-106;Negocio de Bebidas e Canais;Comercial;2024-11-23;2025-02-19;12;Concluido;9;7.100,00
+TRN00593;EMP0197;TRN-117;Sustentabilidade e Coleta Seletiva;Sustentabilidade;2025-02-23;2025-04-04;8;Concluido;8;7.850,00
+TRN00594;EMP0197;TRN-101;Seguranca do Trabalho e Uso de EPI;Seguranca do Trabalho;2025-08-12;2025-10-06;8;Concluido;9;5.700,00
+TRN00595;EMP0198;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-06-09;2025-07-15;16;Concluido;6;1.050,00
+TRN00596;EMP0198;TRN-119;Diversidade, Inclusao e Conduta;Pessoas;2026-02-11;;8;Em andamento;;1.750,00
+TRN00597;EMP0198;TRN-124;Primeiros Socorros;Seguranca do Trabalho;2025-02-17;2025-04-18;16;Cancelado;;2.200,00
+TRN00598;EMP0199;TRN-123;Ciclo de Vendas com CRM;Dados e Tecnologia;2025-06-29;2025-09-11;12;Concluido;8;1.900,00
+TRN00599;EMP0199;TRN-112;Logistica de Distribuicao e Rota;Operacao;2025-08-22;2025-10-13;20;Concluido;9;4.550,00
+TRN00600;EMP0199;TRN-108;Gestao de Equipe e Feedback;Lideranca;2025-04-05;2025-05-07;20;Concluido;9;3.100,00
+TRN00601;EMP0200;TRN-121;Negociacao para Grandes Contas;Comercial;2025-01-04;2025-02-04;20;Concluido;10;5.500,00
+TRN00602;EMP0200;TRN-118;LGPD e Protecao de Dados;Juridico;2025-11-28;2026-01-19;8;Concluido;6;4.800,00
