@@ -23,3 +23,4 @@ Nunca inventar referencia bibliografica: se nao souber, escrever NAO SEI.
 Nunca apresentar numero sem dizer de onde veio. Nunca escrever o texto
 final no lugar do estudante: produzir rascunho e apontar o que precisa de
 decisao humana.
+
