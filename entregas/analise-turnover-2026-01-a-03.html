@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Análise de Turnover · Jan–Mar 2026 (Simulação)</title>
+<style>
+:root{--vinho:#8D0333;--dourado:#D4B277;--teal:#0AB0AB;--amarelo:#FEC84D;--card:#F5F5F5;--linha:#E2E2E2;--txt:#1A1A1A;--body:#333;--muted:#6B6B6B}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--body);font-family:"Segoe UI",Calibri,system-ui,sans-serif;font-size:16px;line-height:1.55}
+.barra{height:14px;background:var(--vinho)}
+.capa{background:var(--vinho);color:#fff;padding:48px 28px 36px}
+.dentro{max-width:1080px;margin:0 auto}
+.cod{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--dourado);font-weight:700;margin:0 0 10px}
+.capa h1{font-size:34px;margin:0 0 10px}
+.capa p{margin:0;color:#F2E4E9;max-width:80ch}
+.filete{height:4px;background:var(--dourado)}
+main{max-width:1080px;margin:0 auto;padding:32px 28px 60px}
+h2{color:var(--vinho);font-size:23px;margin:38px 0 6px}
+.sub{color:var(--muted);margin:0 0 16px;font-size:15px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:16px 0}
+.kpi{border:1px solid var(--linha);border-top:4px solid var(--dourado);background:var(--card);padding:14px 16px}
+.kpi.teal{border-top-color:var(--teal)} .kpi.vinho{border-top-color:var(--vinho)}
+.kpi .rot{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--vinho)}
+.kpi .num{font-size:30px;font-weight:700;color:var(--txt);margin:4px 0}
+.kpi .det{font-size:14px;color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:14px 0}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--linha)}
+th{color:var(--vinho);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase}
+.num-r{text-align:right;font-variant-numeric:tabular-nums}
+.bar{display:flex;align-items:center;gap:10px;margin:8px 0}
+.bar .lab{width:150px;font-size:14px}
+.bar .track{flex:1;background:#eee;height:18px;border-radius:3px;overflow:hidden}
+.bar .fill{height:100%;background:var(--vinho)}
+.bar .fill.teal{background:var(--teal)} .bar .fill.gold{background:var(--dourado)}
+.bar .val{width:90px;font-size:14px;text-align:right;font-variant-numeric:tabular-nums}
+.cx{border:1px solid var(--linha);border-left:4px solid var(--teal);background:var(--card);padding:14px 18px;margin:16px 0}
+.cx.aviso{border-left-color:var(--amarelo)}
+code{background:var(--card);padding:1px 6px;border-radius:2px}
+footer{border-top:1px solid var(--linha);padding:20px 28px 40px;color:var(--muted);font-size:14px}
+@media(max-width:600px){.capa h1{font-size:26px}main{padding:24px 18px 40px}.bar .lab{width:110px}}
+@media print{@page{margin:12mm} .barra{display:none}}
+</style>
+</head>
+<body>
+<div class="barra"></div>
+<header class="capa"><div class="dentro">
+<p class="cod">DECC0294 · Análise de Turnover · Simulação</p>
+<h1>Rotatividade Jan–Mar 2026 — 17 desligamentos simulados</h1>
+<p>Fonte: <code>simulacao-turnover-2026-01-a-03.csv</code> (1 linha por desligamento, delimitador <code>;</code>). Regra: só CLT efetivos. Estagiário/temporário/terceirizado/aprendiz NÃO incluídos. Transferência interna NÃO conta. Afastado conta como ativo.</p>
+</div></header>
+<div class="filete"></div>
+<main>
+<h2>1. Resultado mensal</h2>
+<p class="sub">HC médio = (HC início + HC fim) / 2 · Turnover = Desligados / HC médio × 100 · Giro geral = [(Admitidos + Desligados) / 2] / HC médio × 100</p>
+<div class="cards">
+<div class="kpi vinho"><div class="rot">Jan/2026 · Turnover</div><div class="num">5,04%</div><div class="det">6 deslig. / HC médio 119 (120→118). Vol 2,52% · Invol 2,52% · Giro 4,20%</div></div>
+<div class="kpi"><div class="rot">Fev/2026 · Turnover</div><div class="num">5,15%</div><div class="det">6 deslig. / HC médio 116,5 (118→115). Vol 3,43% · Invol 1,72% · Giro 3,86%</div></div>
+<div class="kpi teal"><div class="rot">Mar/2026 · Turnover</div><div class="num">4,29%</div><div class="det">5 deslig. / HC médio 116,5 (115→118). Vol 2,58% · Invol 1,72% · Giro 5,58%</div></div>
+</div>
+<table>
+<tr><th>Mês</th><th class="num-r">HC ini</th><th class="num-r">HC fim</th><th class="num-r">HC méd</th><th class="num-r">Adm</th><th class="num-r">Desl</th><th class="num-r">Turnover</th><th class="num-r">Vol</th><th class="num-r">Invol</th><th class="num-r">Giro</th></tr>
+<tr><td>2026-01</td><td class="num-r">120</td><td class="num-r">118</td><td class="num-r">119,0</td><td class="num-r">4</td><td class="num-r">6</td><td class="num-r">5,04%</td><td class="num-r">2,52%</td><td class="num-r">2,52%</td><td class="num-r">4,20%</td></tr>
+<tr><td>2026-02</td><td class="num-r">118</td><td class="num-r">115</td><td class="num-r">116,5</td><td class="num-r">3</td><td class="num-r">6</td><td class="num-r">5,15%</td><td class="num-r">3,43%</td><td class="num-r">1,72%</td><td class="num-r">3,86%</td></tr>
+<tr><td>2026-03</td><td class="num-r">115</td><td class="num-r">118</td><td class="num-r">116,5</td><td class="num-r">8</td><td class="num-r">5</td><td class="num-r">4,29%</td><td class="num-r">2,58%</td><td class="num-r">1,72%</td><td class="num-r">5,58%</td></tr>
+<tr><td><strong>Trimestre</strong></td><td class="num-r">120</td><td class="num-r">118</td><td class="num-r">119,0</td><td class="num-r">15</td><td class="num-r">17</td><td class="num-r"><strong>14,29%</strong></td><td class="num-r">—</td><td class="num-r">—</td><td class="num-r">—</td></tr>
+</table>
+<div class="cx"><p><strong>Leitura:</strong> subiu 5,04% → 5,15% (jan→fev) e caiu para 4,29% em mar. Mar tem o maior giro (5,58%) por 8 admissões. Queda de 1 mês não é tendência.</p></div>
+
+<h2>2. Segmentação — concentração dos 17 desligados</h2>
+<p class="sub">Sem headcount por segmento no arquivo: apresentado como concentração, não como taxa por segmento.</p>
+<h3 style="color:var(--vinho)">Área</h3>
+<div class="bar"><span class="lab">Operações (9)</span><div class="track"><div class="fill" style="width:52.9%"></div></div><span class="val">52,9%</span></div>
+<div class="bar"><span class="lab">Vendas (5)</span><div class="track"><div class="fill teal" style="width:29.4%"></div></div><span class="val">29,4%</span></div>
+<div class="bar"><span class="lab">Administrativo (3)</span><div class="track"><div class="fill gold" style="width:17.6%"></div></div><span class="val">17,6%</span></div>
+
+<h3 style="color:var(--vinho)">Tempo de casa</h3>
+<div class="bar"><span class="lab">0–90 dias (6)</span><div class="track"><div class="fill" style="width:35.3%"></div></div><span class="val">35,3%</span></div>
+<div class="bar"><span class="lab">1 ano+ (5)</span><div class="track"><div class="fill teal" style="width:29.4%"></div></div><span class="val">29,4%</span></div>
+<div class="bar"><span class="lab">3–6 meses (3)</span><div class="track"><div class="fill gold" style="width:17.6%"></div></div><span class="val">17,6%</span></div>
+<div class="bar"><span class="lab">6–12 meses (3)</span><div class="track"><div class="fill gold" style="width:17.6%"></div></div><span class="val">17,6%</span></div>
+
+<table>
+<tr><th>Recorte</th><th>Distribuição (n=17)</th><th>Destaque mensal</th></tr>
+<tr><td>Gestor</td><td>R. Souza 9 · P. Lima 5 · M. Costa 3</td><td>R. Souza: 3 saídas em cada mês</td></tr>
+<tr><td>Unidade</td><td>A 10 (58,8%) · B 7 (41,2%)</td><td>Jan 3–3 · Fev 4–2 · Mar 3–2</td></tr>
+<tr><td>Cargo</td><td>Aux. Operacional 4 · Vend. Jr 3 · demais 1–2</td><td>Base operacional/júnior: 11/17</td></tr>
+<tr><td>Tipo</td><td>Voluntário 10 (58,8%) · Involuntário 7 (41,2%)</td><td>Fev: 4 voluntários em 6</td></tr>
+<tr><td>Motivo</td><td>cultura/fit 5 · remuneração 3 · carreira 3 · carga 3 · liderança 2 · não informado 1</td><td>SIM-012 sem entrevista</td></tr>
+</table>
+
+<h2>3. Interpretação</h2>
+<div class="cx"><p><strong>Total:</strong> alta leve jan→fev, recuo em mar. Giro sobe em mar pelas admissões. Aguardar 3+ meses para falar em tendência.</p>
+<p><strong>0–90 dias (35,3%, pico em fev):</strong> hipótese de recrutamento, expectativa e onboarding. Priorizar Auxiliar Operacional.</p>
+<p><strong>Operações / R. Souza (52,9%, 3/mês):</strong> hipótese de liderança ou sobrecarga. Checar carga, escala e rito de gestão.</p>
+<p><strong>Voluntário 58,8%:</strong> hipótese de clima, remuneração, carreira e carga. Remuneração concentra em Vendas (3x).</p>
+<p><strong>Involuntário 41,2% + cultura/fit 5x:</strong> hipótese de seleção, desempenho e adaptação cultural. 3/5 são Operações.</p></div>
+
+<h2>4. Limitações e método</h2>
+<div class="cx aviso"><p>Dados 100% simulados. Período curto (3 meses). Base pequena (n=17). Sem HC por área/cargo/unidade/gestor — por isso sem taxa segmentada. 1 caso com <strong>motivo não informado</strong> (SIM-012). Fórmulas: Sólides / Convenia / Qandle — turnover = desligados / HC médio × 100; giro = [(admitidos+desligados)/2] / HC médio × 100.</p></div>
+</main>
+<footer><div class="dentro">DECC0294 · TIC Aplicada à Administração · UFMA · Análise simulada Jan–Mar 2026 · Base: <code>simulacao-turnover-2026-01-a-03.csv</code></div></footer>
+</body>
+</html>

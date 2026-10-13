@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rotatividade Jan–Mar 2026 · Reunião Executiva</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--navy:#0F2340;--navy2:#162E52;--gold:#C9A86A;--gold2:#E8D5A8;--teal:#14B8A6;--rose:#E11D48;--bg:#0B1A33;--card:#FFFFFF;--muted:#64748B;--line:#E7ECF3}
+body{font-family:"Segoe UI",Inter,system-ui,-apple-system,sans-serif;background:var(--bg);color:#0f172a;height:100vh;overflow:hidden}
+#stage{position:fixed;inset:0;display:grid;place-items:center;padding:22px}
+.slide{width:min(1240px,100%);height:min(700px,92vh);background:#F8FAFC;border-radius:22px;overflow:hidden;display:none;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.45)}
+.slide.active{display:grid}
+.slide.split{grid-template-columns:1.05fr .95fr}
+.left{padding:54px 52px;display:flex;flex-direction:column;justify-content:center}
+.right{padding:36px;display:flex;flex-direction:column;justify-content:center}
+.eyebrow{font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);margin-bottom:12px}
+h1{font-size:52px;line-height:1.02;letter-spacing:-.02em}
+h2{font-size:38px;line-height:1.1;letter-spacing:-.02em;color:var(--navy)}
+h1 span{color:var(--gold2)}
+.sub{margin-top:14px;font-size:18px;line-height:1.5;color:#CBD5E1}
+.dark{background:linear-gradient(135deg,#0F2340 0%,#1B3A66 60%,#0F766E 130%);color:#fff}
+.dark .sub{color:#CBD5E1}
+.light{background:#fff;color:#0f172a}
+.accent{background:linear-gradient(135deg,#C9A86A,#F3E6C5);color:#0F2340}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}
+.kpi{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:16px;backdrop-filter:blur(6px)}
+.light .kpi{background:#F8FAFC;border-color:var(--line)}
+.kpi b{font-size:30px;display:block}
+.kpi small{font-size:13px;opacity:.85}
+.pill{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;padding:7px 12px;border-radius:999px;background:rgba(20,184,166,.15);color:#0F766E;border:1px solid rgba(20,184,166,.35)}
+.pill.warn{background:rgba(225,29,72,.12);color:#9F1239;border-color:rgba(225,29,72,.3)}
+.table{width:100%;border-collapse:collapse;font-size:14.5px;margin-top:16px;background:#fff;border-radius:12px;overflow:hidden}
+.table th{background:var(--navy);color:#fff;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;padding:10px 12px;text-align:left}
+.table td{padding:11px 12px;border-bottom:1px solid var(--line)}
+.table tr:last-child td{border-bottom:0;background:#FFF7E6;font-weight:700}
+.num{text-align:right;font-variant-numeric:tabular-nums;font-weight:700}
+.bars{margin-top:16px;display:grid;gap:12px}
+.brow{display:grid;grid-template-columns:130px 1fr 62px;gap:10px;align-items:center;font-size:14px}
+.track{height:22px;background:#EDF2F7;border-radius:999px;overflow:hidden;position:relative}
+.fill{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--navy),#2E5AAC);display:flex;align-items:center;justify-content:flex-end;padding-right:8px;color:#fff;font-size:12px;font-weight:800}
+.fill.teal{background:linear-gradient(90deg,#0F766E,#14B8A6)}
+.fill.gold{background:linear-gradient(90deg,#9C7A2E,#C9A86A)}
+.fill.rose{background:linear-gradient(90deg,#9F1239,#FB7185)}
+.donut{display:flex;gap:18px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px}
+.legend{font-size:14px;display:grid;gap:8px}
+.dot{width:11px;height:11px;border-radius:50%;display:inline-block;margin-right:8px}
+.action{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-top:12px}
+.action h4{font-size:15px;color:var(--navy);margin-bottom:6px}
+.action p{font-size:14.5px;color:#334155}
+.btnrow{margin-top:24px;display:flex;gap:12px}
+.btn{border:0;border-radius:999px;padding:13px 22px;font-weight:800;font-size:14px;cursor:pointer}
+.btn.primary{background:var(--gold);color:#0F2340}
+.btn.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.4)}
+.coverlogo{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.logo{width:44px;height:44px;border-radius:12px;background:var(--gold);display:grid;place-items:center;font-weight:900;color:#0F2340}
+#nav{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);display:flex;gap:10px;align-items:center;background:rgba(0,0,0,.6);color:#fff;padding:8px 14px;border-radius:999px;backdrop-filter:blur(8px);z-index:10}
+#nav button{background:#fff;color:#0F2340;border:0;width:34px;height:34px;border-radius:50%;font-weight:900;cursor:pointer}
+#dots{display:flex;gap:6px;margin:0 6px}
+#dots i{width:8px;height:8px;border-radius:50%;background:#64748B;display:block;cursor:pointer}
+#dots i.on{background:var(--gold);width:22px;border-radius:999px}
+.hint{position:fixed;top:14px;left:50%;transform:translateX(-50%);color:#CBD5E1;font-size:13px;background:rgba(0,0,0,.5);padding:6px 14px;border-radius:999px}
+.vizcard{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}
+.footerline{margin-top:14px;font-size:12.5px;color:var(--muted)}
+@media print{@page{size:landscape;margin:0}body{overflow:visible;background:#fff}#stage{display:block;padding:0}.slide{display:grid!important;box-shadow:none;border-radius:0;height:100vh;page-break-after:always}#nav,.hint{display:none}}
+@media(max-width:900px){.slide.split{grid-template-columns:1fr}.right{display:none}.left{padding:32px}h1{font-size:36px}h2{font-size:28px}body{overflow:auto}#stage{position:static}.slide{height:auto;min-height:90vh}}
+</style>
+</head>
+<body>
+<div class="hint">Use ← → ou clique nas setas para apresentar &nbsp;·&nbsp; F11 para tela cheia</div>
+<div id="stage">
+
+<!-- 1 CAPA -->
+<section class="slide split dark active">
+<div class="left">
+<div class="coverlogo"><div class="logo">RH</div><div style="font-size:13px;letter-spacing:.14em;font-weight:800;color:var(--gold2)">REUNIÃO EXECUTIVA · 30 MIN</div></div>
+<div class="eyebrow">Rotatividade · Jan – Mar 2026</div>
+<h1>Estamos perdendo <span>quem não deveria sair</span> nos primeiros 90 dias.</h1>
+<p class="sub">17 desligamentos simulados. Turnover mensal 4–5%. 53% concentrado em Operações. Proposta de 3 frentes para os próximos 90 dias.</p>
+<div class="kpis">
+<div class="kpi"><small>TURNOVER MAR</small><b>4,29%</b><small>5 saídas / HC 116,5 · caiu vs fev 5,15%</small></div>
+<div class="kpi"><small>FOCO CRÍTICO</small><b>52,9%</b><small>9 de 17 saídas em Operações</small></div>
+<div class="kpi"><small>RISCO PRECOCE</small><b>35,3%</b><small>6 de 17 com 0–90 dias de casa</small></div>
+</div>
+<div class="btnrow"><button class="btn primary" onclick="go(1)">Começar →</button><button class="btn ghost" onclick="window.print()">Exportar PDF</button></div>
+</div>
+<div class="right" style="background:radial-gradient(circle at 30% 20%,#FFF7E6 0%,#F3E6C5 35%,#0F2340 36%);display:flex;align-items:center;justify-content:center">
+<div style="background:#fff;border-radius:18px;padding:26px;width:86%;box-shadow:0 20px 50px rgba(0,0,0,.25)">
+<div class="pill">DADOS SIMULADOS · CONFIDENCIAL</div>
+<h2 style="font-size:26px;margin:12px 0">A pergunta da reunião</h2>
+<p style="font-size:16px;color:#334155">Onde a saída dói mais — e o que travamos <b>esta semana</b> para estancar a perda de novatos e de Operações?</p>
+<div class="footerline">Fonte: simulacao-turnover-2026-01-a-03.csv · Regra: só CLT, transferência não conta.</div>
+</div>
+</div>
+</section>
+
+<!-- 2 EVOLUÇÃO -->
+<section class="slide split light">
+<div class="left">
+<div class="eyebrow">1 · Evolução mensal</div>
+<h2>Pico em fevereiro, alívio em março — mas com reposição alta.</h2>
+<p style="margin-top:10px;color:#475569">Fórmula: Turnover = Desligados ÷ HC médio × 100. HC médio = (início+fim)/2.</p>
+<table class="table"><tr><th>Mês</th><th>HC méd</th><th>Adm/Desl</th><th>Turnover</th></tr>
+<tr><td>Jan</td><td class="num">119,0</td><td class="num">4 / 6</td><td class="num">5,04%</td></tr>
+<tr><td>Fev</td><td class="num">116,5</td><td class="num">3 / 6</td><td class="num">5,15%</td></tr>
+<tr><td>Mar</td><td class="num">116,5</td><td class="num">8 / 5</td><td class="num">4,29%</td></tr>
+<tr><td>Trimestre</td><td class="num">119,0</td><td class="num">15 / 17</td><td class="num">14,29%</td></tr></table>
+<div style="margin-top:10px"><span class="pill">Voluntário 58,8% (10/17)</span> <span class="pill warn">Involuntário 41,2% (7/17)</span></div>
+</div>
+<div class="right">
+<div class="vizcard"><b style="color:var(--navy)">Turnover % por mês</b>
+<div class="bars">
+<div class="brow"><span>Jan 5,04%</span><div class="track"><div class="fill" style="width:97.8%"> </div></div><span class="num">6</span></div>
+<div class="brow"><span>Fev 5,15%</span><div class="track"><div class="fill rose" style="width:100%"> </div></div><span class="num">6</span></div>
+<div class="brow"><span>Mar 4,29%</span><div class="track"><div class="fill teal" style="width:83.3%"> </div></div><span class="num">5</span></div>
+</div>
+<div class="footerline">Giro geral: Jan 4,20% · Fev 3,86% · Mar 5,58% (mar contratou 8). Mar não é tendência, é 1 mês.</div>
+</div>
+</div>
+</section>
+
+<!-- 3 ONDE CONCENTRA -->
+<section class="slide split light">
+<div class="left">
+<div class="eyebrow">2 · Onde concentra</div>
+<h2>Não é geral. É Operações, Unidade A e um gestor.</h2>
+<div class="bars">
+<div class="brow"><span>Operações 9</span><div class="track"><div class="fill" style="width:52.9%">52,9%</div></div><span class="num">9</span></div>
+<div class="brow"><span>Vendas 5</span><div class="track"><div class="fill teal" style="width:29.4%">29%</div></div><span class="num">5</span></div>
+<div class="brow"><span>Adm 3</span><div class="track"><div class="fill gold" style="width:17.6%">18%</div></div><span class="num">3</span></div>
+</div>
+<table class="table"><tr><th>Gestor</th><th>Saídas</th><th>Unidade</th><th>Saídas</th></tr>
+<tr><td>R. Souza</td><td class="num">9 (3+3+3)</td><td>A</td><td class="num">10 (58,8%)</td></tr>
+<tr><td>P. Lima</td><td class="num">5</td><td>B</td><td class="num">7 (41,2%)</td></tr>
+<tr><td>M. Costa</td><td class="num">3</td><td>—</td><td class="num">—</td></tr></table>
+</div>
+<div class="right" style="background:var(--navy);border-radius:0 22px 22px 0;color:#fff">
+<div class="pill">HIPÓTESE A VALIDAR</div>
+<h2 style="color:#fff;margin-top:10px">Liderança ou sobrecarga?</h2>
+<p style="color:#CBD5E1;margin-top:8px">R. Souza perde 3 por mês, 3 meses seguidos. Aux. Operacional (4) + Operador Jr/Pleno (4) = coração da operação.</p>
+<div class="action" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.2)"><h4 style="color:var(--gold2)"> Immediate check — 7 dias</h4><p style="color:#E2E8F0">Escala, hora extra, absenteísmo e span de gestão de R. Souza. Conversa 1:1 com time remanescente.</p></div>
+</div>
+</section>
+
+<!-- 4 TEMPO + MOTIVO -->
+<section class="slide split light">
+<div class="left">
+<div class="eyebrow">3 · Tempo de casa + motivos</div>
+<h2>Um terço sai antes de completar 90 dias.</h2>
+<div class="donut">
+<svg width="120" height="120" viewBox="0 0 42 42"><circle cx="21" cy="21" r="15.9" fill="none" stroke="#EDF2F7" stroke-width="7"/><circle cx="21" cy="21" r="15.9" fill="none" stroke="#0F2340" stroke-width="7" stroke-dasharray="35.3 64.7" stroke-dashoffset="25"/><circle cx="21" cy="21" r="15.9" fill="none" stroke="#14B8A6" stroke-width="7" stroke-dasharray="29.4 70.6" stroke-dashoffset="-10.3"/><text x="21" y="23" text-anchor="middle" font-size="7" font-weight="800" fill="#0F2340">35%</text></svg>
+<div class="legend"><div><i class="dot" style="background:#0F2340"></i>0–90d: 6/17</div><div><i class="dot" style="background:#14B8A6"></i>1 ano+: 5/17</div><div><i class="dot" style="background:#C9A86A"></i>3–12m: 6/17</div></div>
+</div>
+<p class="footerline">0–90d alto = recrutamento, expectativa e onboarding. 1 caso sem entrevista (SIM-012: motivo não informado).</p>
+</div>
+<div class="right">
+<div class="vizcard"><b style="color:var(--navy)">Motivos padronizados</b>
+<div class="bars">
+<div class="brow"><span>cultura/fit</span><div class="track"><div class="fill" style="width:29.4%">5</div></div><span class="num">29%</span></div>
+<div class="brow"><span>remuneração</span><div class="track"><div class="fill teal" style="width:17.6%">3</div></div><span class="num">18%</span></div>
+<div class="brow"><span>carreira</span><div class="track"><div class="fill teal" style="width:17.6%">3</div></div><span class="num">18%</span></div>
+<div class="brow"><span>carga</span><div class="track"><div class="fill gold" style="width:17.6%">3</div></div><span class="num">18%</span></div>
+<div class="brow"><span>liderança</span><div class="track"><div class="fill gold" style="width:11.7%">2</div></div><span class="num">12%</span></div>
+</div>
+<div class="footerline">Voluntário puxa remuneração/carreira/carga. Involuntário puxa cultura/fit (seleção e adaptação).</div>
+</div>
+</div>
+</section>
+
+<!-- 5 PLANO -->
+<section class="slide split dark">
+<div class="left">
+<div class="eyebrow">4 · Decisão</div>
+<h1 style="font-size:40px">Plano 30 · 60 · 90 dias</h1>
+<p class="sub">Sem culpar. Travar a sangria de novatos e aliviar Operações.</p>
+<div class="action"><h4>30 dias — Estancar</h4><p>Checklist de onboarding 7/30/60/90 + padrinho. Revisar vaga de Aux. Operacional (salário vs mercado). Entrevista de desligamento 100%.</p></div>
+<div class="action"><h4>60 dias — Liderança</h4><p>Mentoria para R. Souza, redistribuir escala, plano de retenção Vendas (remuneração variável clara).</p></div>
+<div class="action"><h4>90 dias — Sistema</h4><p>Meta: turnover &lt; 3,5%/mês e 0–90d &lt; 25% das saídas. Painel mensal por gestor.</p></div>
+</div>
+<div class="right" style="background:#fff;border-radius:18px;margin:28px;color:#0f172a">
+<h2 style="font-size:24px">O que preciso de vocês hoje</h2>
+<div class="action"><h4>1. Dono + prazo</h4><p>Quem assume onboarding e quem assume conversa com Operações?</p></div>
+<div class="action"><h4>2. Verba</h4><p>Ajuste pontual de Aux. Operacional? Sim / Não / Estudar.</p></div>
+<div class="action"><h4>3. Ritmo</h4><p>Revisão mensal nesta reunião, 15 min, com HC por área (hoje falta).</p></div>
+<div class="footerline">Limites: simulação, n=17, 3 meses, sem HC por área — taxas segmentadas são concentração, não taxa real.</div>
+</div>
+</section>
+
+</div>
+<div id="nav"><button onclick="go(cur-1)">‹</button><div id="dots"></div><span id="cnt" style="font-size:13px;min-width:52px;text-align:center">1 / 5</span><button onclick="go(cur+1)">›</button></div>
+<script>
+var slides=[...document.querySelectorAll('.slide')],cur=0;
+var dots=document.getElementById('dots');
+dots.innerHTML=slides.map((_,i)=>'<i data-i="'+i+'"></i>').join('');
+dots.querySelectorAll('i').forEach(d=>d.onclick=()=>go(+d.dataset.i));
+function go(i){cur=(i+slides.length)%slides.length;slides.forEach((s,k)=>s.classList.toggle('active',k===cur));dots.querySelectorAll('i').forEach((d,k)=>d.classList.toggle('on',k===cur));document.getElementById('cnt').textContent=(cur+1)+' / '+slides.length}
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight')go(cur+1);if(e.key==='ArrowLeft')go(cur-1)});
+go(0);
+</script>
+</body>
+</html>

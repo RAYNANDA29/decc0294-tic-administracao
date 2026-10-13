@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Top 10 Municípios nas Transferências Constitucionais · Dez/2024 · Rascunho</title>
+<style>
+:root{--verde:#046A38;--amarelo:#FFDF00;--azul:#002776;--bg:#0B1526;--card:#13233D;--card2:#1A2F4D;--txt:#F2F5F9;--muted:#A8B8CC;--linha:#25405F;--fpm:#FFDF00;--fundeb:#00C853;--roy:#00B0FF;--outros:#B388FF}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 20% -10%,#12325c 0%,var(--bg) 55%),var(--bg);color:var(--txt);font-family:"Segoe UI",Calibri,system-ui,sans-serif;line-height:1.55}
+.faixa{height:10px;background:linear-gradient(90deg,var(--verde) 0 33%,var(--amarelo) 33% 66%,var(--azul) 66% 100%)}
+.capa{max-width:1120px;margin:0 auto;padding:42px 26px 10px}
+.tag{display:inline-block;background:var(--amarelo);color:#111;font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:5px 12px;border-radius:20px}
+.capa h1{font-size:36px;margin:14px 0 8px;line-height:1.15}
+.capa h1 span{color:var(--amarelo)}
+.capa p{color:var(--muted);max-width:95ch;margin:6px 0}
+main{max-width:1120px;margin:0 auto;padding:10px 26px 60px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:18px 0}
+.kpi{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--linha);border-radius:14px;padding:16px 18px}
+.kpi .rot{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--amarelo)}
+.kpi .num{font-size:30px;font-weight:800;margin:4px 0}
+.kpi .det{font-size:13px;color:var(--muted)}
+.podio{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:20px 0}
+.podio .col{background:var(--card);border:1px solid var(--linha);border-radius:14px;padding:18px;text-align:center}
+.col.ouro{border:2px solid var(--amarelo);transform:scale(1.04)}
+.col .medal{font-size:38px}
+.col h3{margin:6px 0 2px}
+.col .uf{color:var(--muted);font-size:13px}
+.col .valor{font-size:22px;font-weight:800;color:var(--amarelo);margin:6px 0}
+table{width:100%;border-collapse:collapse;font-size:14.5px;margin:14px 0;background:var(--card);border-radius:12px;overflow:hidden}
+th,td{padding:10px 12px;border-bottom:1px solid var(--linha);text-align:left}
+th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--amarelo);background:#0E1D33}
+td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.destaque td{background:#1B3A22}
+.bar{margin:9px 0}
+.bar .topo{display:flex;justify-content:space-between;font-size:14px;margin-bottom:4px}
+.track{background:#0E1D33;border:1px solid var(--linha);border-radius:8px;height:26px;overflow:hidden;display:flex}
+.seg{height:100%}
+.leg{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--muted);margin:8px 0}
+.dot{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:middle}
+.cx{background:var(--card);border:1px solid var(--linha);border-left:5px solid var(--amarelo);border-radius:10px;padding:14px 18px;margin:16px 0}
+.cx.verde{border-left-color:var(--fundeb)}
+.cx.azul{border-left-color:var(--roy)}
+h2{font-size:24px;margin:36px 0 4px;color:var(--amarelo)}
+.sub{color:var(--muted);margin:0 0 12px}
+.fonte{font-size:12.5px;color:var(--muted)}
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0}
+button{cursor:pointer;border:1px solid var(--linha);background:#0E1D33;color:var(--txt);padding:9px 16px;border-radius:20px;font-weight:700}
+button.ativo{background:var(--amarelo);color:#111;border-color:var(--amarelo)}
+footer{border-top:1px solid var(--linha);padding:22px 26px 40px;color:var(--muted);font-size:13px;max-width:1120px;margin:0 auto}
+@media(max-width:700px){.podio{grid-template-columns:1fr}.capa h1{font-size:26px}}
+@media print{.faixa{display:none}body{background:#fff;color:#111}.kpi,.col,table{background:#fff;color:#111}}
+</style>
+</head>
+<body>
+<div class="faixa"></div>
+<div class="capa">
+<span class="tag">Rascunho · DECC0294 · não é texto final</span>
+<h1>Quem embolsou mais grana da União? <span>Top 10 municípios · Dez/2024</span></h1>
+<p>Fala, cria! Esse painel resume a grana constitucional que caiu pros municípios em dezembro de 2024. Fonte de tudo: arquivo <strong>Transferencia_Mensal_Municipios_202412.csv</strong>, resource <strong>2403f2d8-1659-45cd-a6c9-83393ce6c3c8</strong>, do dataset <strong>transferencias-constitucionais-para-municipios</strong> no Tesouro Transparente. Somei 1º + 2º + 3º decêndio por município. Valores nominais, sem deflacionar.</p>
+<p class="fonte">Cruzamento: São Paulo na API viva <strong>por_estado_municipio?p_estado=26&amp;p_municipio=7107&amp;p_ano=2024&amp;p_mes=12</strong> deu R$ 808.641.870,87 — diferença de R$ 12,18 mi pro CSV é o item DEDU do FUNDEB. Tu decide se soma ou tira o DEDU.</p>
+</div>
+<main>
+<div class="grid">
+<div class="kpi"><div class="rot">Total distribuído no mês</div><div class="num">R$ 50,5 bi</div><div class="det">De onde veio? Soma das 79.343 linhas do CSV dez/2024.</div></div>
+<div class="kpi"><div class="rot">FPM no mês</div><div class="num">R$ 24,38 bi</div><div class="det">De onde veio? Mesmo CSV, Transferência = FPM.</div></div>
+<div class="kpi"><div class="rot">FUNDEB no mês</div><div class="num">R$ 22,89 bi</div><div class="det">De onde veio? Mesmo CSV, Transferência = FUNDEB.</div></div>
+<div class="kpi"><div class="rot">Royalties no mês</div><div class="num">R$ 2,94 bi</div><div class="det">De onde veio? Mesmo CSV, Transferência = Royalties.</div></div>
+</div>
+
+<h2>1. Pódio — os 3 gigantes</h2>
+<p class="sub">Barra 100% = São Paulo, o maior do mês.</p>
+<div class="podio">
+<div class="col"><div class="medal">🥈</div><h3>Rio de Janeiro</h3><div class="uf">RJ · capital</div><div class="valor">R$ 552,08 mi</div><div class="fonte">FPM 85,24 mi · FUNDEB 437,57 mi · Royalties 28,66 mi</div></div>
+<div class="col ouro"><div class="medal">🥇</div><h3>São Paulo</h3><div class="uf">SP · capital</div><div class="valor">R$ 820,83 mi</div><div class="fonte">FPM 74,59 mi · FUNDEB 741,60 mi · Royalties 1,77 mi</div></div>
+<div class="col"><div class="medal">🥉</div><h3>Fortaleza</h3><div class="uf">CE · capital</div><div class="valor">R$ 428,20 mi</div><div class="fonte">FPM 213,10 mi · FUNDEB 211,59 mi · Royalties 3,32 mi</div></div>
+</div>
+
+<h2>2. Ranking completo — top 10</h2>
+<p class="sub">Clica nos botões pra ordenar. Cor = composição: amarelo FPM · verde FUNDEB · azul Royalties.</p>
+<div class="btns">
+<button class="ativo" onclick="ordenar('total',this)">Por total</button>
+<button onclick="ordenar('fpm',this)">Por FPM</button>
+<button onclick="ordenar('fundeb',this)">Por FUNDEB</button>
+<button onclick="ordenar('roy',this)">Por Royalties</button>
+</div>
+<div id="ranking"></div>
+<div class="leg"><span><i class="dot" style="background:var(--fpm)"></i>FPM</span><span><i class="dot" style="background:var(--fundeb)"></i>FUNDEB</span><span><i class="dot" style="background:var(--roy)"></i>Royalties</span><span><i class="dot" style="background:var(--outros)"></i>ITR + LC176 + IOF-Ouro</span></div>
+
+<h2>3. Tabela com os números</h2>
+<table id="tab">
+<tr><th>#</th><th>Município</th><th style="text-align:right">Total</th><th style="text-align:right">FPM</th><th style="text-align:right">FUNDEB</th><th style="text-align:right">Royalties</th></tr>
+</table>
+
+<div class="cx verde"><strong>Leitura de quebrada:</strong> capital grande puxa FUNDEB porque tem aluno e ICMS pra caramba — São Paulo tem R$ 579 mi só de ICMS dentro do FUNDEB. Já Maricá (7º, R$ 257,7 mi) é o ponto fora da curva: R$ 222,25 mi é royalty de petróleo do pré-sal, FPM é só R$ 15 mi. São Luís (8º, R$ 225,47 mi) aparece por ser capital do Maranhão — interessa direto pro teu trampo da UFMA.</div>
+<div class="cx azul"><strong>Maranhão no rolê:</strong> São Luís/MA pegou R$ 133,19 mi de FPM + R$ 86,53 mi de FUNDEB + R$ 5,26 mi de Royalties em dez/2024, tudo desse mesmo CSV. Dá pra comparar com Imperatriz ou Caxias se tu quiser no trabalho.</div>
+<div class="cx"><strong>Limitação declarada:</strong> isso é só dezembro/2024, não é o ano fechado. O arquivo de outubro/2024 somou R$ 3.197.392.241.633,00 (3,19 tri) — bugado na fonte oficial — e janeiro/2024 nem existe no CKAN. Não deflacionei pelo IPCA. E o DEDU do FUNDEB eu somei junto; se teu professor mandar tirar, São Paulo cai pra R$ 808,64 mi.</div>
+
+<h2>4. Glossário rapidão</h2>
+<p class="sub">Definição + exemplo BR + onde conferir. Bibliografia de livro: NAO SEI, não vou inventar.</p>
+<table>
+<tr><th>Conceito</th><th>Definição</th><th>Exemplo BR (desse CSV)</th><th>Referência verificável</th></tr>
+<tr><td><strong>Transferência Constitucional</strong></td><td>Rateio obrigatório de receita federal pra estado/município</td><td>FPM caindo todo decêndio</td><td>gov.br/tesouronacional — transferências constitucionais e legais</td></tr>
+<tr><td><strong>FPM</strong></td><td>Fundo de IR + IPI pros municípios</td><td>Fortaleza: R$ 213,10 mi</td><td>tesourotransparente — tema transferências a estados e municípios</td></tr>
+<tr><td><strong>FUNDEB</strong></td><td>Fundo da educação, por aluno matriculado</td><td>São Paulo: R$ 741,60 mi</td><td>CKAN api-de-transferencias-constitucionais</td></tr>
+<tr><td><strong>Royalties</strong></td><td>Compensação por petróleo/minério/água</td><td>Maricá: R$ 222,25 mi</td><td>CKAN transferencias-constitucionais-para-municipios</td></tr>
+</table>
+<p class="fonte">Fontes: Tesouro Transparente tema Transferências a Estados e Municípios (atualizado em 08/10/2026) · CKAN package_show?id=transferencias-constitucionais-para-municipios · API Aria docs https://apiapex.tesouro.gov.br/aria/v1/transferencias_constitucionais/docs</p>
+</main>
+<footer>Rascunho pra apresentação — não entregar assim. Falta tu decidir: período (mês x ano), entrar DEDU ou não, e se foca no Maranhão. Feito com dados abertos do Tesouro Nacional, licença ODbL.</footer>
+<script>
+const dados=[
+{n:"São Paulo",uf:"SP",total:820825104.52,fpm:74585238.63,fundeb:741596373.59,roy:1766574.80},
+{n:"Rio de Janeiro",uf:"RJ",total:552078517.45,fpm:85240272.73,fundeb:437567979.12,roy:28662719.97},
+{n:"Fortaleza",uf:"CE",total:428202864.55,fpm:213100681.76,fundeb:211591754.13,roy:3317078.94},
+{n:"Salvador",uf:"BA",total:328778007.26,fpm:191790613.61,fundeb:133624752.20,roy:3028579.94},
+{n:"Manaus",uf:"AM",total:309000855.49,fpm:134253429.53,fundeb:172531771.61,roy:1919218.82},
+{n:"Belo Horizonte",uf:"MG",total:266212185.65,fpm:106550340.91,fundeb:154806989.81,roy:4130663.66},
+{n:"Maricá",uf:"RJ",total:257726869.26,fpm:15023861.65,fundeb:20227069.00,roy:222250623.57},
+{n:"São Luís",uf:"MA",total:225466124.69,fpm:133187926.12,fundeb:86525770.82,roy:5256403.62,destaque:true},
+{n:"Recife",uf:"PE",total:222048991.64,fpm:134253429.53,fundeb:85682765.18,roy:1964184.04},
+{n:"Teresina",uf:"PI",total:214503806.32,fpm:133187926.12,fundeb:79356539.58,roy:1863404.62}
+];
+const max=dados[0].total;
+const fmt=v=>"R$ "+v.toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2});
+function ordenar(crit,btn){
+document.querySelectorAll("button").forEach(b=>b.classList.remove("ativo"));
+if(btn)btn.classList.add("ativo");
+const ord=[...dados].sort((a,b)=>b[crit]-a[crit]);
+const box=document.getElementById("ranking");box.innerHTML="";
+ord.forEach((d,i)=>{
+const pf=(d.fpm/d.total*100),pu=(d.fundeb/d.total*100),pr=(d.roy/d.total*100),po=Math.max(0,100-pf-pu-pr);
+const div=document.createElement("div");div.className="bar";
+div.innerHTML='<div class="topo"><span><strong>'+(i+1)+'º '+d.n+'/'+d.uf+'</strong></span><span>'+fmt(d.total)+'</span></div><div class="track"><div class="seg" style="width:'+pf+'%;background:var(--fpm)" title="FPM '+fmt(d.fpm)+'"></div><div class="seg" style="width:'+pu+'%;background:var(--fundeb)" title="FUNDEB '+fmt(d.fundeb)+'"></div><div class="seg" style="width:'+pr+'%;background:var(--roy)" title="Royalties '+fmt(d.roy)+'"></div><div class="seg" style="width:'+po+'%;background:var(--outros)"></div></div>';
+box.appendChild(div);
+});
+}
+ordenar("total",document.querySelector("button"));
+const tab=document.getElementById("tab");
+dados.forEach((d,i)=>{
+const tr=document.createElement("tr");
+if(d.destaque)tr.className="destaque";
+tr.innerHTML="<td>"+(i+1)+"</td><td><strong>"+d.n+"/"+d.uf+"</strong>"+(d.destaque?" ⭐ MA":"")+"</td><td class='num'>"+fmt(d.total)+"</td><td class='num'>"+fmt(d.fpm)+"</td><td class='num'>"+fmt(d.fundeb)+"</td><td class='num'>"+fmt(d.roy)+"</td>";
+tab.appendChild(tr);
+});
+</script>
+</body>
+</html>

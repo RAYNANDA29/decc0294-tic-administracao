@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard Maranhão 2025 · PNAD Contínua IBGE</title>
+<style>
+:root{--vinho:#8D0333;--dourado:#D4B277;--teal:#0AB0AB;--amarelo:#FEC84D;--card:#F5F5F5;--linha:#E2E2E2;--txt:#1A1A1A;--body:#333;--muted:#6B6B6B}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--body);font-family:"Segoe UI",Calibri,system-ui,sans-serif;font-size:16px;line-height:1.55}
+.barra{height:14px;background:var(--vinho)}
+.capa{background:var(--vinho);color:#fff;padding:48px 28px 36px}
+.dentro{max-width:1080px;margin:0 auto}
+.cod{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--dourado);font-weight:700;margin:0 0 10px}
+.capa h1{font-size:32px;margin:0 0 10px}
+.capa p{margin:0;color:#F2E4E9;max-width:90ch}
+.filete{height:4px;background:var(--dourado)}
+main{max-width:1080px;margin:0 auto;padding:32px 28px 60px}
+h2{color:var(--vinho);font-size:23px;margin:38px 0 6px}
+.sub{color:var(--muted);margin:0 0 16px;font-size:15px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:16px 0}
+.kpi{border:1px solid var(--linha);border-top:4px solid var(--dourado);background:var(--card);padding:14px 16px}
+.kpi.teal{border-top-color:var(--teal)} .kpi.vinho{border-top-color:var(--vinho)}
+.kpi .rot{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--vinho)}
+.kpi .num{font-size:30px;font-weight:700;color:var(--txt);margin:4px 0}
+.kpi .det{font-size:13px;color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:14px 0}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--linha)}
+th{color:var(--vinho);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase}
+.num-r{text-align:right;font-variant-numeric:tabular-nums}
+.bar{display:flex;align-items:center;gap:10px;margin:8px 0}
+.bar .lab{width:220px;font-size:14px}
+.bar .track{flex:1;background:#eee;height:20px;border-radius:3px;overflow:hidden}
+.bar .fill{height:100%;background:var(--vinho)}
+.bar .fill.teal{background:var(--teal)} .bar .fill.gold{background:var(--dourado)}
+.bar .val{width:70px;font-size:14px;text-align:right;font-variant-numeric:tabular-nums}
+.cx{border:1px solid var(--linha);border-left:4px solid var(--teal);background:var(--card);padding:14px 18px;margin:16px 0}
+.cx.aviso{border-left-color:var(--amarelo)}
+footer{border-top:1px solid var(--linha);padding:20px 28px 40px;color:var(--muted);font-size:13px}
+.fonte{font-size:13px;color:var(--muted)}
+@media(max-width:600px){.capa h1{font-size:24px}main{padding:24px 18px 40px}.bar .lab{width:140px}}
+@media print{@page{margin:12mm}.barra{display:none}}
+</style>
+</head>
+<body>
+<div class="barra"></div>
+<header class="capa"><div class="dentro">
+<p class="cod">DECC0294 · Maranhão 2025 · PNAD Contínua</p>
+<h1>Dashboard Maranhão 2025 — trampo subindo, mas no corre precário</h1>
+<p>Rascunho pra apresentação, não é texto final. Fontes: SIDRA/IBGE PNAD Contínua Trimestral Maranhão (série até 2º tri 2026, divulgada 14/08/2026) + Agência de Notícias IBGE release 45908 de 20/02/2026 (4º tri 2025).</p>
+</div></header>
+<div class="filete"></div>
+<main>
+<h2>1. Visão geral — 4º tri 2025 (out-nov-dez)</h2>
+<p class="sub">Último trimestre de 2025, base pra fechar o ano.</p>
+<div class="cards">
+<div class="kpi vinho"><div class="rot">Taxa desocupação 4º tri</div><div class="num">5,6%</div><div class="det">De onde veio? SIDRA/IBGE PNADCT Maranhão. Era 8,1% no 1º tri.</div></div>
+<div class="kpi"><div class="rot">Ocupados 4º tri</div><div class="num">2.722 mil</div><div class="det">De onde veio? SIDRA/IBGE. Era 2.570 mil no 1º tri.</div></div>
+<div class="kpi teal"><div class="rot">Rendimento médio real</div><div class="num">R$ 2.217</div><div class="det">De onde veio? SIDRA/IBGE, todos os trabalhos, habitual. Pico de R$ 2.286 no 3º tri.</div></div>
+<div class="kpi"><div class="rot">Informalidade 4º tri</div><div class="num">57,3%</div><div class="det">De onde veio? Agência IBGE 20/02/2026. Brasil: 37,6% mesma fonte. Maior do país.</div></div>
+</div>
+
+<h2>2. Evolução 2025 por trimestre</h2>
+<p class="sub">Tudo do SIDRA/IBGE PNADCT Maranhão. Rendimento = médio real todos os trabalhos, habitual.</p>
+<table>
+<tr><th>Trimestre</th><th class="num-r">Taxa desocup.</th><th class="num-r">Nível ocup.</th><th class="num-r">Ocupados (mil)</th><th class="num-r">Desocup. (mil)</th><th class="num-r">Rendimento</th></tr>
+<tr><td>1º tri 2025</td><td class="num-r">8,1%</td><td class="num-r">47,2%</td><td class="num-r">2.570</td><td class="num-r">228</td><td class="num-r">R$ 2.211</td></tr>
+<tr><td>2º tri 2025</td><td class="num-r">6,6%</td><td class="num-r">48,0%</td><td class="num-r">2.615</td><td class="num-r">185</td><td class="num-r">R$ 2.266</td></tr>
+<tr><td>3º tri 2025</td><td class="num-r">6,1%</td><td class="num-r">49,4%</td><td class="num-r">2.712</td><td class="num-r">176</td><td class="num-r">R$ 2.286</td></tr>
+<tr><td><strong>4º tri 2025</strong></td><td class="num-r"><strong>5,6%</strong></td><td class="num-r"><strong>49,4%</strong></td><td class="num-r"><strong>2.722</strong></td><td class="num-r"><strong>163</strong></td><td class="num-r"><strong>R$ 2.217</strong></td></tr>
+</table>
+<div class="cx"><p><strong>Leitura:</strong> desemprego só caindo (8,1 → 5,6) e ocupação subindo (47,2 → 49,4). Mais 152 mil ocupados no ano e menos 65 mil desocupados. Mas rendimento caiu do 3º pro 4º tri.</p></div>
+
+<h2>3. Qualidade do trampo — MA x Brasil no 4º tri 2025</h2>
+<p class="sub">De onde veio tudo? Agência de Notícias IBGE release 20/02/2026.</p>
+<div class="bar"><span class="lab">Informalidade MA (57,3%)</span><div class="track"><div class="fill" style="width:57.3%"></div></div><span class="val">57,3%</span></div>
+<div class="bar"><span class="lab">Informalidade BR (37,6%)</span><div class="track"><div class="fill teal" style="width:37.6%"></div></div><span class="val">37,6%</span></div>
+<div class="bar"><span class="lab">Conta-própria MA (34,0%)</span><div class="track"><div class="fill" style="width:34%"></div></div><span class="val">34,0%</span></div>
+<div class="bar"><span class="lab">Conta-própria BR (25,3%)</span><div class="track"><div class="fill teal" style="width:25.3%"></div></div><span class="val">25,3%</span></div>
+<div class="bar"><span class="lab">Com carteira MA (52,5%)</span><div class="track"><div class="fill gold" style="width:52.5%"></div></div><span class="val">52,5%</span></div>
+<div class="bar"><span class="lab">Com carteira BR (74,4%)</span><div class="track"><div class="fill teal" style="width:74.4%"></div></div><span class="val">74,4%</span></div>
+<div class="bar"><span class="lab">Desalentados MA (9,1%)</span><div class="track"><div class="fill" style="width:9.1%"></div></div><span class="val">9,1%</span></div>
+<div class="bar"><span class="lab">Desalentados BR (2,4%)</span><div class="track"><div class="fill teal" style="width:2.4%"></div></div><span class="val">2,4%</span></div>
+
+<div class="cx aviso"><p><strong>Papo reto:</strong> MA é o pior do Brasil em informalidade, menor % com carteira e maior % de conta-própria e desalentados nesse tri. Desemprego baixo não = emprego bom.</p></div>
+
+<h2>4. Fontes e limitação</h2>
+<p class="fonte">1. SIDRA/IBGE - PNAD Contínua Trimestral Maranhão, divulgação 2º tri 2026 em 14/08/2026 (traz série 2025). 2. Agência de Notícias IBGE, release 20/02/2026, 4º tri 2025. Taxa BR 4º tri 5,1%, mesma fonte. Rendimento deflacionado e reponderado pós-Censo 2022. Não inclui recorte municipal nem por sexo/cor aqui. Pra ABNT de livro/artigo: NAO SEI.</p>
+</main>
+<footer>Arquivo rascunho: entregas/dashboard-maranhao-2025.html · Feito pra disciplina DECC0294 · Precisa de decisão humana: focar em quantidade ou qualidade? Comparar com Nordeste? Incluir gráfico de rendimento?</footer>
+</body>
+</html>

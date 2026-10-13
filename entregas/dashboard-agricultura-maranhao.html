@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agro MA · Dashboard Criativo 2024-2025</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&display=swap');
+*{box-sizing:border-box}
+body{margin:0;font-family:"Plus Jakarta Sans","Segoe UI",system-ui,sans-serif;background:#0d1f16;color:#1a2b22}
+.hero{background:radial-gradient(1200px 500px at 20% -10%,#2ecc71 0%,transparent 60%),radial-gradient(900px 400px at 90% 0%,#f7c948 0%,transparent 55%),linear-gradient(135deg,#0d3b26 0%,#124f2f 60%,#1a6b3c 100%);color:#fff;padding:56px 28px 40px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:auto -20% -60px -20%;height:120px;background:#f6f3e8;border-radius:50% 50% 0 0}
+.wrap{max-width:1120px;margin:0 auto;position:relative;z-index:2}
+.badge{display:inline-block;background:#f7c948;color:#0d1f16;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:8px 14px;border-radius:100px;margin-bottom:14px}
+.hero h1{font-size:46px;line-height:1.02;margin:0 0 12px;font-weight:800}
+.hero h1 span{color:#f7c948}
+.hero p{margin:0;max-width:78ch;color:#e6f2e8;font-size:17px}
+.stats{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.pill{background:rgba(255,255,255,.14);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.25);border-radius:14px;padding:10px 16px;font-size:14px}
+.pill b{color:#f7c948}
+main{background:#f6f3e8;padding:36px 28px 70px}
+.grid{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:1.2fr .8fr;gap:18px}
+.card{background:#fff;border-radius:20px;padding:22px;box-shadow:0 12px 30px rgba(13,31,22,.08);border:1px solid #e9e2cc}
+.card.full{grid-column:1/-1}
+.card h2{margin:0 0 4px;font-size:20px;color:#0d3b26}
+.card p.sub{margin:0 0 14px;color:#6b7d71;font-size:14px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.kpi{background:linear-gradient(180deg,#fff,#f9f6e8);border:1px solid #e9e2cc;border-radius:16px;padding:16px;text-align:left;position:relative;overflow:hidden}
+.kpi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:var(--c,#2ecc71)}
+.kpi .v{font-size:30px;font-weight:800;color:#0d1f16}
+.kpi .l{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#0d3b26}
+.kpi .f{font-size:12px;color:#7a8a80;margin-top:6px}
+.big-donut{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.donut{width:190px;height:190px;border-radius:50%;background:conic-gradient(#1a6b3c 0 63.1%,#f7c948 63.1% 87.1%,#2ecc71 87.1% 90.8%,#ff8a3d 90.8% 93.1%,#8d0333 93.1% 95.3%,#e9e2cc 95.3% 100%);display:grid;place-items:center;flex-shrink:0}
+.donut div{width:118px;height:118px;background:#fff;border-radius:50%;display:grid;place-items:center;text-align:center;font-weight:800;font-size:15px;line-height:1.1;color:#0d3b26;padding:10px}
+.legend{flex:1;min-width:240px}
+.leg{display:flex;align-items:center;gap:10px;margin:8px 0;font-size:14px}
+.dot{width:14px;height:14px;border-radius:4px}
+.bar-row{display:grid;grid-template-columns:170px 1fr 90px;gap:10px;align-items:center;margin:10px 0;font-size:14px}
+.track{background:#eee9d3;border-radius:100px;height:18px;overflow:hidden}
+.fill{height:100%;border-radius:100px;background:linear-gradient(90deg,var(--c1,#1a6b3c),var(--c2,#2ecc71));width:0;animation:grow 1.2s ease forwards}
+@keyframes grow{to{width:var(--w)}}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.mini{background:#0d1f16;color:#eaffef;border-radius:16px;padding:18px}
+.mini h3{margin:0 0 8px;color:#f7c948}
+.mini p{margin:6px 0;font-size:14px}
+.timeline{display:flex;gap:10px;margin-top:10px}
+.t-step{flex:1;background:#f9f6e8;border:1px solid #e9e2cc;border-radius:14px;padding:12px;text-align:center}
+.t-step b{display:block;font-size:20px;color:#0d3b26}
+.t-step span{font-size:12px;color:#6b7d71;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+.alert{background:linear-gradient(135deg,#fff8db,#ffefb0);border:1px dashed #c9a200;border-radius:16px;padding:16px 18px;margin-top:14px;font-size:14px}
+.sources{font-size:12.5px;color:#6b7d71;line-height:1.6}
+footer{max-width:1120px;margin:18px auto 0;color:#6b7d71;font-size:13px;text-align:center}
+@media(max-width:900px){.grid{grid-template-columns:1fr}.kpis{grid-template-columns:1fr 1fr}.hero h1{font-size:32px}.duo{grid-template-columns:1fr}.bar-row{grid-template-columns:110px 1fr 70px}}
+</style>
+</head>
+<body>
+<div class="hero"><div class="wrap">
+<div class="badge">DECC0294 · Agro do Maranhão · Rascunho</div>
+<h1>Do <span>grão de Balsas</span> à roça familiar: o agro MA em um rolê só</h1>
+<p>Visão criativa pra apresentar sem dormir na aula. Tudo com fonte — nenhum número solto. Base: PAM/IBGE + IMESC + Censo Agro 2017.</p>
+<div class="stats">
+<div class="pill">Valor <b>R$ 12,9 bi</b> em 2024</div>
+<div class="pill"><b>2º</b> no Nordeste · <b>12º</b> no Brasil</div>
+<div class="pill">Exportação <b>R$ 12,4 bi</b></div>
+<div class="pill">Fonte: IMESC com base PAM/IBGE via ma.gov.br</div>
+</div>
+</div></div>
+<main>
+<div class="grid">
+<div class="card full">
+<h2>1 · O tamanho da grana</h2>
+<p class="sub">Valor da produção 2024. De onde veio? site ma.gov.br citando IMESC 2024 com base PAM/IBGE.</p>
+<div class="kpis">
+<div class="kpi" style="--c:#1a6b3c"><div class="l">Valor total</div><div class="v">R$ 12,9 bi</div><div class="f">Lavouras temporárias + permanentes</div></div>
+<div class="kpi" style="--c:#f7c948"><div class="l">Só temporárias</div><div class="v">R$ 12,7 bi</div><div class="f">Quase tudo do total</div></div>
+<div class="kpi" style="--c:#2ecc71"><div class="l">Exportações agro</div><div class="v">R$ 12,4 bi</div><div class="f">Soja + milho lideram</div></div>
+<div class="kpi" style="--c:#ff8a3d"><div class="l">Arroz exportado</div><div class="v">+1797%</div><div class="f">Alta vs 2023, mesma fonte</div></div>
+</div>
+</div>
+
+<div class="card">
+<h2>2 · Quem manda na área?</h2>
+<p class="sub">% da área plantada no MA. De onde veio? ma.gov.br/IMESC base PAM/IBGE. Soja+milho+arroz &gt;90%.</p>
+<div class="big-donut">
+<div class="donut"><div>Soja<br>63,1%</div></div>
+<div class="legend">
+<div class="leg"><span class="dot" style="background:#1a6b3c"></span> Soja 63,1%</div>
+<div class="leg"><span class="dot" style="background:#f7c948"></span> Milho 24,0%</div>
+<div class="leg"><span class="dot" style="background:#2ecc71"></span> Arroz 3,7%</div>
+<div class="leg"><span class="dot" style="background:#ff8a3d"></span> Mandioca 2,3%</div>
+<div class="leg"><span class="dot" style="background:#8d0333"></span> Cana 2,2%</div>
+<div class="leg"><span class="dot" style="background:#e9e2cc;border:1px solid #ccc"></span> Outros ~4,7%</div>
+</div>
+</div>
+<div class="alert">Papum: o sul do MA (MATOPIBA) é mar de soja e milho. A roça de comida divide a sobra.</div>
+</div>
+
+<div class="card">
+<h2>3 · Dois Maranhões</h2>
+<p class="sub">Estrutura fundiária. De onde veio? Cadernos CEPEC a partir do Censo Agro 2017/IBGE + Cidades@ IBGE.</p>
+<div class="bar-row"><span>Familiar: 85,1% dos estabe.</span><div class="track"><div class="fill" style="--w:85.1%;--c1:#1a6b3c;--c2:#2ecc71"></div></div><b>187 mil</b></div>
+<div class="bar-row"><span>Não-familiar: 14,9%</span><div class="track"><div class="fill" style="--w:14.9%;--c1:#8d0333;--c2:#ff8a3d"></div></div><b>32 mil</b></div>
+<div class="bar-row"><span>Área familiar: 30,9%</span><div class="track"><div class="fill" style="--w:30.9%;--c1:#f7c948;--c2:#ffcf5c"></div></div><b>3,78 mi ha</b></div>
+<div class="bar-row"><span>Área patronal: 69,1%</span><div class="track"><div class="fill" style="--w:69.1%;--c1:#0d1f16;--c2:#3a5a4a"></div></div><b>8,45 mi ha</b></div>
+<div class="duo" style="margin-top:12px">
+<div class="mini"><h3>Média familiar</h3><p style="font-size:28px;font-weight:800;margin:0">20,2 ha</p><p>Total: 219.765 estabe. e 12.238.489 ha no MA (Cidades@ IBGE).</p></div>
+<div class="mini"><h3>Média patronal</h3><p style="font-size:28px;font-weight:800;margin:0">259 ha</p><p>Pessoal ocupado 692.870, sendo 521.681 parentes (mesma fonte).</p></div>
+</div>
+</div>
+
+<div class="card full">
+<h2>4 · Linha do tempo pra contar na apresentação</h2>
+<p class="sub">Clima e mercado. Nacional 2025: soja+milho 88,7% dos grãos. De onde veio? Informativo PAM 2025 IBGE.</p>
+<div class="timeline">
+<div class="t-step"><span>Até 70s</span><b>Arroz</b><span>roça itinerante</span></div>
+<div class="t-step"><span>Pós 70s</span><b>Soja</b><span>chega com apoio gov.</span></div>
+<div class="t-step"><span>2017</span><b>Censo</b><span>219 mil estabe.</span></div>
+<div class="t-step"><span>2024</span><b>R$12,9 bi</b><span>recorde NE</span></div>
+<div class="t-step"><span>2025</span><b>Clima bom</b><span>soja+milho voam</span></div>
+</div>
+<p class="sources" style="margin-top:14px">Fontes cravadas: 1) PAM 2024 e 2025 informativo (biblioteca.ibge.gov.br). 2) IMESC Desempenho 2024 via ma.gov.br. 3) IBGE Cidades@ MA Censo Agro. 4) Artigo Cadernos CEPEC a partir Censo 2017. ABNT completinha: NAO SEI. Limite: Censo é 2017, PAM é 2024 — não mistura como se fosse mesmo ano.</p>
+</div>
+</div>
+<footer>Rascunho visual — não é texto final. Falta tu decidir: focar em MATOPIBA ou familiar? Comparar com Piauí? Botar mapa dos municípios?</footer>
+</main>
+</body>
+</html>
